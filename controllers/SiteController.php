@@ -128,6 +128,6 @@ class SiteController extends Controller
     
     public function actionProtesirovanie()
     {
-        return $this->render('about');
+        return $this->render('protesirovanie');
     }
 }

@@ -5,7 +5,6 @@
 
 use yii\helpers\Html;
 use app\assets\Land1Asset;
-
 Land1Asset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -35,9 +34,7 @@ Land1Asset::register($this);
     <link href="/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
 
 </head>
-<body class="has-side-panel side-panel-right fullwidth-page">
-<?php $this->beginBody() ?>
-<?= $content ?>
+
 <?php $this->endBody() ?>
 </body>
 </html>
