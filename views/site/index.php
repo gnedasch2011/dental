@@ -18,12 +18,12 @@
                             <li data-index="rs-1" data-transition="slidingoverlayhorizontal"
                                 data-slotamount="default" data-easein="default"
                                 data-easeout="default" data-masterspeed="default"
-                                data-thumb="http://placehold.it/1600x780" data-rotate="0"
+                                data-thumb="/images/page_index/banner_proectirovanie.png" data-rotate="0"
                                 data-fstransition="fade" data-fsmasterspeed="1500"
                                 data-fsslotamount="7" data-saveperformance="off"
                                 data-title="Make an Impact">
                                 <!-- MAIN IMAGE -->
-                                <img src="http://placehold.it/1600x780" alt=""
+                                <img src="/images/page_index/banner_proectirovanie_2.png" alt=""
                                      data-bgposition="center center" data-bgfit="cover"
                                      data-bgrepeat="no-repeat" data-bgparallax="10"
                                      class="rev-slidebg" data-no-retina>
@@ -69,8 +69,8 @@
                                      data-splitout="none"
                                      data-responsive_offset="on"
                                      style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Take the <span class="text-theme-colored">world's</span> best
-                                    <span class="text-theme-color-2">Quality</span> Treatmen.
+                                    Протезирование <span class="text-theme-colored">зубов</span>
+                                    <span class="text-theme-color-2">без боли</span> под анестезией.
                                 </div>
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -94,9 +94,8 @@
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">We provides always our
-                                    best services for our clients and always<br> try to achieve our
-                                    client's trust and satisfaction.
+                                     style="z-index: 7; white-space: nowrap;">
+<!--                                    Ортопедическая стоматология – это сфера,<br> связанная с восстановлением зубного ряда и установкой специальных протезов.-->
                                 </div>
                                 <!-- LAYER NR. 4 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -120,11 +119,9 @@
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;"><a href="#"
-                                                                                 class="btn btn-dark btn-theme-colored btn-xl">Read
-                                        More</a> <a href="#"
-                                                    class="btn btn-dark btn-theme-colored btn-xl">Register
-                                        Now</a>
+                                     style="z-index: 7; white-space: nowrap;">
+<!--                                    <a href="#" class="btn btn-dark btn-theme-colored btn-xl">Read More</a> -->
+                                    <a href="#" class="btn btn-dark btn-theme-colored btn-xl ajaxload-popup" >Записаться на приём</a>
                                 </div>
                             </li>
                             <!-- SLIDE 2 -->
@@ -136,7 +133,7 @@
                                 data-fsslotamount="7" data-saveperformance="off"
                                 data-title="Make an Impact">
                                 <!-- MAIN IMAGE -->
-                                <img src="http://placehold.it/1970x500" alt=""
+                                <img src="/images/page_index/banner_otb.png" alt=""
                                      data-bgposition="center center" data-bgfit="cover"
                                      data-bgrepeat="no-repeat" data-bgparallax="10"
                                      class="rev-slidebg" data-no-retina>
@@ -182,7 +179,7 @@
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">Online Solution
+                                     style="z-index: 7; white-space: nowrap;">Решение на долго
                                 </div>
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -208,7 +205,8 @@
                                      data-splitout="none"
                                      data-responsive_offset="on"
                                      style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Take the <span class="text-theme-colored">world's</span> best
+                                    Отбеливание гигиенический чистки зубов в
+                                    Отбеливание и <span class="text-theme-colored">world's</span> best
                                     <span class="text-theme-color-2">Quality</span> Treatmen.
                                 </div>
                                 <!-- LAYER NR. 4 -->
