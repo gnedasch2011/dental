@@ -3,6 +3,7 @@
 
 /* @var $content string */
 
+use app\widgets\ButtonCallback\ButtonCallback;
 use yii\helpers\Html;
 use app\assets\Land1Asset;
 use yii\web\View;
@@ -37,7 +38,9 @@ Land1Asset::register($this);
 
 </head>
 <?php $this->beginBody() ?>
+
 <body class="has-side-panel side-panel-right fullwidth-page">
+
 <div id="wrapper">
     <header id="header" class="header">
         <div class="header-top bg-theme-colored sm-text-center">
@@ -55,22 +58,6 @@ Land1Asset::register($this);
                                 <a href="#"><i class="fa fa-bars text-white font-24"></i></a>
                             </div>
                         </div>
-                        <!--                        <div class="widget">-->
-                        <!--                            <ul class="list-inline text-right flip sm-text-center">-->
-                        <!--<!--                                <li>-->-->
-                        <!--<!--                                    <a class="text-white" href="#">FAQ</a>-->
-                        -->
-                        <!--<!--                                </li>-->-->
-                        <!--                                <li class="text-white">|</li>-->
-                        <!--                                <li>-->
-                        <!--                                    <a class="text-white" href="#">Help Desk</a>-->
-                        <!--                                </li>-->
-                        <!--                                <li class="text-white">|</li>-->
-                        <!--                                <li>-->
-                        <!--                                    <a class="text-white" href="#">Support</a>-->
-                        <!--                                </li>-->
-                        <!--                            </ul>-->
-                        <!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -143,9 +130,13 @@ Land1Asset::register($this);
                 <div class="container">
                     <nav id="menuzord" class="menuzord blue no-bg">
                         <div class="pull-right sm-pull-left mb-sm-15">
-                            <a class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 ajaxload-popup"
-                               href="ajax-load/form-appointment.html">Записаться на приём</a>
+                            <?= ButtonCallback::widget([
+                                    'temp'=>'menu'
+                            ]) ;?>
                         </div>
+
+                        <?php /* ;?>
+
                         <ul class="list-inline nav-side-icon-list pull-right">
                             <li>
                                 <a href="#fullscreen-search-form" id="fullscreen-search-btn"><i
@@ -165,10 +156,12 @@ Land1Asset::register($this);
                                                 class="fa fa-bars font-24"></i></a></div>
                             </li>
                         </ul>
+                         <?php */ ;?>
+
                         <ul class="menuzord-menu">
-                            <li class="active">
-                                <a href="#home">О докторе</a>
-                            </li>
+<!--                            <li class="active">-->
+<!--                                <a href="#home">О докторе</a>-->
+<!--                            </li>-->
 
                             <li class="active">
                                 <a href="#home">Протезирование</a>
@@ -400,9 +393,54 @@ JS;
 </html>
 <?php
 $script = <<< JS
-console.log('ste');
-          $('.ajaxload-popup').click()
 JS;
 
 $this->registerJs($script, yii\web\View::POS_READY); ?>
 <?php $this->endPage() ?>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <section class="no-bg">
+        <div class="container position-relative p-0 mt-90" style="max-width: 700px;">
+            <h3 class="bg-theme-colored p-15 mt-0 mb-0 text-white">Записаться на приём</h3>
+            <div class="section-content bg-white p-30">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Booking Form Starts -->
+                        <p class="lead">Введите свои данные и удобное для вас время.</p>
+                        <!-- Appointment Form -->
+                        <form id="popup_appointment_form" name="popup_appointment_form" class="" method="post" action="includes/appointment.php">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                        <input name="form_name" class="form-control" type="text" required="" placeholder="Введите имя" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                        <input name="form_email" class="form-control required email" type="email" placeholder="Введите email" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group mb-10">
+                                        <input name="form_appontment_date" class="form-control required datetime-picker" type="text" placeholder="Удобное время" aria-required="true">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-10">
+                                <textarea name="form_message" class="form-control required"  placeholder="Текст сообщения" rows="5" aria-required="true"></textarea>
+                            </div>
+                            <div class="form-group mb-0 mt-20">
+                                <input name="form_botcheck" class="form-control" type="hidden" value="">
+                                <button type="submit" class="btn btn-dark btn-theme-colored" data-loading-text="Please wait...">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+<!--            <button title="Close (Esc)" type="button" class="mfp-close font-36">×</button>-->
+            <button type="button" class="mfp-close font-36" data-dismiss="modal" aria-label="Close" class="">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
+    </section>
+</div>

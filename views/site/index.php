@@ -1,3 +1,10 @@
+<?php
+
+use app\widgets\ButtonCallback\ButtonCallback;
+
+; ?>
+
+
 <div id="wrapper">
     <!-- Start main-content -->
     <div class="main-content">
@@ -18,7 +25,8 @@
                             <li data-index="rs-1" data-transition="slidingoverlayhorizontal"
                                 data-slotamount="default" data-easein="default"
                                 data-easeout="default" data-masterspeed="default"
-                                data-thumb="/images/page_index/banner_proectirovanie.png" data-rotate="0"
+                                data-thumb="/images/page_index/banner_proectirovanie.png"
+                                data-rotate="0"
                                 data-fstransition="fade" data-fsmasterspeed="1500"
                                 data-fsslotamount="7" data-saveperformance="off"
                                 data-title="Make an Impact">
@@ -95,7 +103,7 @@
                                      data-splitout="none"
                                      data-responsive_offset="on"
                                      style="z-index: 7; white-space: nowrap;">
-<!--                                    Ортопедическая стоматология – это сфера,<br> связанная с восстановлением зубного ряда и установкой специальных протезов.-->
+                                    <!--                                    Ортопедическая стоматология – это сфера,<br> связанная с восстановлением зубного ряда и установкой специальных протезов.-->
                                 </div>
                                 <!-- LAYER NR. 4 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -120,8 +128,7 @@
                                      data-splitout="none"
                                      data-responsive_offset="on"
                                      style="z-index: 7; white-space: nowrap;">
-<!--                                    <a href="#" class="btn btn-dark btn-theme-colored btn-xl">Read More</a> -->
-                                    <a href="#" class="btn btn-dark btn-theme-colored btn-xl ajaxload-popup" >Записаться на приём</a>
+                                    <?= ButtonCallback::widget(); ?>
                                 </div>
                             </li>
                             <!-- SLIDE 2 -->
@@ -179,7 +186,7 @@
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">Решение на долго
+                                     style="z-index: 7; white-space: nowrap;">
                                 </div>
                                 <!-- LAYER NR. 2 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -205,9 +212,7 @@
                                      data-splitout="none"
                                      data-responsive_offset="on"
                                      style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Отбеливание гигиенический чистки зубов в
-                                    Отбеливание и <span class="text-theme-colored">world's</span> best
-                                    <span class="text-theme-color-2">Quality</span> Treatmen.
+                                    Гигиеническая чистка зубов.
                                 </div>
                                 <!-- LAYER NR. 4 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -232,9 +237,8 @@
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">We provides always our
-                                    best services for our clients and always<br> try to achieve our
-                                    client's trust and satisfaction.
+                                     style="z-index: 7; white-space: nowrap;">Мы предоставляем
+                                    услуги<br> по европейским стандартам.
                                 </div>
                                 <!-- LAYER NR. 5 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -258,143 +262,10 @@
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;"><a href="#"
-                                                                                 class="btn btn-dark btn-theme-colored btn-xl">Read
-                                        More</a>
-                                </div>
-                            </li>
-                            <!-- SLIDE 3 -->
-                            <li data-index="rs-3" data-transition="slidingoverlayhorizontal"
-                                data-slotamount="default" data-easein="default"
-                                data-easeout="default" data-masterspeed="default"
-                                data-thumb="http://placehold.it/1920x560" data-rotate="0"
-                                data-fstransition="fade" data-fsmasterspeed="1500"
-                                data-fsslotamount="7" data-saveperformance="off"
-                                data-title="Make an Impact">
-                                <!-- MAIN IMAGE -->
-                                <img src="http://placehold.it/1920x560" alt=""
-                                     data-bgposition="center center" data-bgfit="cover"
-                                     data-bgrepeat="no-repeat" data-bgparallax="10"
-                                     class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0"
-                                     id="slide-3-layer-1"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']"
-                                     data-voffset="['0','0','0','0']"
-                                     data-width="full"
-                                     data-height="full"
-                                     data-whitespace="normal"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                                     data-start="1000"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 1.00);">
-                                </div>
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-3-layer-2"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['310','200','100','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['120','100','70','90']"
-                                     data-fontsize="['56','46','40','36']"
-                                     data-lineheight="['70','60','50','45']"
-                                     data-fontweight="['800','700','700','700']"
-                                     data-width="['700','650','500','420']"
-                                     data-height="none"
-                                     data-whitespace="normal"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Take the <span class="text-theme-colored">world's</span> best
-                                    <span class="text-theme-color-2">Quality</span> Treatmen.
-                                </div>
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-3-layer-3"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['310','200','100','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['280','220','180','180']"
-                                     data-fontsize="['18','18','16','13']"
-                                     data-lineheight="['30','30','28','25']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-width="['700','650','500','420']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">We provides always our
-                                    best services for our clients and always<br> try to achieve our
-                                    client's trust and satisfaction.
-                                </div>
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-3-layer-4"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['310','200','100','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['360','290','260','260']"
-                                     data-fontsize="['18','18','16','16']"
-                                     data-lineheight="['30','30','30','30']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-width="['700','650','500','420']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;"><a href="#"
-                                                                                 class="btn btn-dark btn-theme-colored btn-xl">Read
-                                        More</a>
-                                </div>
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption rs-parallaxlevel-0"
-                                     id="slide-3-layer-5"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['310','33','0','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['360','290','260','260']"
-                                     data-width="['700','650','600','420']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;"
-                                     data-mask_out="x:0;y:0;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     data-responsive="off"
-                                     style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                                     style="z-index: 7; white-space: nowrap;">
+
+                                    <?= ButtonCallback::widget(); ?>
+
                                 </div>
                             </li>
                         </ul>
@@ -525,69 +396,74 @@ JS;
                         <div class="col-sm-12 col-md-3 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay1">
                             <div class="sm-height-auto bg-theme-colored">
                                 <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Top Doctors <br>
-                                        <small class="text-gray-lighter">Care Solutions</small>
+                                    <h3 class="text-uppercase text-white mt-0">Опытный врач<br>
+                                        <small class="text-gray-lighter">Профессианальные решения
+                                        </small>
                                     </h3>
-                                    <p class="text-white">Quality Affordable In-Home Care In Your
-                                        Community Is Just A Phone Call Away.&nbsp; Learn More About
-                                        Us Below.</p>
-                                    <a href="#about"
-                                       class="btn btn-border btn-circled btn-transparent btn-sm">About
-                                        Us</a>
+                                    <p class="text-white">
+                                        Более 25-ти лет стоматологической практики.
+                                        Действительный участник Европейской ассоциации эндодонтистов
+                                        и имплантологов
+                                    </p>
+                                    <?= ButtonCallback::widget([
+                                        'temp' => 'squereBlock',
+                                        'nameButton' => 'Связаться',
+                                        'modalTemp' => 'default'
+                                    ]); ?>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay2">
                             <div class="sm-height-auto bg-theme-colored2">
                                 <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Opening Hours</h3>
+                                    <h3 class="text-uppercase text-white mt-0">Часы работы</h3>
                                     <div class="opening-hours">
                                         <ul class="list-unstyled text-white">
-                                            <li class="clearfix"><span>Monday</span>
-                                                <div class="value"> 8:00am - 12:00pm</div>
+                                            <li class="clearfix"><span>Пнд - Вск</span>
+                                                <div class="value">8:00 - 20:30pm</div>
                                             </li>
-                                            <li class="clearfix"><span>Tues - Thur</span>
-                                                <div class="value">8:00am - 4:30pm</div>
-                                            </li>
-                                            <li class="clearfix"><span>Friday</span>
-                                                <div class="value">8:00am - 3:00pm</div>
+                                            <li class="clearfix">
+                                                <div class="value"><?= Yii::$app->params['addr1']; ?></div>
+                                                <div class="value"><?= Yii::$app->params['addr2']; ?></div>
                                             </li>
                                         </ul>
                                     </div>
-                                    <a class="btn btn-border btn-circled btn-transparent btn-sm mt-20"
-                                       data-toggle="modal" data-target="#BSParentModal"
-                                       href="ajax-load/form-appointment.html">Request an
-                                        appointment</a>
+                                    <?= ButtonCallback::widget([
+                                        'temp' => 'squereBlock',
+                                        'nameButton' => 'Запросить расписание',
+                                        'modalTemp' => 'default'
+                                    ]); ?>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 pl-0 pr-0 pl-sm-15 0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay3">
                             <div class="sm-height-auto bg-theme-colored">
                                 <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">24 Hour Service <br>
-                                        <small class="text-gray-lighter">Defined By You</small>
+                                    <h3 class="text-uppercase text-white mt-0">Полный спектр услуг
                                     </h3>
-                                    <p class="text-white">Care Management, Personal Assistance,
-                                        Housekeeping, Nutritional Management, Medication
-                                        Assistance</p>
-                                    <a href="#services"
-                                       class="btn btn-border btn-circled btn-transparent btn-sm">Learn
-                                        More</a>
+                                    <p class="text-white"><?= implode(', ', Yii::$app->params['services']) ;?></p>
+                                    <?= ButtonCallback::widget([
+                                        'temp' => 'squereBlock',
+                                        'nameButton' => 'Узнать подробней',
+                                        'modalTemp' => 'default'
+                                    ]); ?>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay4">
                             <div class="sm-height-auto bg-theme-colored2">
                                 <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Booking A Visit <br>
-                                        <small class="text-gray-lighter">Close To Home</small>
+                                    <h3 class="text-uppercase text-white mt-0">Забронировать визит <br>
+                                        <small class="text-gray-lighter">оператор на связи</small>
                                     </h3>
-                                    <h2 class="text-white">(252) 332-7955</h2>
+                                    <h2 class="text-white" style="font-size: 1.5em;"><?= Yii::$app->params['phone']; ?></h2>
                                     <p class="text-white">Get The Quality Care That You Deserve
                                         Immediately</p>
-                                    <a href="page-contact1.html"
-                                       class="btn btn-border btn-circled btn-transparent btn-sm">Contact
-                                        Us</a>
+                                    <?= ButtonCallback::widget([
+                                        'temp' => 'squereBlock',
+                                        'nameButton' => 'Связаться с нами',
+                                        'modalTemp' => 'default'
+                                    ]); ?>
                                 </div>
                             </div>
                         </div>
@@ -1634,3 +1510,4 @@ JS;
         </section>
     </div>
 </div>
+
