@@ -407,7 +407,7 @@ JS;
                                     </p>
                                     <?= ButtonCallback::widget([
                                         'nameButton' => 'Связаться',
-                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -429,7 +429,7 @@ JS;
                                     </div>
                                     <?= ButtonCallback::widget([
                                         'nameButton' => 'Запросить расписание',
-                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -439,10 +439,10 @@ JS;
                                 <div class="p-30">
                                     <h3 class="text-uppercase text-white mt-0">Полный спектр услуг
                                     </h3>
-                                    <p class="text-white"><?= implode(', ', Yii::$app->params['services']) ;?></p>
+                                    <p class="text-white"><?= implode(', ', Yii::$app->params['services']); ?></p>
                                     <?= ButtonCallback::widget([
                                         'nameButton' => 'Узнать подробней',
-                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -450,14 +450,17 @@ JS;
                         <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay4">
                             <div class="sm-height-auto bg-theme-colored2">
                                 <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Забронировать визит <br>
+                                    <h3 class="text-uppercase text-white mt-0">Забронировать визит
+                                        <br>
                                         <small class="text-gray-lighter">оператор на связи</small>
                                     </h3>
-                                    <h2 class="text-white" style="font-size: 1.5em;"><?= Yii::$app->params['phone']; ?></h2>
-                                    <p class="text-white">Забронируйте время приёма по номеру телефона</p>
+                                    <h2 class="text-white"
+                                        style="font-size: 1.5em;"><?= Yii::$app->params['phone']; ?></h2>
+                                    <p class="text-white">Забронируйте время приёма по номеру
+                                        телефона</p>
                                     <?= ButtonCallback::widget([
                                         'nameButton' => 'Связаться с нами',
-                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -482,7 +485,8 @@ JS;
                         </div>
 
                         <div class="col-md-4">
-                            <h2 class="font-size-38 mt-0"><span class="text-theme-colored">Гигиена</span></h2>
+                            <h2 class="font-size-38 mt-0"><span
+                                        class="text-theme-colored">Гигиена</span></h2>
                             <div class="twentytwenty-container">
                                 <img src="/images/mainBeforeAfter/2/1.jpg" alt="">
                                 <img src="/images/mainBeforeAfter/2/2.jpg" alt="">
@@ -499,7 +503,8 @@ JS;
                         </div>
 
                         <div class="col-md-6">
-                            <h2 class="font-size-38 mt-0"><span class="text-theme-colored">Виниры</span></h2>
+                            <h2 class="font-size-38 mt-0"><span
+                                        class="text-theme-colored">Виниры</span></h2>
                             <div class="twentytwenty-container">
                                 <img src="/images/mainBeforeAfter/4/1.jpg" alt="">
                                 <img src="/images/mainBeforeAfter/4/2.jpg" alt="">
@@ -524,26 +529,14 @@ JS;
                 <div class="row">
                     <div class="col-md-12">
                         <div class="owl-carousel-4col">
-                            <div class="item">
-                                <a href="images/certificates/b1.jpg"
-                                   data-lightbox-gallery="certificates" title="Certificate"><img
-                                            src="http://placehold.it/200x154" alt=""></a>
-                            </div>
-                            <div class="item">
-                                <a href="images/certificates/b2.jpg"
-                                   data-lightbox-gallery="certificates" title="Certificate"><img
-                                            src="http://placehold.it/200x154" alt=""></a>
-                            </div>
-                            <div class="item">
-                                <a href="images/certificates/b3.jpg"
-                                   data-lightbox-gallery="certificates" title="Certificate"><img
-                                            src="http://placehold.it/200x154" alt=""></a>
-                            </div>
-                            <div class="item">
-                                <a href="images/certificates/b4.jpg"
-                                   data-lightbox-gallery="certificates" title="Certificate"><img
-                                            src="http://placehold.it/200x154" alt=""></a>
-                            </div>
+                            <?php for ($i = 1; $i < 11; $i++): ?>
+                                <div class="item">
+                                    <a href="/images/certificates/large/<?= $i; ?>.jpg"
+                                       data-lightbox-gallery="certificates" title="Certificate"><img
+                                                src="/images/certificates/small/<?= $i; ?>.jpg"
+                                                alt=""></a>
+                                </div>
+                            <?php endfor; ?>
                         </div>
                     </div>
                 </div>
