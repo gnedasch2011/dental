@@ -496,29 +496,23 @@ JS;
                                 <img src="/images/mainBeforeAfter/3/1.jpg" alt="">
                                 <img src="/images/mainBeforeAfter/3/2.jpg" alt="">
                             </div>
-
                         </div>
 
-
-                        <?php /* ;?>
-                        <div class="col-md-7">
-                            <h2 class="font-size-38 mt-0">Мы позаботимся<span class="text-theme-colored"> о Ваших</span>
-                                зубах</h2>
-                            <p class="lead">Доктор Куницкий, увлеченный своим делом, регулярно посещает международные научно-практические конференции, совершенствуя свое мастерство.
-                            </p>
-                            <ul class="list-inline mt-30">
-                                <li><img src="http://placehold.it/120x99" alt="" width="80"></li>
-                                <li><img src="http://placehold.it/120x99" alt="" width="80"></li>
-                                <li><img src="http://placehold.it/120x99" alt="" width="80"></li>
-                            </ul>
-                            <?= ButtonCallback::widget([
-                                'nameButton' => 'Записаться на приём',
-                                'classList'=>'btn btn-theme-colored btn-lg btn-circled mt-30'
-                            ]); ?>
-
+                        <div class="col-md-6">
+                            <h2 class="font-size-38 mt-0"><span class="text-theme-colored">Виниры</span></h2>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/4/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/4/2.jpg" alt="">
+                            </div>
                         </div>
-                      <?php */ ;?>
 
+                        <div class="col-md-6">
+                            <h2 class="font-size-38 mt-0">Лечение кариеса</h2>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/5/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/5/2.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
