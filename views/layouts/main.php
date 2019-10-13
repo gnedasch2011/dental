@@ -131,7 +131,7 @@ Land1Asset::register($this);
                     <nav id="menuzord" class="menuzord blue no-bg">
                         <div class="pull-right sm-pull-left mb-sm-15">
                             <?= ButtonCallback::widget([
-                                    'temp'=>'menu'
+                                    'classList'=>'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10',
                             ]) ;?>
                         </div>
 

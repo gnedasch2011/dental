@@ -135,7 +135,7 @@ use app\widgets\ButtonCallback\ButtonCallback;
                             <li data-index="rs-2" data-transition="slidingoverlayhorizontal"
                                 data-slotamount="default" data-easein="default"
                                 data-easeout="default" data-masterspeed="default"
-                                data-thumb="http://placehold.it/1970x500" data-rotate="0"
+                                data-thumb="/images/page_index/banner_otb.png" data-rotate="0"
                                 data-fstransition="fade" data-fsmasterspeed="1500"
                                 data-fsslotamount="7" data-saveperformance="off"
                                 data-title="Make an Impact">
@@ -406,9 +406,8 @@ JS;
                                         и имплантологов
                                     </p>
                                     <?= ButtonCallback::widget([
-                                        'temp' => 'squereBlock',
                                         'nameButton' => 'Связаться',
-                                        'modalTemp' => 'default'
+                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -420,7 +419,7 @@ JS;
                                     <div class="opening-hours">
                                         <ul class="list-unstyled text-white">
                                             <li class="clearfix"><span>Пнд - Вск</span>
-                                                <div class="value">8:00 - 20:30pm</div>
+                                                <div class="value">8:00 - 20:30</div>
                                             </li>
                                             <li class="clearfix">
                                                 <div class="value"><?= Yii::$app->params['addr1']; ?></div>
@@ -429,9 +428,8 @@ JS;
                                         </ul>
                                     </div>
                                     <?= ButtonCallback::widget([
-                                        'temp' => 'squereBlock',
                                         'nameButton' => 'Запросить расписание',
-                                        'modalTemp' => 'default'
+                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -443,9 +441,8 @@ JS;
                                     </h3>
                                     <p class="text-white"><?= implode(', ', Yii::$app->params['services']) ;?></p>
                                     <?= ButtonCallback::widget([
-                                        'temp' => 'squereBlock',
                                         'nameButton' => 'Узнать подробней',
-                                        'modalTemp' => 'default'
+                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -457,12 +454,10 @@ JS;
                                         <small class="text-gray-lighter">оператор на связи</small>
                                     </h3>
                                     <h2 class="text-white" style="font-size: 1.5em;"><?= Yii::$app->params['phone']; ?></h2>
-                                    <p class="text-white">Get The Quality Care That You Deserve
-                                        Immediately</p>
+                                    <p class="text-white">Забронируйте время приёма по номеру телефона</p>
                                     <?= ButtonCallback::widget([
-                                        'temp' => 'squereBlock',
                                         'nameButton' => 'Связаться с нами',
-                                        'modalTemp' => 'default'
+                                        'classList'=>'btn btn-border btn-circled btn-transparent btn-sm mt-20'
                                     ]); ?>
                                 </div>
                             </div>
@@ -477,28 +472,53 @@ JS;
             <div class="container">
                 <div class="section-content">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                            <h2 class="font-size-38 mt-0">Отбеливание зубов</h2>
                             <div class="twentytwenty-container">
-                                <img src="http://placehold.it/550x420" alt="">
-                                <img src="http://placehold.it/550x420" alt="">
+                                <img src="/images/mainBeforeAfter/1/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/1/2.jpg" alt="">
                             </div>
+
                         </div>
+
+                        <div class="col-md-4">
+                            <h2 class="font-size-38 mt-0"><span class="text-theme-colored">Гигиена</span></h2>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/2/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/2/2.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2 class="font-size-38 mt-0">Импланты</h2>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/3/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/3/2.jpg" alt="">
+                            </div>
+
+                        </div>
+
+
+                        <?php /* ;?>
                         <div class="col-md-7">
-                            <h2 class="font-size-38 mt-0">We Care <span class="text-theme-colored">About Your</span>
-                                teeth</h2>
-                            <p class="lead">We sincerely believe that visiting a dentist shouldn’t
-                                be a frightening or stressful experience! We provide an equally
-                                comfortable experience of relaxation for all our young and adult
-                                customers!
+                            <h2 class="font-size-38 mt-0">Мы позаботимся<span class="text-theme-colored"> о Ваших</span>
+                                зубах</h2>
+                            <p class="lead">Доктор Куницкий, увлеченный своим делом, регулярно посещает международные научно-практические конференции, совершенствуя свое мастерство.
                             </p>
                             <ul class="list-inline mt-30">
                                 <li><img src="http://placehold.it/120x99" alt="" width="80"></li>
                                 <li><img src="http://placehold.it/120x99" alt="" width="80"></li>
                                 <li><img src="http://placehold.it/120x99" alt="" width="80"></li>
                             </ul>
-                            <a class="btn btn-theme-colored btn-lg btn-circled mt-30">Make
-                                Appointment Now</a>
+                            <?= ButtonCallback::widget([
+                                'nameButton' => 'Записаться на приём',
+                                'classList'=>'btn btn-theme-colored btn-lg btn-circled mt-30'
+                            ]); ?>
+
                         </div>
+                      <?php */ ;?>
+
                     </div>
                 </div>
             </div>

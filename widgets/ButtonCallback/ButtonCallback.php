@@ -11,6 +11,7 @@ class ButtonCallback extends Widget
     public $nameButton;
     public $temp;
     public $modalTemp;
+    public $classList;
 
     public function init()
     {
@@ -24,7 +25,11 @@ class ButtonCallback extends Widget
         }
 
         if ($this->modalTemp === null) {
-            $this->modalTemp = 'default';
+            $this->modalTemp = '#exampleModal';
+        }
+
+        if ($this->classList === null) {
+            $this->classList = 'btn btn-dark btn-theme-colored btn-xl';
         }
 
         parent::init();
@@ -34,7 +39,9 @@ class ButtonCallback extends Widget
     public function run()
     {
         return $this->render($this->temp, [
-            'nameButton' => $this->nameButton
+            'nameButton' => $this->nameButton,
+            'modalTemp' => $this->modalTemp,
+            'classList' => $this->classList,
         ]);
     }
 }
