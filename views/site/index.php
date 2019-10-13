@@ -549,12 +549,11 @@ JS;
                 <div class="section-title text-center">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-uppercase mt-0 line-height-1">Services</h2>
+                            <h2 class="text-uppercase mt-0 line-height-1">Услуги</h2>
                             <div class="title-icon">
                                 <img class="mb-10" src="images/title-icon.png" alt="">
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                                autem<br> voluptatem obcaecati!</p>
+                            <p>Современные методики, новейшая медицинская техника и широчайший спектр <br> стоматологических услуг!</p>
                         </div>
                     </div>
                 </div>
@@ -566,9 +565,8 @@ JS;
                                    class="icon bg-theme-colored icon-circled media-left pull-left"><i
                                             class="flaticon-medical-teeth2 text-white"></i></a>
                                 <div class="media-body">
-                                    <h3 class="media-heading heading">Dental Implants</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                                        consectetur sit ullam perspiciatis, deserunt.</p>
+                                    <h3 class="media-heading heading">Имплантология</h3>
+                                    <p>Дентальная имплантология - визитная карточка нашей клиники - является одним из самым надежных и эффективных способов восполнения утраченных или поврежденных зубов.</p>
                                 </div>
                             </div>
                         </div>
@@ -578,9 +576,8 @@ JS;
                                    class="icon bg-theme-colored icon-circled media-left pull-left"><i
                                             class="fa fa-medkit text-white"></i></a>
                                 <div class="media-body">
-                                    <h3 class="media-heading heading">Root Canal</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                                        consectetur sit ullam perspiciatis, deserunt.</p>
+                                    <h3 class="media-heading heading">Лечение каналов</h3>
+                                    <p>Как правило, пульпит является осложнением кариеса. Если в зубе вовремя не удалить кариозные образования, инфекция проникает в корень зуба, то есть в пульповую камеру зуба, и вызывает воспаление.</p>
                                 </div>
                             </div>
                         </div>
@@ -590,9 +587,8 @@ JS;
                                    class="icon bg-theme-colored icon-circled media-left pull-left"><i
                                             class="flaticon-medical-brush18 text-white"></i></a>
                                 <div class="media-body">
-                                    <h3 class="media-heading heading">Teeth Whitening</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                                        consectetur sit ullam perspiciatis, deserunt.</p>
+                                    <h3 class="media-heading heading">Профессиональная гигиена </h3>
+                                    <p>Это комплекс манипуляций направленных на удаление твердых и мягких отложение на поверхности зубов и поддесневой области, а также на укрепление зубной эмали и подержание здоровья зубов и полости рта.</p>
                                 </div>
                             </div>
                         </div>
@@ -602,9 +598,8 @@ JS;
                                    class="icon bg-theme-colored icon-circled media-left pull-left"><i
                                             class="flaticon-medical-medical51 text-white"></i></a>
                                 <div class="media-body">
-                                    <h3 class="media-heading heading">Wisdom Teeth</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                                        consectetur sit ullam perspiciatis, deserunt.</p>
+                                    <h3 class="media-heading heading">Домашнее и офисное отбеливание</h3>
+                                    <p>Профессиональное офисное отбеливание проводится в кабинете стоматолога. На зубы наносится гель с высоким содержанием отбеливающих веществ, который активируется химически, то есть без использования лампы. Чаще всего для достижения желаемого эффекта нужен всего один визит.</p>
                                 </div>
                             </div>
                         </div>
@@ -614,9 +609,9 @@ JS;
                                    class="icon bg-theme-colored icon-circled media-left pull-left"><i
                                             class="flaticon-medical-dentist text-white"></i></a>
                                 <div class="media-body">
-                                    <h3 class="media-heading heading">Crowns Bridges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                                        consectetur sit ullam perspiciatis, deserunt.</p>
+                                    <h3 class="media-heading heading">Виниры</h3>
+                                    <p>Если цвет зубных пластин сильно изменен или сами премоляры, резцы и клыки далеки от идеальной формы, помогут виниры, тонкие пластины из фарфора/композитов, которые скрывают видимые дефекты эмали. Цена установки виниров на зубы выше, чем на отбеливание — к этому способу прибегают, когда другие бессильны.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -626,9 +621,8 @@ JS;
                                    class="icon bg-theme-colored icon-circled media-left pull-left"><i
                                             class="flaticon-medical-hospital35 text-white"></i></a>
                                 <div class="media-body">
-                                    <h3 class="media-heading heading">Cosmetic Dentis</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                                        consectetur sit ullam perspiciatis, deserunt.</p>
+                                    <h3 class="media-heading heading"> Лечение кариеса</h3>
+                                    <p>Кариес – разрушение твердых тканей зуба и образование – является одной из самых распространенных стоматологических проблем и может привести к потере зуба, поэтому важно вовремя обнаружить проблему и решить ее.</p>
                                 </div>
                             </div>
                         </div>
@@ -773,6 +767,9 @@ JS;
             </div>
         </section>
 
+
+ <?php /* ;?>
+
         <!-- start Doctors Section:-->
         <section id="doctors">
             <div class="container">
@@ -881,6 +878,7 @@ JS;
                 </div>
             </div>
         </section>
+ <?php */ ;?>
 
         <!-- Section: Pricing -->
         <section id="pricing" class="bg-silver-light">
