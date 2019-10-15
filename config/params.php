@@ -19,5 +19,8 @@ igshid=1nl0hq76gglia',
         'link4' => 'Домашнее и офисное отбеливание',
         'link5' => 'Коронки безметалловые',
         'link6' => 'Композитные реставрации',
-    ]
+    ],
+    'workHours'=>'Пнд - Вск : 8.00 - 22.00',
+    'domain'=>'doctor-kunitsky.ru',
+    'email'=>'kunitskiy.veneer@gmail.com',
 ];

@@ -212,7 +212,8 @@ use app\widgets\ButtonCallback\ButtonCallback;
                                      data-splitout="none"
                                      data-responsive_offset="on"
                                      style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Гигиеническая чистка зубов.
+                                    Профессиональная гигиена полости рта всего за <span class="text-theme-colored">4000 руб</span>.
+<!--                                    Гигиеническая чистка зубов.-->
                                 </div>
                                 <!-- LAYER NR. 4 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -237,8 +238,7 @@ use app\widgets\ButtonCallback\ButtonCallback;
                                      data-splitin="none"
                                      data-splitout="none"
                                      data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">Мы предоставляем
-                                    услуги<br> по европейским стандартам.
+                                     style="z-index: 7; white-space: nowrap;">
                                 </div>
                                 <!-- LAYER NR. 5 -->
                                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -501,7 +501,10 @@ JS;
                                 <img src="/images/mainBeforeAfter/3/2.jpg" alt="">
                             </div>
                         </div>
+                        <div class="clearfix"></div>
+                        <div style="margin: 30px 0; ">
 
+                        </div>
                         <div class="col-md-6">
                             <h2 class="font-size-38 mt-0"><span
                                         class="text-theme-colored">Виниры</span></h2>
@@ -631,7 +634,34 @@ JS;
             </div>
         </section>
 
+<!--        Вызов экстренной помощи-->
+        <section class="divider parallax layer-overlay overlay-theme-colored-8"
+                 data-bg-img="http://placehold.it/1920x873">
+            <div class="container">
+                <div class="call-to-action">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2 class="text-white"><i class="pe-7s-call text-white"></i>
+                                    <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
+                                       class="text-white">
+                                        <?= Yii::$app->params['phone']; ?>
+                                    </a>
+
+                            </h2>
+                            <h2 class="text-white">Экстренная зубная помощь.</h2>
+                            <p class="text-white">Свяжитесь с нами, если у вас есть срочная проблема.</p>
+                            <?= ButtonCallback::widget([
+                                'nameButton' => 'Срочный вопрос',
+                                'classList' => 'btn btn-default btn-theme-colored2 mt-20'
+                            ]); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Divider: Funfact -->
+        <?php /* ;?>
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
                  data-bg-img="http://placehold.it/1920x873" data-parallax-ratio="0.7">
             <div class="container">
@@ -673,19 +703,19 @@ JS;
                 </div>
             </div>
         </section>
-
+ <?php */ ;?>
         <!-- Section: Depertment -->
         <section id="depertment" class="bg-silver-light">
             <div class="container">
                 <div class="section-title text-center">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-uppercase mt-0 line-height-1">Our Depertment</h2>
+                            <h2 class="text-uppercase mt-0 line-height-1">Подробнее про услуги</h2>
                             <div class="title-icon">
                                 <img class="mb-10" src="images/title-icon.png" alt="">
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                                autem<br> voluptatem obcaecati!</p>
+                            <p>Подробное описание услуги, пошаговый процесс
+                                <br> для вашего спокойствия</p>
                         </div>
                     </div>
                 </div>
@@ -694,72 +724,60 @@ JS;
                         <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
-                                <h3 class=""><a href="#">Dental Implant</a></h3>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    tem autem voluptatem obcaecati.</p>
+                                <h3 class=""><a href="#">Имплантация зубов</a></h3>
+                                <p class="">Надежный и предсказуемый способ восстановления утраченных зубов.</p>
                                 <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Read
-                                    More</a>
+                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
-                                <h3 class=""><a href="#">Dental Bridges</a></h3>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    tem autem voluptatem obcaecati.</p>
+                                <h3 class=""><a href="#">Протезирование</a></h3>
+                                <p class="">Протезирование зубов помогает полностью восстановить все параметры зубного ряда.</p>
                                 <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Read
-                                    More</a>
+                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
-                                <h3 class=""><a href="#">Root Canel</a></h3>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    tem autem voluptatem obcaecati.</p>
+                                <h3 class=""><a href="#">Лечение каналов</a></h3>
+                                <p class="">От качественного лечения каналов зависит сохранность зуба и успех дальнейших работ.</p>
                                 <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Read
-                                    More</a>
+                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
-                                <h3 class=""><a href="#">Dental Implant</a></h3>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    tem autem voluptatem obcaecati.</p>
+                                <h3 class=""><a href="#">Реставрация</a></h3>
+                                <p class="">Полноценная художественная реставрация утраченных тканей.</p>
                                 <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Read
-                                    More</a>
+                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
-                                <h3 class=""><a href="#">Dental Bridges</a></h3>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    tem autem voluptatem obcaecati.</p>
+                                <h3 class=""><a href="#">Отбеливание зубов</a></h3>
+                                <p class="">Красивые белые зубы — это отличительный признак здоровья и благополучия человека.</p>
                                 <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Read
-                                    More</a>
+                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
                         <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
-                                <h3 class=""><a href="#">Root Canel</a></h3>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                    tem autem voluptatem obcaecati.</p>
+                                <h3 class=""><a href="#">Композитные виниры  </a></h3>
+                                <p class="">Керамические виниры – это бриллианты косметического восстановления зубов.</p>
                                 <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Read
-                                    More</a>
+                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -879,6 +897,7 @@ JS;
             </div>
         </section>
  <?php */ ;?>
+        <?php /* ;?>
 
         <!-- Section: Pricing -->
         <section id="pricing" class="bg-silver-light">
@@ -952,24 +971,27 @@ JS;
                 </div>
             </div>
         </section>
-
-        <!-- Section: Call To Action -->
+ <?php */ ;?>
+        <!--        Вызов экстренной помощи-->
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
                  data-bg-img="http://placehold.it/1920x873">
             <div class="container">
                 <div class="call-to-action">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 text-center">
-                            <h2 class="text-white"><i class="pe-7s-call text-white"></i><a
-                                        class="text-white" href="#"> (+01) &ndash; 234 567 890</a>
+                            <h2 class="text-white"><i class="pe-7s-call text-white"></i>
+                                <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
+                                   class="text-white">
+                                    <?= Yii::$app->params['phone']; ?>
+                                </a>
+
                             </h2>
-                            <h2 class="text-white">Please free to contact us for emergency
-                                case.</h2>
-                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit rem autem voluptatem obcaecati lienum phaedrum
-                                torquatos nec eu, vis detraxit periculis ex.</p>
-                            <a href="#" class="btn btn-default btn-theme-colored2 mt-20">Contact
-                                With Us</a>
+                            <h2 class="text-white">Запись на приём.</h2>
+                            <p class="text-white">Свяжитесь с нами, если у вас есть какие либо вопросы.</p>
+                            <?= ButtonCallback::widget([
+                                'nameButton' => 'Срочный вопрос',
+                                'classList' => 'btn btn-default btn-theme-colored2 mt-20'
+                            ]); ?>
                         </div>
                     </div>
                 </div>
@@ -982,10 +1004,9 @@ JS;
                 <div class="section-title text-center mt-0">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2 class="mt-0 line-height-1">Our <span class="text-theme-colored">Gallery</span>
+                            <h2 class="mt-0 line-height-1">Мои <span class="text-theme-colored">работы</span>
                             </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                                autem<br> voluptatem obcaecati!</p>
+                            <p>На фото ниже представлены примеры работ стоматологии. Вы можете прочитать подробные описания стоматологических случаев, посмотреть фото зубов до и после лечения, <br> на странице каждой работы, кликнув по ссылке.</p>
                         </div>
                     </div>
                 </div>
@@ -994,11 +1015,11 @@ JS;
                         <div class="col-md-12">
                             <!-- Portfolio Filter -->
                             <div class="portfolio-filter text-center">
-                                <a href="#" class="active" data-filter="*">All</a>
-                                <a href="#branding" class="" data-filter=".branding">Checkup</a>
-                                <a href="#design" class="" data-filter=".design">Whitening</a>
+                                <a href="#" class="active" data-filter="*">Все</a>
+                                <a href="#branding" class="" data-filter=".branding">Отбеливание</a>
+                                <a href="#design" class="" data-filter=".design">Виниры</a>
                                 <a href="#photography" class=""
-                                   data-filter=".photography">Whitening</a>
+                                   data-filter=".photography">Протезирование</a>
                             </div>
                             <!-- End Portfolio Filter -->
 
@@ -1219,7 +1240,7 @@ JS;
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="text-uppercase text-white mt-0 line-height-1">
-                                Testimonial</h2>
+                                Отзывы</h2>
                             <div class="title-icon">
                                 <img class="mb-10" src="images/title-icon-white.png" alt="">
                             </div>
@@ -1314,7 +1335,7 @@ JS;
                 </div>
             </div>
         </section>
-
+        <?php /* ;?>
         <!-- Section: Blog -->
         <section id="blog">
             <div class="container pb-50">
@@ -1343,143 +1364,167 @@ JS;
                                     <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
                                         <span class="mb-10 text-white mr-10 font-13"><i
                                                     class="fa fa-calendar mr-5 text-white"></i>21 February</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                                    </div>
-                                    <div class="entry-content bg-lighter p-20 pr-10">
-                                        <div class="entry-meta mt-0 no-bg no-border">
-                                            <div class="event-content">
-                                                <h3 class="entry-title text-white text-capitalize m-0">
-                                                    <a href="#">This is a standard post with
-                                                        thumbnail image</a></h3>
-                                            </div>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
+                                                </div>
+                                                <div class="entry-content bg-lighter p-20 pr-10">
+                                                    <div class="entry-meta mt-0 no-bg no-border">
+                                                        <div class="event-content">
+                                                            <h3 class="entry-title text-white text-capitalize m-0">
+                                                                <a href="#">This is a standard post
+                                                                    with
+                                                                    thumbnail image</a></h3>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-10">Lorem ipsum dolor sit amet,
+                                                        consectetur
+                                                        adipisi cing elit. Molestias eius illum
+                                                        libero dolor
+                                                        nobis deleniti, sint assumenda. Pariatur
+                                                        iste veritatis
+                                                        excepturi, ipsa optio nobis</p>
+                                                    <div class="mt-10"><a
+                                                                href="blog-single-left-sidebar.html"
+                                                                class="btn btn-theme-colored btn-sm">Узнать подробнее</a></div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </article>
                                         </div>
-                                        <p class="mt-10">Lorem ipsum dolor sit amet, consectetur
-                                            adipisi cing elit. Molestias eius illum libero dolor
-                                            nobis deleniti, sint assumenda. Pariatur iste veritatis
-                                            excepturi, ipsa optio nobis</p>
-                                        <div class="mt-10"><a href="blog-single-left-sidebar.html"
-                                                              class="btn btn-theme-colored btn-sm">Read
-                                                More</a></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="item">
-                                <article class="post clearfix maxwidth600 mb-30 wow fadeInRight"
-                                         data-wow-delay=".2s">
-                                    <div class="entry-header">
-                                        <div class="post-thumb thumb">
-                                            <img src="http://placehold.it/350x270" alt=""
-                                                 class="img-responsive img-fullwidth">
-                                        </div>
-                                    </div>
-                                    <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
+                                        <div class="item">
+                                            <article
+                                                    class="post clearfix maxwidth600 mb-30 wow fadeInRight"
+                                                    data-wow-delay=".2s">
+                                                <div class="entry-header">
+                                                    <div class="post-thumb thumb">
+                                                        <img src="http://placehold.it/350x270"
+                                                             alt=""
+                                                             class="img-responsive img-fullwidth">
+                                                    </div>
+                                                </div>
+                                                <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
                                         <span class="mb-10 text-white mr-10 font-13"><i
                                                     class="fa fa-calendar mr-5 text-white"></i>21 February</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                                    </div>
-                                    <div class="entry-content bg-lighter p-20 pr-10">
-                                        <div class="entry-meta mt-0 no-bg no-border">
-                                            <div class="event-content">
-                                                <h3 class="entry-title text-white text-capitalize m-0">
-                                                    <a href="#">This is a standard post with
-                                                        thumbnail image</a></h3>
-                                            </div>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
+                                                </div>
+                                                <div class="entry-content bg-lighter p-20 pr-10">
+                                                    <div class="entry-meta mt-0 no-bg no-border">
+                                                        <div class="event-content">
+                                                            <h3 class="entry-title text-white text-capitalize m-0">
+                                                                <a href="#">This is a standard post
+                                                                    with
+                                                                    thumbnail image</a></h3>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-10">Lorem ipsum dolor sit amet,
+                                                        consectetur
+                                                        adipisi cing elit. Molestias eius illum
+                                                        libero dolor
+                                                        nobis deleniti, sint assumenda. Pariatur
+                                                        iste veritatis
+                                                        excepturi, ipsa optio nobis</p>
+                                                    <div class="mt-10"><a
+                                                                href="blog-single-left-sidebar.html"
+                                                                class="btn btn-theme-colored btn-sm">Узнать подробнее</a></div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </article>
                                         </div>
-                                        <p class="mt-10">Lorem ipsum dolor sit amet, consectetur
-                                            adipisi cing elit. Molestias eius illum libero dolor
-                                            nobis deleniti, sint assumenda. Pariatur iste veritatis
-                                            excepturi, ipsa optio nobis</p>
-                                        <div class="mt-10"><a href="blog-single-left-sidebar.html"
-                                                              class="btn btn-theme-colored btn-sm">Read
-                                                More</a></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="item">
-                                <article class="post clearfix maxwidth600 mb-30 wow fadeInRight"
-                                         data-wow-delay=".2s">
-                                    <div class="entry-header">
-                                        <div class="post-thumb thumb">
-                                            <img src="http://placehold.it/350x270" alt=""
-                                                 class="img-responsive img-fullwidth">
-                                        </div>
-                                    </div>
-                                    <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
+                                        <div class="item">
+                                            <article
+                                                    class="post clearfix maxwidth600 mb-30 wow fadeInRight"
+                                                    data-wow-delay=".2s">
+                                                <div class="entry-header">
+                                                    <div class="post-thumb thumb">
+                                                        <img src="http://placehold.it/350x270"
+                                                             alt=""
+                                                             class="img-responsive img-fullwidth">
+                                                    </div>
+                                                </div>
+                                                <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
                                         <span class="mb-10 text-white mr-10 font-13"><i
                                                     class="fa fa-calendar mr-5 text-white"></i>21 February</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                                    </div>
-                                    <div class="entry-content bg-lighter p-20 pr-10">
-                                        <div class="entry-meta mt-0 no-bg no-border">
-                                            <div class="event-content">
-                                                <h3 class="entry-title text-white text-capitalize m-0">
-                                                    <a href="#">This is a standard post with
-                                                        thumbnail image</a></h3>
-                                            </div>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
+                                                </div>
+                                                <div class="entry-content bg-lighter p-20 pr-10">
+                                                    <div class="entry-meta mt-0 no-bg no-border">
+                                                        <div class="event-content">
+                                                            <h3 class="entry-title text-white text-capitalize m-0">
+                                                                <a href="#">This is a standard post
+                                                                    with
+                                                                    thumbnail image</a></h3>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-10">Lorem ipsum dolor sit amet,
+                                                        consectetur
+                                                        adipisi cing elit. Molestias eius illum
+                                                        libero dolor
+                                                        nobis deleniti, sint assumenda. Pariatur
+                                                        iste veritatis
+                                                        excepturi, ipsa optio nobis</p>
+                                                    <div class="mt-10"><a
+                                                                href="blog-single-left-sidebar.html"
+                                                                class="btn btn-theme-colored btn-sm">Узнать подробнее</a></div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </article>
                                         </div>
-                                        <p class="mt-10">Lorem ipsum dolor sit amet, consectetur
-                                            adipisi cing elit. Molestias eius illum libero dolor
-                                            nobis deleniti, sint assumenda. Pariatur iste veritatis
-                                            excepturi, ipsa optio nobis</p>
-                                        <div class="mt-10"><a href="blog-single-left-sidebar.html"
-                                                              class="btn btn-theme-colored btn-sm">Read
-                                                More</a></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="item">
-                                <article class="post clearfix maxwidth600 mb-30 wow fadeInRight"
-                                         data-wow-delay=".2s">
-                                    <div class="entry-header">
-                                        <div class="post-thumb thumb">
-                                            <img src="http://placehold.it/350x270" alt=""
-                                                 class="img-responsive img-fullwidth">
-                                        </div>
-                                    </div>
-                                    <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
+                                        <div class="item">
+                                            <article
+                                                    class="post clearfix maxwidth600 mb-30 wow fadeInRight"
+                                                    data-wow-delay=".2s">
+                                                <div class="entry-header">
+                                                    <div class="post-thumb thumb">
+                                                        <img src="http://placehold.it/350x270"
+                                                             alt=""
+                                                             class="img-responsive img-fullwidth">
+                                                    </div>
+                                                </div>
+                                                <div class="bg-theme-colored2 p-5 text-center pt-10 pb-10">
                                         <span class="mb-10 text-white mr-10 font-13"><i
                                                     class="fa fa-calendar mr-5 text-white"></i>21 February</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
-                                        <span class="mb-10 text-white mr-10 font-13"><i
-                                                    class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
-                                    </div>
-                                    <div class="entry-content bg-lighter p-20 pr-10">
-                                        <div class="entry-meta mt-0 no-bg no-border">
-                                            <div class="event-content">
-                                                <h3 class="entry-title text-white text-capitalize m-0">
-                                                    <a href="#">This is a standard post with
-                                                        thumbnail image</a></h3>
-                                            </div>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-commenting-o mr-5 text-white"></i> 214 Comments</span>
+                                                    <span class="mb-10 text-white mr-10 font-13"><i
+                                                                class="fa fa-heart-o mr-5 text-white"></i> 895 Likes</span>
+                                                </div>
+                                                <div class="entry-content bg-lighter p-20 pr-10">
+                                                    <div class="entry-meta mt-0 no-bg no-border">
+                                                        <div class="event-content">
+                                                            <h3 class="entry-title text-white text-capitalize m-0">
+                                                                <a href="#">This is a standard post
+                                                                    with
+                                                                    thumbnail image</a></h3>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mt-10">Lorem ipsum dolor sit amet,
+                                                        consectetur
+                                                        adipisi cing elit. Molestias eius illum
+                                                        libero dolor
+                                                        nobis deleniti, sint assumenda. Pariatur
+                                                        iste veritatis
+                                                        excepturi, ipsa optio nobis</p>
+                                                    <div class="mt-10"><a
+                                                                href="blog-single-left-sidebar.html"
+                                                                class="btn btn-theme-colored btn-sm">Узнать подробнее</a></div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </article>
                                         </div>
-                                        <p class="mt-10">Lorem ipsum dolor sit amet, consectetur
-                                            adipisi cing elit. Molestias eius illum libero dolor
-                                            nobis deleniti, sint assumenda. Pariatur iste veritatis
-                                            excepturi, ipsa optio nobis</p>
-                                        <div class="mt-10"><a href="blog-single-left-sidebar.html"
-                                                              class="btn btn-theme-colored btn-sm">Read
-                                                More</a></div>
-                                        <div class="clearfix"></div>
                                     </div>
-                                </article>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
         </section>
+
 
         <!-- Divider: Clients -->
         <section class="clients bg-theme-colored">
@@ -1513,6 +1558,7 @@ JS;
                 </div>
             </div>
         </section>
+  <?php */ ;?>
     </div>
 </div>
 

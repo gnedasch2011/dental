@@ -48,8 +48,8 @@ Land1Asset::register($this);
                 <div class="row">
                     <div class="col-md-8">
                         <div class="widget text-white">
-                            <i class="fa fa-clock-o text-white"></i> Часы работы: Пнд - Вск :
-                            8.00 - 22.00
+                            <i class="fa fa-clock-o text-white"></i> Часы
+                            работы: <?= Yii::$app->params['workHours']; ?>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -131,8 +131,8 @@ Land1Asset::register($this);
                     <nav id="menuzord" class="menuzord blue no-bg">
                         <div class="pull-right sm-pull-left mb-sm-15">
                             <?= ButtonCallback::widget([
-                                    'classList'=>'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10',
-                            ]) ;?>
+                                'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10',
+                            ]); ?>
                         </div>
 
                         <?php /* ;?>
@@ -156,12 +156,13 @@ Land1Asset::register($this);
                                                 class="fa fa-bars font-24"></i></a></div>
                             </li>
                         </ul>
-                         <?php */ ;?>
+                         <?php */
+                        ; ?>
 
                         <ul class="menuzord-menu">
-<!--                            <li class="active">-->
-<!--                                <a href="#home">О докторе</a>-->
-<!--                            </li>-->
+                            <!--                            <li class="active">-->
+                            <!--                                <a href="#home">О докторе</a>-->
+                            <!--                            </li>-->
 
                             <li class="active">
                                 <a href="#home">Протезирование</a>
@@ -176,18 +177,19 @@ Land1Asset::register($this);
                             <li class="active">
                                 <a href="#home">Композитные виниры</a>
                             </li>
-<!--                            <li><a href="#">Услуги</a>-->
-<!--                                <ul class="dropdown">-->
-<!--                                    --><?php //foreach (Yii::$app->params['services'] as $link=>$services): ?>
-<!--                                        <li>-->
-<!--                                            <a href="--><?//= $link ;?><!--">--><?//= $services ;?><!--</a>-->
-<!--                                        </li>-->
-<!--                                    --><?php //endforeach; ?>
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li class="active">-->
-<!--                                <a href="#home">Контакты</a>-->
-<!--                            </li>-->
+                            <!--                            <li><a href="#">Услуги</a>-->
+                            <!--                                <ul class="dropdown">-->
+                            <!--                                    --><?php //foreach (Yii::$app->params['services'] as $link=>$services): ?>
+                            <!--                                        <li>-->
+                            <!--                                            <a href="-->
+                            <? //= $link ;?><!--">--><? //= $services ;?><!--</a>-->
+                            <!--                                        </li>-->
+                            <!--                                    --><?php //endforeach; ?>
+                            <!--                                </ul>-->
+                            <!--                            </li>-->
+                            <!--                            <li class="active">-->
+                            <!--                                <a href="#home">Контакты</a>-->
+                            <!--                            </li>-->
 
                         </ul>
                     </nav>
@@ -200,166 +202,57 @@ Land1Asset::register($this);
     <footer id="footer" class="footer bg-black-111">
         <div class="container pt-70 pb-40">
             <div class="row border-bottom-black">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <div class="widget dark">
-                        <img class="mt-10 mb-20" alt="" src="images/logo-wide-white.png">
-                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur
-                            incidihil quo officia.</p>
+                        <img class="mt-10 mb-20" alt="" src="images/page_index/logo_footer.png">
                         <ul class="list-inline mt-5">
                             <li class="m-0 pl-10 pr-10"><i
                                         class="fa fa-map-marker text-theme-colored mr-5"></i> <a
-                                        class="text-gray" href="#">203, Envato Labs, Behind Alis
-                                    Steet,
-                                    Melbourne, Australia</a></li>
+                                        class="text-gray"
+                                        href="#"><?= Yii::$app->params['addr1']; ?><br>
+                                    <?= Yii::$app->params['addr2']; ?></a></li>
+                        </ul>
+
+                    </div>
+                    <div class="widget dark">
+
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="widget dark">
+                        <h5 class="widget-title line-bottom">Услуги</h5>
+                            <ul class="list-border">
+                                <?php foreach( Yii::$app->params['services']  as $link=>$text):?>
+                                    <li><a href="<?= $link ;?>"><?= $text ;?></a></li>
+                                  <?php endforeach;?>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-4">
+
+                    <div class="widget dark">
+                        <h5 class="widget-title line-bottom">Контакты</h5>
+
+                        <ul class="list-inline mt-5">
+                            <li class="m-0 pl-10 pr-10"><i
+                                        class="fa fa-map-marker text-theme-colored mr-5"></i> <a
+                                        class="text-gray"
+                                        href="#"><?= Yii::$app->params['addr1']; ?>, <?= Yii::$app->params['addr2']; ?></a></li>
                             <li class="m-0 pl-10 pr-10"><i
                                         class="fa fa-phone text-theme-colored mr-5"></i> <a
-                                        class="text-gray" href="#">123-456-789</a></li>
+                                        class="text-gray" href="#"><?= Yii::$app->params['phone']; ?></a></li>
                             <li class="m-0 pl-10 pr-10"><i
                                         class="fa fa-envelope-o text-theme-colored mr-5"></i> <a
-                                        class="text-gray" href="#">contact@yourdomain.com</a></li>
+                                        class="text-gray" href="mailto:<?= Yii::$app->params['email']; ?>"><?= Yii::$app->params['email']; ?></a></li>
                             <li class="m-0 pl-10 pr-10"><i
                                         class="fa fa-globe text-theme-colored mr-5"></i> <a
-                                        class="text-gray" href="#">www.yourdomain.com</a></li>
+                                        class="text-gray" href="#"><?= Yii::$app->params['domain']; ?></a></li>
+                            <li class="m-0 pl-10 pr-10"><i
+                                        class="fa fa-clock-o text-theme-colored mr-5"></i> <a
+                                        class="text-gray" href="#"><?= Yii::$app->params['workHours']; ?></a></li>
                         </ul>
-                    </div>
-                    <div class="widget dark">
-                        <h5 class="widget-title mb-10">Connect With Us</h5>
-                        <ul class="styled-icons icon-dark icon-circled icon-sm">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <h5 class="widget-title line-bottom">Useful Links</h5>
-                        <ul class="list-border">
-                            <li><a href="index-mp-layout1.html">Home</a></li>
-                            <li><a href="page-about1.html">About us</a></li>
-                            <li><a href="page-contact1.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="widget dark">
-                        <h5 class="widget-title line-bottom">Other Links</h5>
-                        <ul class="list-border">
-                            <li><a href="shortcode-sitemap.html">FAQ</a></li>
-                            <li><a href="shortcode-sitemap.html">Sitemap</a></li>
-                            <li><a href="page-contact1.html">Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <h5 class="widget-title line-bottom">Latest News</h5>
-                        <div class="latest-posts">
-                            <article class="post media-post clearfix pb-0 mb-10">
-                                <a href="blog-single-right-sidebar.html" class="post-thumb"><img
-                                            alt="" src="http://placehold.it/80x55"></a>
-                                <div class="post-right">
-                                    <h5 class="post-title mt-0 mb-5"><a
-                                                href="blog-single-right-sidebar.html">Sustainable
-                                            Construction</a></h5>
-                                    <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                                </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                                <a href="blog-single-right-sidebar.html" class="post-thumb"><img
-                                            alt="" src="http://placehold.it/80x55"></a>
-                                <div class="post-right">
-                                    <h5 class="post-title mt-0 mb-5"><a
-                                                href="blog-single-right-sidebar.html">Industrial
-                                            Coatings</a></h5>
-                                    <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                                </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                                <a href="blog-single-right-sidebar.html" class="post-thumb"><img
-                                            alt="" src="http://placehold.it/80x55"></a>
-                                <div class="post-right">
-                                    <h5 class="post-title mt-0 mb-5"><a
-                                                href="blog-single-right-sidebar.html">Storefront
-                                            Installations</a></h5>
-                                    <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="widget dark">
-                        <h5 class="widget-title line-bottom">Call Us Now</h5>
-                        <div class="text-gray">
-                            +61 3 1234 5678 <br>
-                            +12 3 1234 5678
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <h5 class="widget-title line-bottom">Opening Hours</h5>
-                        <div class="opening-hours">
-                            <ul class="list-border">
-                                <li class="clearfix"><span> Mon - Tues :  </span>
-                                    <div class="value pull-right flip"> 6.00 am - 10.00 pm</div>
-                                </li>
-                                <li class="clearfix text-white"><span> Wednes - Thurs :</span>
-                                    <div class="value pull-right flip"> 8.00 am - 6.00 pm</div>
-                                </li>
-                                <li class="clearfix"><span> Fri : </span>
-                                    <div class="value pull-right flip"> 3.00 pm - 8.00 pm</div>
-                                </li>
-                                <li class="clearfix"><span> Sun : </span>
-                                    <div class="value pull-right flip"> Closed</div>
-                                </li>
-                                <li class="clearfix"><span> Sat : </span>
-                                    <div class="value pull-right flip"> 10.00 am - 2.00 pm</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="widget dark">
-                        <h5 class="widget-title line-bottom">Subscribe Us</h5>
-                        <!-- Mailchimp Subscription Form Starts Here -->
-                        <form id="mailchimp-subscription-form-footer" class="newsletter-form">
-                            <div class="input-group">
-                                <input type="email" value="" name="EMAIL" placeholder="Your Email"
-                                       class="form-control input-lg font-16" data-height="45px"
-                                       id="mce-EMAIL-footer">
-                                <span class="input-group-btn">
-                  <button data-height="45px"
-                          class="btn btn-colored btn-theme-colored btn-xs m-0 font-14"
-                          type="submit">Subscribe</button>
-                </span>
-                            </div>
-                        </form>
-                        <?php
-                        $script = <<< JS
-                            $('#mailchimp-subscription-form-footer').ajaxChimp({
-                                callback: mailChimpCallBack,
-                                url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
-                            });
-
-                            function mailChimpCallBack(resp) {
-                                // Hide any previous response text
-                                var mailchimpform = $('#mailchimp-subscription-form-footer'),
-                                    response = '';
-                                mailchimpform.children(".alert").remove();
-                                if (resp.result === 'success') {
-                                    response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                                } else if (resp.result === 'error') {
-                                    response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                                }
-                                mailchimpform.prepend(response);
-                            }
-JS;
-
-                        $this->registerJs($script, yii\web\View::POS_READY); ?>
-                        <!-- Mailchimp Subscription Form Validation-->
-
-
-                        <!-- Mailchimp Subscription Form Ends Here -->
                     </div>
                 </div>
             </div>
@@ -368,18 +261,20 @@ JS;
             <div class="container pt-10 pb-0">
                 <div class="row">
                     <div class="col-md-6 sm-text-center">
-                        <p class="font-13 text-black-777 m-0">Copyright &copy;2017 ThemeMascot. All
-                            Rights Reserved</p>
+                        <p class="font-13 text-black-777 m-0">Лицензия на осуществление медицинской
+                            деятельности №1</p>
                     </div>
                     <div class="col-md-6 text-right flip sm-text-center">
                         <div class="widget no-border m-0">
                             <ul class="styled-icons icon-dark icon-circled icon-sm">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+                                <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                                <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+                                <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+                                <li>
+                                    <a href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
+                                                class="fa fa-instagram"></i></a></li>
+                                <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
                             </ul>
                         </div>
                     </div>
@@ -398,7 +293,8 @@ JS;
 $this->registerJs($script, yii\web\View::POS_READY); ?>
 <?php $this->endPage() ?>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
     <section class="no-bg">
         <div class="container position-relative p-0 mt-90" style="max-width: 700px;">
             <h3 class="bg-theme-colored p-15 mt-0 mb-0 text-white">Записаться на приём</h3>
@@ -408,37 +304,51 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                         <!-- Booking Form Starts -->
                         <p class="lead">Введите свои данные и удобное для вас время.</p>
                         <!-- Appointment Form -->
-                        <form id="popup_appointment_form" name="popup_appointment_form" class="" method="post" action="includes/appointment.php">
+                        <form id="popup_appointment_form" name="popup_appointment_form" class=""
+                              method="post" action="includes/appointment.php">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group mb-10">
-                                        <input name="form_name" class="form-control" type="text" required="" placeholder="Введите имя" aria-required="true">
+                                        <input name="form_name" class="form-control" type="text"
+                                               required="" placeholder="Введите имя"
+                                               aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="form-group mb-10">
-                                        <input name="form_email" class="form-control required email" type="email" placeholder="Введите email" aria-required="true">
+                                        <input name="form_email" class="form-control required email"
+                                               type="email" placeholder="Введите email"
+                                               aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="form-group mb-10">
-                                        <input name="form_appontment_date" class="form-control required datetime-picker" type="text" placeholder="Удобное время" aria-required="true">
+                                        <input name="form_appontment_date"
+                                               class="form-control required datetime-picker"
+                                               type="text" placeholder="Удобное время"
+                                               aria-required="true">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group mb-10">
-                                <textarea name="form_message" class="form-control required"  placeholder="Текст сообщения" rows="5" aria-required="true"></textarea>
+                                <textarea name="form_message" class="form-control required"
+                                          placeholder="Текст сообщения" rows="5"
+                                          aria-required="true"></textarea>
                             </div>
                             <div class="form-group mb-0 mt-20">
-                                <input name="form_botcheck" class="form-control" type="hidden" value="">
-                                <button type="submit" class="btn btn-dark btn-theme-colored" data-loading-text="Please wait...">Отправить</button>
+                                <input name="form_botcheck" class="form-control" type="hidden"
+                                       value="">
+                                <button type="submit" class="btn btn-dark btn-theme-colored"
+                                        data-loading-text="Please wait...">Отправить
+                                </button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-<!--            <button title="Close (Esc)" type="button" class="mfp-close font-36">×</button>-->
-            <button type="button" class="mfp-close font-36" data-dismiss="modal" aria-label="Close" class="">
+            <!--            <button title="Close (Esc)" type="button" class="mfp-close font-36">×</button>-->
+            <button type="button" class="mfp-close font-36" data-dismiss="modal" aria-label="Close"
+                    class="">
                 <span aria-hidden="true">×</span>
             </button>
         </div>
