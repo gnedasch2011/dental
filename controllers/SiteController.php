@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Order;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -125,9 +126,21 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
-    
+
     public function actionProtesirovanie()
     {
         return $this->render('protesirovanie');
     }
+
+    public function actionAjaxForm()
+    {
+        $form_model = new ContactForm();
+        if ($form_model->load(\Yii::$app->request->post())) {
+            echo '<pre>';print_r($form_model);die();
+        }
+
+
+        return 'success';
+    }
 }
+

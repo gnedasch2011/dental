@@ -1567,3 +1567,9 @@ JS;
     </div>
 </div>
 
+<?php
+$script = <<< JS
+  $(".pull-right a").click()
+JS;
+
+$this->registerJs($script, yii\web\View::POS_READY); ?>

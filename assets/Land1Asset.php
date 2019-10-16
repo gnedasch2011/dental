@@ -53,5 +53,7 @@ class Land1Asset extends AssetBundle
         'js/revolution-slider/js/extensions/revolution.extension.parallax.min.js',
         'js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js',
         'js/revolution-slider/js/extensions/revolution.extension.video.min.js',
+        'js/main.js',
+        'js/jquery.maskedinput.js',
     ];
 }
