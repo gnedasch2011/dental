@@ -989,7 +989,7 @@ JS;
                             <h2 class="text-white">Запись на приём.</h2>
                             <p class="text-white">Свяжитесь с нами, если у вас есть какие либо вопросы.</p>
                             <?= ButtonCallback::widget([
-                                'nameButton' => 'Срочный вопрос',
+                                'nameButton' => 'Записаться',
                                 'classList' => 'btn btn-default btn-theme-colored2 mt-20'
                             ]); ?>
                         </div>
@@ -1020,6 +1020,8 @@ JS;
                                 <a href="#design" class="" data-filter=".design">Виниры</a>
                                 <a href="#photography" class=""
                                    data-filter=".photography">Протезирование</a>
+                                <a href="#photography" class=""
+                                   data-filter=".photography">Лечение каналов</a>
                             </div>
                             <!-- End Portfolio Filter -->
 
@@ -1233,6 +1235,8 @@ JS;
         </section>
 
         <!--start testimonial Section-->
+        <?php /* ;?>
+
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
                  data-parallax-ratio="0.1" data-bg-img="http://placehold.it/1920x873">
             <div class="container">
@@ -1335,6 +1339,7 @@ JS;
                 </div>
             </div>
         </section>
+
         <?php /* ;?>
         <!-- Section: Blog -->
         <section id="blog">

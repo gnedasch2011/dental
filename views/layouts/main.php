@@ -52,12 +52,16 @@ Land1Asset::register($this);
                             работы: <?= Yii::$app->params['workHours']; ?>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="widget pull-right flip sm-pull-none">
-                            <div id="side-panel-trigger" class="side-panel-trigger mt-5">
-                                <a href="#"><i class="fa fa-bars text-white font-24"></i></a>
-                            </div>
-                        </div>
+                    <div class="col-md-4 text-right">
+                        <ul class="styled-icons icon-dark icon-circled icon-sm">
+                                                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+                            <li>
+                                <a href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i class="fa fa-instagram"></i></a></li>
+                            <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -67,7 +71,7 @@ Land1Asset::register($this);
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-3">
                         <a class=" pull-left flip sm-pull-center mb-15"
-                           href="index-mp-layout1.html"><img src="images/page_index/logo.png"
+                           href="/"><img src="images/page_index/logo.png"
                                                              alt=""></a>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-9">
@@ -173,7 +177,6 @@ Land1Asset::register($this);
                             <li class="active">
                                 <a href="#home">Установка коронок</a>
                             </li>
-
                             <li class="active">
                                 <a href="#home">Композитные виниры</a>
                             </li>
