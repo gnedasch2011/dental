@@ -470,61 +470,34 @@ JS;
             </div>
         </section>
 
-        <!-- Section: about -->
-        <section id="about">
-            <div class="container">
+
+
+        <!-- Section About -->
+        <section style="margin-top: 70px;">
+            <div class="container pt-0 pb-0">
                 <div class="section-content">
                     <div class="row">
-                        <div class="col-md-4">
-                            <h2 class="font-size-38 mt-0">Отбеливание зубов</h2>
-                            <div class="twentytwenty-container">
-                                <img src="/images/mainBeforeAfter/1/1.jpg" alt="">
-                                <img src="/images/mainBeforeAfter/1/2.jpg" alt="">
+                        <div class="col-md-6">
+                            <div class="thumb hidden-xs hidden-sm">
+                                <img class="img-fullwidth" src="/images/page_index/kunit_main.png" alt="project">
                             </div>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <h2 class="font-size-38 mt-0"><span
-                                        class="text-theme-colored">Гигиена</span></h2>
-                            <div class="twentytwenty-container">
-                                <img src="/images/mainBeforeAfter/2/1.jpg" alt="">
-                                <img src="/images/mainBeforeAfter/2/2.jpg" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <h2 class="font-size-38 mt-0">Импланты</h2>
-                            <div class="twentytwenty-container">
-                                <img src="/images/mainBeforeAfter/3/1.jpg" alt="">
-                                <img src="/images/mainBeforeAfter/3/2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div style="margin: 30px 0; ">
-
                         </div>
                         <div class="col-md-6">
-                            <h2 class="font-size-38 mt-0"><span
-                                        class="text-theme-colored">Виниры</span></h2>
-                            <div class="twentytwenty-container">
-                                <img src="/images/mainBeforeAfter/4/1.jpg" alt="">
-                                <img src="/images/mainBeforeAfter/4/2.jpg" alt="">
-                            </div>
-                        </div>
+                            <h4 class="text-uppercase text-theme-colored2 mt-sm-10">Добро пожаловать на приём</h4>
+                            <h2 class="mt-0">Ведет прием в клинике “Ладент на Новослободской”.
+                            </h2>
+                            <p class="lead">
+                                Все виды эстетического протезирования: виниры, коронки, вкладки (в том числе безметалловая керамика IPS emax). Кандидат медицинских наук. Мы работаем только с официальными технологиями и материалами. Все керамические конструкции изготавливаются в нашей собственной зуботехнической лаборатории и проходят строгий контроль качества.</p>
 
-                        <div class="col-md-6">
-                            <h2 class="font-size-38 mt-0">Лечение кариеса</h2>
-                            <div class="twentytwenty-container">
-                                <img src="/images/mainBeforeAfter/5/1.jpg" alt="">
-                                <img src="/images/mainBeforeAfter/5/2.jpg" alt="">
-                            </div>
+                            <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
+                                Мы работаем только с официальными технологиями и материалами. Все керамические конструкции изготавливаются в нашей собственной зуботехнической лаборатории и проходят строгий контроль качества.                    </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Divider: Certificates -->
         <section class="bg-lighter">
@@ -546,8 +519,84 @@ JS;
             </div>
         </section>
 
+        <!-- Section: services -->
+        <section id="about"  style="margin-top: 70px;">
+            <div class="section-title text-center">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="text-uppercase mt-0" style="
+    line-height: 1.3em;
+">Современные методики, новейшая медицинская техника и широчайший спектр
+                            стоматологических услуг!</h2>
+                        <div class="title-icon">
+                            <img class="mb-10" src="images/title-icon.png" alt="">
+                        </div>
+                        <p>Современные методики, новейшая медицинская техника и широчайший спектр <br> стоматологических услуг!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="section-content">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3 class="media-heading heading">Отбеливание зубов</h3>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/1/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/1/2.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <h3 class="media-heading heading"><span
+                                        class="text-theme-colored">Гигиена</span></h3>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/2/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/2/2.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <h3 class="media-heading heading">Импланты</h3>
+
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/3/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/3/2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div style="margin: 30px 0; ">
+
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="media-heading heading"><span
+                                        class="text-theme-colored">Виниры</span></h3>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/4/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/4/2.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3 class="media-heading heading">Лечение кариеса</h3>
+                            <div class="twentytwenty-container">
+                                <img src="/images/mainBeforeAfter/5/1.jpg" alt="">
+                                <img src="/images/mainBeforeAfter/5/2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Section: Services -->
-        <section>
+        <?php /* ;?>
+
+        <section style="margin-top: 70px;">
             <div class="container">
                 <div class="section-title text-center">
                     <div class="row">
@@ -633,7 +682,7 @@ JS;
                 </div>
             </div>
         </section>
-
+<?php */ ;?>
 <!--        Вызов экстренной помощи-->
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
                  data-bg-img="http://placehold.it/1920x873">
@@ -710,7 +759,12 @@ JS;
                 <div class="section-title text-center">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-uppercase mt-0 line-height-1">Подробнее про услуги</h2>
+                            <h2 class="text-uppercase mt-0" style="
+    line-height: 1.4em;
+">Современные методики, новейшая медицинская техника и широчайший спектр
+                                стоматологических услуг!
+
+                            </h2>
                             <div class="title-icon">
                                 <img class="mb-10" src="images/title-icon.png" alt="">
                             </div>
@@ -725,9 +779,8 @@ JS;
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
                                 <h3 class=""><a href="#">Имплантация зубов</a></h3>
-                                <p class="">Надежный и предсказуемый способ восстановления утраченных зубов.</p>
-                                <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
+                                <p class="">Дентальная имплантология - визитная карточка нашей клиники - является одним из самым надежных и эффективных способов восполнения утраченных или поврежденных зубов.</p>
+                                <a href="#" class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
@@ -735,9 +788,8 @@ JS;
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
                                 <h3 class=""><a href="#">Протезирование</a></h3>
-                                <p class="">Протезирование зубов помогает полностью восстановить все параметры зубного ряда.</p>
-                                <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
+                                <p class="">Как правило, пульпит является осложнением кариеса. Если в зубе вовремя не удалить кариозные образования, инфекция проникает в корень зуба, то есть в пульповую камеру зуба, и вызывает воспаление.</p>
+                                <a href="#" class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
@@ -745,9 +797,8 @@ JS;
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
                                 <h3 class=""><a href="#">Лечение каналов</a></h3>
-                                <p class="">От качественного лечения каналов зависит сохранность зуба и успех дальнейших работ.</p>
-                                <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
+                                <p class="">Как правило, пульпит является осложнением кариеса. Если в зубе вовремя не удалить кариозные образования, инфекция проникает в корень зуба, то есть в пульповую камеру зуба, и вызывает воспаление.</p>
+                                <a href="#" class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
@@ -756,8 +807,7 @@ JS;
                                 <img src="http://placehold.it/370x270" alt="">
                                 <h3 class=""><a href="#">Реставрация</a></h3>
                                 <p class="">Полноценная художественная реставрация утраченных тканей.</p>
-                                <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
+                                <a href="#" class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
@@ -765,9 +815,8 @@ JS;
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
                                 <h3 class=""><a href="#">Отбеливание зубов</a></h3>
-                                <p class="">Красивые белые зубы — это отличительный признак здоровья и благополучия человека.</p>
-                                <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
+                                <p class="">Это комплекс манипуляций направленных на удаление твердых и мягких отложение на поверхности зубов и поддесневой области, а также на укрепление зубной эмали и подержание здоровья зубов и полости рта.</p>
+                                <a href="#" class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
 
@@ -775,9 +824,9 @@ JS;
                             <div class="p-20 bg-white">
                                 <img src="http://placehold.it/370x270" alt="">
                                 <h3 class=""><a href="#">Композитные виниры  </a></h3>
-                                <p class="">Керамические виниры – это бриллианты косметического восстановления зубов.</p>
-                                <a href="#"
-                                   class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
+                                <p class="">Если цвет зубных пластин сильно изменен или сами премоляры, резцы и клыки далеки от идеальной формы, помогут виниры, тонкие пластины из фарфора/композитов, которые скрывают видимые дефекты эмали.
+                                </p>
+                                <a href="#" class="btn btn-flat btn-theme-colored mt-15 text-theme-color-2">Узнать подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -1569,7 +1618,7 @@ JS;
 
 <?php
 $script = <<< JS
-  $(".pull-right a").click()
+  // $(".pull-right a").click()
 JS;
 
 $this->registerJs($script, yii\web\View::POS_READY); ?>

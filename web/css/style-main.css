@@ -8541,3 +8541,20 @@ body.has-fixed-footer .main-content {
     margin-bottom: 0 !important;
   }
 }
+
+.quote {
+  border-left: 1px solid #5577be;
+  font-size: 15.7px;
+  padding: 20px;
+  background: #daf2fe;
+  color: #000;
+  margin-bottom: -9px;
+  font-style: italic;
+}
+.intro {
+  height: 1px;
+  background-color: #ec960d;
+  border: none;
+  width: 40%;
+  margin: 30px auto;
+}

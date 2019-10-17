@@ -359,6 +359,10 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                                 <?= Html::submitButton('Отправить', ['class' => 'btn btn-dark btn-theme-colored submitForm']) ?>
                             </div>
                         </div>
+                        <button type="button" class="mfp-close font-36" data-dismiss="modal" aria-label="Close"
+                                class="">
+                            <span aria-hidden="true">×</span>
+                        </button>
                         <?php ActiveForm::end() ?>
 
                     </div>
