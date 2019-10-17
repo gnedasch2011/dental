@@ -19,16 +19,17 @@ class RealizedObject extends Widget
         }
         $arr = [
             'karies' => [
-                '/images/mainBeforeAfter/1/1.jpg' => '/images/mainBeforeAfter/1/2.jpg'
+                'images/realized_obj/karies/1/1.jpg' => 'images/realized_obj/karies/1/2.jpg'
             ],
             'otbel' => [
-                'images/realized_obj/otbel/1/1.jpg' => 'images/realized_obj/otbel/1/2.jpg'
+                'images/realized_obj/otbel/1/1.jpg' => 'images/realized_obj/otbel/1/2.jpg',
+                'images/realized_obj/otbel/2/1.jpg' => 'images/realized_obj/otbel/2/2.jpg'
             ],
             'protezirovanie_implants' => [
-                '/images/protezirovanie_implants/1/1.jpg' => '/images/protezirovanie_implants/1/2.jpg'
+                'images/realized_obj/protezirovanie_implants/1/1.jpg' => 'images/realized_obj/protezirovanie_implants/1/2.jpg'
             ],
             'vinir' => [
-                '/images/vinir/1/1.jpg' => '/images/vinir/1/2.jpg'
+                'images/realized_obj/vinir/1/1.jpg' => 'images/realized_obj/vinir/1/2.jpg'
             ]
         ];
         $this->arrRealized = [];

@@ -1145,15 +1145,14 @@ JS;
                                 <!-- Portfolio Filter -->
                                 <div class="portfolio-filter text-center">
                                     <a href="#" class="active" data-filter="*">Все</a>
-                                    <a href="#implants" class=""
-                                       data-filter=".implants">Протезирование на имплантах</a>
-                                    <a href="#branding" class=""
-                                       data-filter=".branding">Отбеливание</a>
-                                    <a href="#design" class="" data-filter=".design">Виниры</a>
-                                    <a href="#photography" class=""
-                                       data-filter=".photography">Лечение каналов</a>
+                                    <a href="#protezirovanie_implants" class=""
+                                       data-filter=".protezirovanie_implants">Протезирование на имплантах</a>
+                                    <a href="#otbel" class=""
+                                       data-filter=".otbel">Отбеливание</a>
+                                    <a href="#vinir" class="" data-filter=".vinir">Виниры</a>
+                                    <a href="#karies" class=""
+                                       data-filter=".karies">Лечение каналов</a>
                                 </div>
-                                <!-- End Portfolio Filter -->
 
                                 <!-- Portfolio Gallery Grid -->
                                 <div class="gallery-isotope default-animation-effect grid-3 gutter-small clearfix"
@@ -1161,222 +1160,27 @@ JS;
                                     <!-- Portfolio Item Start -->
                                     <?php
                                     echo \app\widgets\RealizedObject\RealizedObject::widget([
+                                        'group' => 'karies',
+                                    ]);
+                                    ?>
+                                    <?php
+                                    echo \app\widgets\RealizedObject\RealizedObject::widget([
                                         'group' => 'otbel',
                                     ]);
-
                                     ?>
 
-                                    <div class="gallery-item implants">
-                                        <div class="thumb">
-                                            <div class="twentytwenty-container"
-                                                 style="height: 240px;">
-                                                <img src="/images/mainBeforeAfter/1/1.jpg" alt=""
-                                                     class="twentytwenty-before"
-                                                     style="clip: rect(0px, 180px, 240px, 0px);">
-                                                <img src="/images/mainBeforeAfter/1/2.jpg" alt=""
-                                                     class="twentytwenty-after"
-                                                     style="clip: rect(0px, 360px, 240px, 180px);">
-                                                <div class="twentytwenty-handle"
-                                                     style="left: 180px;"><span
-                                                            class="twentytwenty-left-arrow"></span><span
-                                                            class="twentytwenty-right-arrow"></span><span
-                                                            class="twentytwenty-left-arrow"></span><span
-                                                            class="twentytwenty-right-arrow"></span>
-                                                </div>
-                                                <div class="twentytwenty-handle"
-                                                     style="left: 180px;"><span
-                                                            class="twentytwenty-left-arrow"></span><span
-                                                            class="twentytwenty-right-arrow"></span>
-                                                </div>
-                                            </div>
+                                    <?php
+                                    echo \app\widgets\RealizedObject\RealizedObject::widget([
+                                        'group' => 'protezirovanie_implants',
+                                    ]);
+                                    ?>
 
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item branding implants">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/2.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item design">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/3.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item branding">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/4.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item design implants">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/5.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item implants">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/6.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item branding">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/7.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item implants">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/8.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
-                                    <!-- Portfolio Item Start -->
-                                    <div class="gallery-item branding">
-                                        <div class="thumb">
-                                            <img class="img-fullwidth"
-                                                 src="http://placehold.it/500x339"
-                                                 alt="project">
-                                            <div class="overlay-shade"></div>
-                                            <div class="text-holder">
-                                                <div class="title text-center">Sample Title</div>
-                                            </div>
-                                            <div class="icons-holder">
-                                                <div class="icons-holder-inner">
-                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                        <a href="images/gallery/full/9.jpg"
-                                                           data-lightbox-gallery="gallery"
-                                                           title="Your Title Here"><i
-                                                                    class="fa fa-picture-o"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Portfolio Item End -->
+                                    <?php
+                                    echo \app\widgets\RealizedObject\RealizedObject::widget([
+                                        'group' => 'vinir',
+                                    ]);
+                                    ?>
+
                                 </div>
                                 <!-- End Portfolio Gallery Grid -->
                             </div>
