@@ -684,7 +684,7 @@ JS;
 <?php */ ;?>
 <!--        Вызов экстренной помощи-->
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
-                 data-bg-img="http://placehold.it/1920x873">
+                 data-bg-img="images/page_index/paralax_1.png">
             <div class="container">
                 <div class="call-to-action">
                     <div class="row">
@@ -1014,7 +1014,7 @@ JS;
  <?php */ ;?>
         <!--        Вызов экстренной помощи-->
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
-                 data-bg-img="http://placehold.it/1920x873">
+                 data-bg-img="images/page_index/paralax_1.png">
             <div class="container">
                 <div class="call-to-action">
                     <div class="row">
