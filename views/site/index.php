@@ -5,281 +5,283 @@ use app\widgets\ButtonCallback\ButtonCallback;
 ; ?>
 
 
-<div id="wrapper">
-    <!-- Start main-content -->
-    <div class="main-content">
-        <!-- Section: home -->
-        <section id="home" class="divider">
-            <div class="container-fluid p-0">
+    <div id="wrapper">
+        <!-- Start main-content -->
+        <div class="main-content">
+            <!-- Section: home -->
+            <section id="home" class="divider">
+                <div class="container-fluid p-0">
 
-                <!-- START REVOLUTION SLIDER 5.0.7 -->
-                <div id="rev_slider_home_wrapper"
-                     class="rev_slider_wrapper fullwidthbanner-container"
-                     data-alias="news-gallery34"
-                     style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
-                    <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
-                    <div id="rev_slider_home" class="rev_slider fullwidthabanner"
-                         style="display:none;" data-version="5.0.7">
-                        <ul>
-                            <!-- SLIDE 1 -->
-                            <li data-index="rs-1" data-transition="slidingoverlayhorizontal"
-                                data-slotamount="default" data-easein="default"
-                                data-easeout="default" data-masterspeed="default"
-                                data-thumb="/images/page_index/banner_proectirovanie.png"
-                                data-rotate="0"
-                                data-fstransition="fade" data-fsmasterspeed="1500"
-                                data-fsslotamount="7" data-saveperformance="off"
-                                data-title="Make an Impact">
-                                <!-- MAIN IMAGE -->
-                                <img src="/images/page_index/banner_proectirovanie_2.png" alt=""
-                                     data-bgposition="center center" data-bgfit="cover"
-                                     data-bgrepeat="no-repeat" data-bgparallax="10"
-                                     class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0"
-                                     id="slide-1-layer-1"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']"
-                                     data-voffset="['0','0','0','0']"
-                                     data-width="full"
-                                     data-height="full"
-                                     data-whitespace="normal"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                                     data-start="1000"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 1.00);">
-                                </div>
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-1-layer-2"
-                                     data-x="['left','left','left','left']"
-                                     data-hoffset="['50','50','50','30']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['120','100','70','90']"
-                                     data-fontsize="['56','46','40','36']"
-                                     data-lineheight="['70','60','50','45']"
-                                     data-fontweight="['800','700','700','700']"
-                                     data-width="['700','650','600','420']"
-                                     data-height="none"
-                                     data-whitespace="normal"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Протезирование <span class="text-theme-colored">зубов</span>
-                                    <span class="text-theme-color-2">без боли</span> под анестезией.
-                                </div>
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-1-layer-3"
-                                     data-x="['left','left','left','left']"
-                                     data-hoffset="['50','50','50','30']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['280','220','180','180']"
-                                     data-fontsize="['18','18','16','13']"
-                                     data-lineheight="['30','30','28','25']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-width="['700','650','600','420']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">
-                                    <!--                                    Ортопедическая стоматология – это сфера,<br> связанная с восстановлением зубного ряда и установкой специальных протезов.-->
-                                </div>
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-1-layer-4"
-                                     data-x="['left','left','left','left']"
-                                     data-hoffset="['53','53','53','30']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['360','290','260','260']"
-                                     data-fontsize="['18','18','16','16']"
-                                     data-lineheight="['30','30','30','30']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-width="['700','650','600','420']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">
-                                    <?= ButtonCallback::widget(); ?>
-                                </div>
-                            </li>
-                            <!-- SLIDE 2 -->
-                            <li data-index="rs-2" data-transition="slidingoverlayhorizontal"
-                                data-slotamount="default" data-easein="default"
-                                data-easeout="default" data-masterspeed="default"
-                                data-thumb="/images/page_index/banner_otb.png" data-rotate="0"
-                                data-fstransition="fade" data-fsmasterspeed="1500"
-                                data-fsslotamount="7" data-saveperformance="off"
-                                data-title="Make an Impact">
-                                <!-- MAIN IMAGE -->
-                                <img src="/images/page_index/banner_otb.png" alt=""
-                                     data-bgposition="center center" data-bgfit="cover"
-                                     data-bgrepeat="no-repeat" data-bgparallax="10"
-                                     class="rev-slidebg" data-no-retina>
-                                <!-- LAYERS -->
-                                <!-- LAYER NR. 1 -->
-                                <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0"
-                                     id="slide-2-layer-1"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['middle','middle','middle','middle']"
-                                     data-voffset="['0','0','0','0']"
-                                     data-width="full"
-                                     data-height="full"
-                                     data-whitespace="normal"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                                     data-start="1000"
-                                     data-basealign="slide"
-                                     data-responsive_offset="on"
-                                     style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 1.00);">
-                                </div>
-                                <!-- LAYER NR. 3 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-2-layer-2"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['120','100','70','90']"
-                                     data-fontsize="['28','24','24','24']"
-                                     data-lineheight="['33','30','30','30']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-textalign="['center','center','center','center']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">
-                                </div>
-                                <!-- LAYER NR. 2 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-2-layer-3"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['165','135','105','130']"
-                                     data-fontsize="['56','46','40','36']"
-                                     data-lineheight="['70','60','50','45']"
-                                     data-fontweight="['800','700','700','700']"
-                                     data-textalign="['center','center','center','center']"
-                                     data-width="['700','650','600','420']"
-                                     data-height="none"
-                                     data-whitespace="normal"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                    Профессиональная гигиена полости рта всего за <span class="text-theme-colored">4000 руб</span>.
-<!--                                    Гигиеническая чистка зубов.-->
-                                </div>
-                                <!-- LAYER NR. 4 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-2-layer-4"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['320','260','220','220']"
-                                     data-fontsize="['18','18','16','13']"
-                                     data-lineheight="['30','30','28','25']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-textalign="['center','center','center','center']"
-                                     data-width="['700','650','600','420']"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">
-                                </div>
-                                <!-- LAYER NR. 5 -->
-                                <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
-                                     id="slide-2-layer-5"
-                                     data-x="['center','center','center','center']"
-                                     data-hoffset="['0','0','0','0']"
-                                     data-y="['top','top','top','top']"
-                                     data-voffset="['400','340','300','300']"
-                                     data-fontsize="['18','18','16','16']"
-                                     data-lineheight="['30','30','30','30']"
-                                     data-fontweight="['600','600','600','600']"
-                                     data-width="none"
-                                     data-height="none"
-                                     data-whitespace="nowrap"
-                                     data-transform_idle="o:1;"
-                                     data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
-                                     data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
-                                     data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-                                     data-mask_out="x:0;y:0;s:inherit;e:inherit;"
-                                     data-start="1000"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-responsive_offset="on"
-                                     style="z-index: 7; white-space: nowrap;">
+                    <!-- START REVOLUTION SLIDER 5.0.7 -->
+                    <div id="rev_slider_home_wrapper"
+                         class="rev_slider_wrapper fullwidthbanner-container"
+                         data-alias="news-gallery34"
+                         style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
+                        <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
+                        <div id="rev_slider_home" class="rev_slider fullwidthabanner"
+                             style="display:none;" data-version="5.0.7">
+                            <ul>
+                                <!-- SLIDE 1 -->
+                                <li data-index="rs-1" data-transition="slidingoverlayhorizontal"
+                                    data-slotamount="default" data-easein="default"
+                                    data-easeout="default" data-masterspeed="default"
+                                    data-thumb="/images/page_index/banner_proectirovanie.png"
+                                    data-rotate="0"
+                                    data-fstransition="fade" data-fsmasterspeed="1500"
+                                    data-fsslotamount="7" data-saveperformance="off"
+                                    data-title="Make an Impact">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="/images/page_index/banner_proectirovanie_2.png" alt=""
+                                         data-bgposition="center center" data-bgfit="cover"
+                                         data-bgrepeat="no-repeat" data-bgparallax="10"
+                                         class="rev-slidebg" data-no-retina>
+                                    <!-- LAYERS -->
+                                    <!-- LAYER NR. 1 -->
+                                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0"
+                                         id="slide-1-layer-1"
+                                         data-x="['center','center','center','center']"
+                                         data-hoffset="['0','0','0','0']"
+                                         data-y="['middle','middle','middle','middle']"
+                                         data-voffset="['0','0','0','0']"
+                                         data-width="full"
+                                         data-height="full"
+                                         data-whitespace="normal"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                         data-start="1000"
+                                         data-basealign="slide"
+                                         data-responsive_offset="on"
+                                         style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 1.00);">
+                                    </div>
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-1-layer-2"
+                                         data-x="['left','left','left','left']"
+                                         data-hoffset="['50','50','50','30']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['120','100','70','90']"
+                                         data-fontsize="['56','46','40','36']"
+                                         data-lineheight="['70','60','50','45']"
+                                         data-fontweight="['800','700','700','700']"
+                                         data-width="['700','650','600','420']"
+                                         data-height="none"
+                                         data-whitespace="normal"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
+                                        Протезирование <span class="text-theme-colored">зубов</span>
+                                        <span class="text-theme-color-2">без боли</span> под
+                                        анестезией.
+                                    </div>
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-1-layer-3"
+                                         data-x="['left','left','left','left']"
+                                         data-hoffset="['50','50','50','30']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['280','220','180','180']"
+                                         data-fontsize="['18','18','16','13']"
+                                         data-lineheight="['30','30','28','25']"
+                                         data-fontweight="['600','600','600','600']"
+                                         data-width="['700','650','600','420']"
+                                         data-height="none"
+                                         data-whitespace="nowrap"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 7; white-space: nowrap;">
+                                        <!--                                    Ортопедическая стоматология – это сфера,<br> связанная с восстановлением зубного ряда и установкой специальных протезов.-->
+                                    </div>
+                                    <!-- LAYER NR. 4 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-1-layer-4"
+                                         data-x="['left','left','left','left']"
+                                         data-hoffset="['53','53','53','30']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['360','290','260','260']"
+                                         data-fontsize="['18','18','16','16']"
+                                         data-lineheight="['30','30','30','30']"
+                                         data-fontweight="['600','600','600','600']"
+                                         data-width="['700','650','600','420']"
+                                         data-height="none"
+                                         data-whitespace="nowrap"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 7; white-space: nowrap;">
+                                        <?= ButtonCallback::widget(); ?>
+                                    </div>
+                                </li>
+                                <!-- SLIDE 2 -->
+                                <li data-index="rs-2" data-transition="slidingoverlayhorizontal"
+                                    data-slotamount="default" data-easein="default"
+                                    data-easeout="default" data-masterspeed="default"
+                                    data-thumb="/images/page_index/banner_otb.png" data-rotate="0"
+                                    data-fstransition="fade" data-fsmasterspeed="1500"
+                                    data-fsslotamount="7" data-saveperformance="off"
+                                    data-title="Make an Impact">
+                                    <!-- MAIN IMAGE -->
+                                    <img src="/images/page_index/banner_otb.png" alt=""
+                                         data-bgposition="center center" data-bgfit="cover"
+                                         data-bgrepeat="no-repeat" data-bgparallax="10"
+                                         class="rev-slidebg" data-no-retina>
+                                    <!-- LAYERS -->
+                                    <!-- LAYER NR. 1 -->
+                                    <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0"
+                                         id="slide-2-layer-1"
+                                         data-x="['center','center','center','center']"
+                                         data-hoffset="['0','0','0','0']"
+                                         data-y="['middle','middle','middle','middle']"
+                                         data-voffset="['0','0','0','0']"
+                                         data-width="full"
+                                         data-height="full"
+                                         data-whitespace="normal"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                                         data-start="1000"
+                                         data-basealign="slide"
+                                         data-responsive_offset="on"
+                                         style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 1.00);">
+                                    </div>
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-2-layer-2"
+                                         data-x="['center','center','center','center']"
+                                         data-hoffset="['0','0','0','0']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['120','100','70','90']"
+                                         data-fontsize="['28','24','24','24']"
+                                         data-lineheight="['33','30','30','30']"
+                                         data-fontweight="['600','600','600','600']"
+                                         data-textalign="['center','center','center','center']"
+                                         data-width="none"
+                                         data-height="none"
+                                         data-whitespace="nowrap"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 7; white-space: nowrap;">
+                                    </div>
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-2-layer-3"
+                                         data-x="['center','center','center','center']"
+                                         data-hoffset="['0','0','0','0']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['165','135','105','130']"
+                                         data-fontsize="['56','46','40','36']"
+                                         data-lineheight="['70','60','50','45']"
+                                         data-fontweight="['800','700','700','700']"
+                                         data-textalign="['center','center','center','center']"
+                                         data-width="['700','650','600','420']"
+                                         data-height="none"
+                                         data-whitespace="normal"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
+                                        Профессиональная гигиена полости рта всего за <span
+                                                class="text-theme-colored">4000 руб</span>.
+                                        <!--                                    Гигиеническая чистка зубов.-->
+                                    </div>
+                                    <!-- LAYER NR. 4 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-2-layer-4"
+                                         data-x="['center','center','center','center']"
+                                         data-hoffset="['0','0','0','0']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['320','260','220','220']"
+                                         data-fontsize="['18','18','16','13']"
+                                         data-lineheight="['30','30','28','25']"
+                                         data-fontweight="['600','600','600','600']"
+                                         data-textalign="['center','center','center','center']"
+                                         data-width="['700','650','600','420']"
+                                         data-height="none"
+                                         data-whitespace="nowrap"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 7; white-space: nowrap;">
+                                    </div>
+                                    <!-- LAYER NR. 5 -->
+                                    <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
+                                         id="slide-2-layer-5"
+                                         data-x="['center','center','center','center']"
+                                         data-hoffset="['0','0','0','0']"
+                                         data-y="['top','top','top','top']"
+                                         data-voffset="['400','340','300','300']"
+                                         data-fontsize="['18','18','16','16']"
+                                         data-lineheight="['30','30','30','30']"
+                                         data-fontweight="['600','600','600','600']"
+                                         data-width="none"
+                                         data-height="none"
+                                         data-whitespace="nowrap"
+                                         data-transform_idle="o:1;"
+                                         data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                                         data-transform_out="auto:auto;s:1000;e:Power3.easeInOut;"
+                                         data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                                         data-mask_out="x:0;y:0;s:inherit;e:inherit;"
+                                         data-start="1000"
+                                         data-splitin="none"
+                                         data-splitout="none"
+                                         data-responsive_offset="on"
+                                         style="z-index: 7; white-space: nowrap;">
 
-                                    <?= ButtonCallback::widget(); ?>
+                                        <?= ButtonCallback::widget(); ?>
 
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="tp-bannertimer tp-bottom"
-                             style="height: 5px; background-color: rgba(166, 216, 236, 1.00);"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="tp-bannertimer tp-bottom"
+                                 style="height: 5px; background-color: rgba(166, 216, 236, 1.00);"></div>
+                        </div>
                     </div>
-                </div>
 
-                <!-- END REVOLUTION SLIDER -->
-                <?php
+                    <!-- END REVOLUTION SLIDER -->
+                    <?php
 
-                use yii\web\View;
+                    use yii\web\View;
 
-                $script = <<< JS
+                    $script = <<< JS
                     var tpj = jQuery;
                     var revapi34;
                     tpj(document).ready(function () {
@@ -382,218 +384,283 @@ use app\widgets\ButtonCallback\ButtonCallback;
               
 JS;
 
-                $this->registerJs($script, yii\web\View::POS_READY); ?>
+                    $this->registerJs($script, yii\web\View::POS_READY); ?>
 
-                <!-- END REVOLUTION SLIDER -->
-            </div>
-        </section>
+                    <!-- END REVOLUTION SLIDER -->
+                </div>
+            </section>
 
-        <!-- Section: home-boxes -->
-        <section>
-            <div class="container pt-0 pb-0">
-                <div class="section-content">
-                    <div class="row equal-height-inner mt-sm-0" data-margin-top="-110px">
-                        <div class="col-sm-12 col-md-3 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay1">
-                            <div class="sm-height-auto bg-theme-colored">
-                                <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Опытный врач<br>
-                                        <small class="text-gray-lighter">Профессианальные решения
-                                        </small>
-                                    </h3>
-                                    <p class="text-white">
-                                        Более 25-ти лет стоматологической практики.
-                                        Действительный участник Европейской ассоциации эндодонтистов
-                                        и имплантологов
-                                    </p>
-                                    <?= ButtonCallback::widget([
-                                        'nameButton' => 'Связаться',
-                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
-                                    ]); ?>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay2">
-                            <div class="sm-height-auto bg-theme-colored2">
-                                <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Часы работы</h3>
-                                    <div class="opening-hours">
-                                        <ul class="list-unstyled text-white">
-                                            <li class="clearfix"><span>Пнд - Вск</span>
-                                                <div class="value">8:00 - 20:30</div>
-                                            </li>
-                                            <li class="clearfix">
-                                                <div class="value"><?= Yii::$app->params['addr1']; ?></div>
-                                                <div class="value"><?= Yii::$app->params['addr2']; ?></div>
-                                            </li>
-                                        </ul>
+            <!-- Section: home-boxes -->
+            <section>
+                <div class="container pt-0 pb-0">
+                    <div class="section-content">
+                        <div class="row equal-height-inner mt-sm-0" data-margin-top="-110px">
+                            <div class="col-sm-12 col-md-3 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay1">
+                                <div class="sm-height-auto bg-theme-colored">
+                                    <div class="p-30">
+                                        <h3 class="text-uppercase text-white mt-0">Опытный врач<br>
+                                            <small class="text-gray-lighter">Профессианальные
+                                                решения
+                                            </small>
+                                        </h3>
+                                        <p class="text-white">
+                                            Более 25-ти лет стоматологической практики.
+                                            Действительный участник Европейской ассоциации
+                                            эндодонтистов
+                                            и имплантологов
+                                        </p>
+                                        <?= ButtonCallback::widget([
+                                            'nameButton' => 'Связаться',
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        ]); ?>
                                     </div>
-                                    <?= ButtonCallback::widget([
-                                        'nameButton' => 'Запросить расписание',
-                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
-                                    ]); ?>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-3 pl-0 pr-0 pl-sm-15 0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay3">
-                            <div class="sm-height-auto bg-theme-colored">
-                                <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Полный спектр услуг
-                                    </h3>
-                                    <p class="text-white"><?= implode(', ', Yii::$app->params['services']); ?></p>
-                                    <?= ButtonCallback::widget([
-                                        'nameButton' => 'Узнать подробней',
-                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
-                                    ]); ?>
+                            <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay2">
+                                <div class="sm-height-auto bg-theme-colored2">
+                                    <div class="p-30">
+                                        <h3 class="text-uppercase text-white mt-0">Часы работы</h3>
+                                        <div class="opening-hours">
+                                            <ul class="list-unstyled text-white">
+                                                <li class="clearfix"><span>Пнд - Вск</span>
+                                                    <div class="value">8:00 - 20:30</div>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="value"><?= Yii::$app->params['addr1']; ?></div>
+                                                    <div class="value"><?= Yii::$app->params['addr2']; ?></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <?= ButtonCallback::widget([
+                                            'nameButton' => 'Запросить расписание',
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        ]); ?>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay4">
-                            <div class="sm-height-auto bg-theme-colored2">
-                                <div class="p-30">
-                                    <h3 class="text-uppercase text-white mt-0">Забронировать визит
-                                        <br>
-                                        <small class="text-gray-lighter">оператор на связи</small>
-                                    </h3>
-                                    <h2 class="text-white"
-                                        style="font-size: 1.5em;"><?= Yii::$app->params['phone']; ?></h2>
-                                    <p class="text-white">Забронируйте время приёма по номеру
-                                        телефона</p>
-                                    <?= ButtonCallback::widget([
-                                        'nameButton' => 'Связаться с нами',
-                                        'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
-                                    ]); ?>
+                            <div class="col-sm-12 col-md-3 pl-0 pr-0 pl-sm-15 0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay3">
+                                <div class="sm-height-auto bg-theme-colored">
+                                    <div class="p-30">
+                                        <h3 class="text-uppercase text-white mt-0">Полный спектр
+                                            услуг
+                                        </h3>
+                                        <p class="text-white"><?= implode(', ', Yii::$app->params['services']); ?></p>
+                                        <?= ButtonCallback::widget([
+                                            'nameButton' => 'Узнать подробней',
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        ]); ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay4">
+                                <div class="sm-height-auto bg-theme-colored2">
+                                    <div class="p-30">
+                                        <h3 class="text-uppercase text-white mt-0">Забронировать
+                                            визит
+                                            <br>
+                                            <small class="text-gray-lighter">оператор на связи
+                                            </small>
+                                        </h3>
+                                        <h2 class="text-white"
+                                            style="font-size: 1.5em;"><?= Yii::$app->params['phone']; ?></h2>
+                                        <p class="text-white">Забронируйте время приёма по номеру
+                                            телефона</p>
+                                        <?= ButtonCallback::widget([
+                                            'nameButton' => 'Связаться с нами',
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                        ]); ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
+            <!-- Section About -->
+            <section style="margin-top: 70px;">
+                <div class="container pt-0 pb-0">
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="thumb hidden-xs hidden-sm">
+                                    <img class="img-fullwidth"
+                                         src="/images/page_index/kunit_main_3.png" alt="project">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 class="text-uppercase text-theme-colored2 mt-sm-10">Добро
+                                    пожаловать на приём</h4>
+                                <h2 class="mt-0">Ведет прием в клинике на Мичуринский проспекте.
+                                </h2>
+                                <p class="lead">
+                                    Все виды эстетического протезирования: виниры, коронки, вкладки
+                                    (в том числе безметалловая керамика IPS emax). Кандидат
+                                    медицинских наук. Мы работаем только с официальными технологиями
+                                    и материалами. Все керамические конструкции изготавливаются в
+                                    нашей собственной зуботехнической лаборатории и проходят строгий
+                                    контроль качества.</p>
 
-        <!-- Section About -->
-        <section style="margin-top: 70px;">
-            <div class="container pt-0 pb-0">
-                <div class="section-content">
+                                <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
+                                    Мы работаем только с официальными технологиями и материалами.
+                                    Все керамические конструкции изготавливаются в нашей собственной
+                                    зуботехнической лаборатории и проходят строгий контроль
+                                    качества.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Divider: Certificates -->
+            <section class="bg-lighter">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="thumb hidden-xs hidden-sm">
-                                <img class="img-fullwidth" src="/images/page_index/kunit_main_3.png" alt="project">
+                        <div class="col-md-12">
+                            <div class="owl-carousel-4col">
+                                <?php for ($i = 1; $i < 11; $i++): ?>
+                                    <div class="item">
+                                        <a href="/images/certificates/large/<?= $i; ?>.jpg"
+                                           data-lightbox-gallery="certificates" title="Certificate"><img
+                                                    src="/images/certificates/small/<?= $i; ?>.jpg"
+                                                    alt=""></a>
+                                    </div>
+                                <?php endfor; ?>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <h4 class="text-uppercase text-theme-colored2 mt-sm-10">Добро пожаловать на приём</h4>
-                            <h2 class="mt-0">Ведет прием в клинике на Мичуринский проспекте.
-                            </h2>
-                            <p class="lead">
-                                Все виды эстетического протезирования: виниры, коронки, вкладки (в том числе безметалловая керамика IPS emax). Кандидат медицинских наук. Мы работаем только с официальными технологиями и материалами. Все керамические конструкции изготавливаются в нашей собственной зуботехнической лаборатории и проходят строгий контроль качества.</p>
-
-                            <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
-                                Мы работаем только с официальными технологиями и материалами. Все керамические конструкции изготавливаются в нашей собственной зуботехнической лаборатории и проходят строгий контроль качества.                    </div>
-
-                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-
-        <!-- Divider: Certificates -->
-        <section class="bg-lighter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="owl-carousel-4col">
-                            <?php for ($i = 1; $i < 11; $i++): ?>
-                                <div class="item">
-                                    <a href="/images/certificates/large/<?= $i; ?>.jpg"
-                                       data-lightbox-gallery="certificates" title="Certificate"><img
-                                                src="/images/certificates/small/<?= $i; ?>.jpg"
-                                                alt=""></a>
-                                </div>
-                            <?php endfor; ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section: services -->
-        <section id="about"  style="margin-top: 70px;">
-            <div class="section-title text-center">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="text-uppercase mt-0" style="
+            <!-- Section: services -->
+            <section id="about" style="margin-top: 70px;">
+                <div class="section-title text-center">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h2 class="text-uppercase mt-0" style="
     line-height: 1.3em;
 ">
-                            Безболезненное лечение зубов в стоматологии по современной методике работы под микроскопом
-                                                        </h2>
-                        <div class="title-icon">
-                            <img class="mb-10" src="images/title-icon.png" alt="">
-                        </div>
-                        <p>Тридцатикратное увеличение рабочего места и дополнительное освещение повышают точность диагностики, позволяют выявить начальную стадию кариеса.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-
-                <div class="section-content">
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h3 class="media-heading heading">Отбеливание зубов</h3>
-                            <div class="twentytwenty-wrapper twentytwenty-horizontal"><div class="twentytwenty-container" style="height: 240px;">
-                                    <img src="/images/mainBeforeAfter/1/1.jpg" alt="" class="twentytwenty-before" style="clip: rect(0px, 180px, 240px, 0px);">
-                                    <img src="/images/mainBeforeAfter/1/2.jpg" alt="" class="twentytwenty-after" style="clip: rect(0px, 360px, 240px, 180px);">
-                                    <div class="twentytwenty-handle" style="left: 180px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div></div>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <h3 class="media-heading heading"><span class="text-theme-colored">Профессиональная гигиена</span></h3>
-                            <div class="twentytwenty-wrapper twentytwenty-horizontal"><div class="twentytwenty-container" style="height: 240px;">
-                                    <img src="/images/mainBeforeAfter/2/1.jpg" alt="" class="twentytwenty-before" style="clip: rect(0px, 180px, 240px, 0px);">
-                                    <img src="/images/mainBeforeAfter/2/2.jpg" alt="" class="twentytwenty-after" style="clip: rect(0px, 360px, 240px, 180px);">
-                                    <div class="twentytwenty-handle" style="left: 180px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div></div>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <h3 class="media-heading heading">Протезирование на имплантах</h3>
-
-                            <div class="twentytwenty-wrapper twentytwenty-horizontal"><div class="twentytwenty-container" style="height: 240px;">
-                                    <img src="/images/mainBeforeAfter/3/1.jpg" alt="" class="twentytwenty-before" style="clip: rect(0px, 180px, 240px, 0px);">
-                                    <img src="/images/mainBeforeAfter/3/2.jpg" alt="" class="twentytwenty-after" style="clip: rect(0px, 360px, 240px, 180px);">
-                                    <div class="twentytwenty-handle" style="left: 180px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div></div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div style="margin: 30px 0; ">
-
-                        </div>
-                        <div class="col-md-6">
-                            <h3 class="media-heading heading"><span class="text-theme-colored">Виниры, "голивудские виниры"</span></h3>
-                            <div class="twentytwenty-wrapper twentytwenty-horizontal"><div class="twentytwenty-container" style="height: 370px;">
-                                    <img src="/images/mainBeforeAfter/4/1.jpg" alt="" class="twentytwenty-before" style="clip: rect(0px, 277.5px, 370px, 0px);">
-                                    <img src="/images/mainBeforeAfter/4/2.jpg" alt="" class="twentytwenty-after" style="clip: rect(0px, 555px, 370px, 277.5px);">
-                                    <div class="twentytwenty-handle" style="left: 277.5px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div></div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <h3 class="media-heading heading">Лечение кариеса и каналов</h3>
-                            <div class="twentytwenty-wrapper twentytwenty-horizontal"><div class="twentytwenty-container" style="height: 370px;">
-                                    <img src="/images/mainBeforeAfter/5/1.jpg" alt="" class="twentytwenty-before" style="clip: rect(0px, 277.5px, 370px, 0px);">
-                                    <img src="/images/mainBeforeAfter/5/2.jpg" alt="" class="twentytwenty-after" style="clip: rect(0px, 555px, 370px, 277.5px);">
-                                    <div class="twentytwenty-handle" style="left: 277.5px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div></div></div>
+                                Безболезненное лечение зубов в стоматологии по современной методике
+                                работы под микроскопом
+                            </h2>
+                            <div class="title-icon">
+                                <img class="mb-10" src="images/title-icon.png" alt="">
+                            </div>
+                            <p>Тридцатикратное увеличение рабочего места и дополнительное освещение
+                                повышают точность диагностики, позволяют выявить начальную стадию
+                                кариеса.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                <div class="container">
+
+                    <div class="section-content">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3 class="media-heading heading">Отбеливание зубов</h3>
+                                <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                    <div class="twentytwenty-container" style="height: 240px;">
+                                        <img src="/images/mainBeforeAfter/1/1.jpg" alt=""
+                                             class="twentytwenty-before"
+                                             style="clip: rect(0px, 180px, 240px, 0px);">
+                                        <img src="/images/mainBeforeAfter/1/2.jpg" alt=""
+                                             class="twentytwenty-after"
+                                             style="clip: rect(0px, 360px, 240px, 180px);">
+                                        <div class="twentytwenty-handle" style="left: 180px;"><span
+                                                    class="twentytwenty-left-arrow"></span><span
+                                                    class="twentytwenty-right-arrow"></span></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4">
+                                <h3 class="media-heading heading"><span class="text-theme-colored">Профессиональная гигиена</span>
+                                </h3>
+                                <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                    <div class="twentytwenty-container" style="height: 240px;">
+                                        <img src="/images/mainBeforeAfter/2/1.jpg" alt=""
+                                             class="twentytwenty-before"
+                                             style="clip: rect(0px, 180px, 240px, 0px);">
+                                        <img src="/images/mainBeforeAfter/2/2.jpg" alt=""
+                                             class="twentytwenty-after"
+                                             style="clip: rect(0px, 360px, 240px, 180px);">
+                                        <div class="twentytwenty-handle" style="left: 180px;"><span
+                                                    class="twentytwenty-left-arrow"></span><span
+                                                    class="twentytwenty-right-arrow"></span></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4">
+                                <h3 class="media-heading heading">Протезирование на имплантах</h3>
+
+                                <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                    <div class="twentytwenty-container" style="height: 240px;">
+                                        <img src="/images/mainBeforeAfter/3/1.jpg" alt=""
+                                             class="twentytwenty-before"
+                                             style="clip: rect(0px, 180px, 240px, 0px);">
+                                        <img src="/images/mainBeforeAfter/3/2.jpg" alt=""
+                                             class="twentytwenty-after"
+                                             style="clip: rect(0px, 360px, 240px, 180px);">
+                                        <div class="twentytwenty-handle" style="left: 180px;"><span
+                                                    class="twentytwenty-left-arrow"></span><span
+                                                    class="twentytwenty-right-arrow"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div style="margin: 30px 0; ">
+
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="media-heading heading"><span class="text-theme-colored">Виниры, "голивудские виниры"</span>
+                                </h3>
+                                <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                    <div class="twentytwenty-container" style="height: 370px;">
+                                        <img src="/images/mainBeforeAfter/4/1.jpg" alt=""
+                                             class="twentytwenty-before"
+                                             style="clip: rect(0px, 277.5px, 370px, 0px);">
+                                        <img src="/images/mainBeforeAfter/4/2.jpg" alt=""
+                                             class="twentytwenty-after"
+                                             style="clip: rect(0px, 555px, 370px, 277.5px);">
+                                        <div class="twentytwenty-handle" style="left: 277.5px;">
+                                            <span class="twentytwenty-left-arrow"></span><span
+                                                    class="twentytwenty-right-arrow"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h3 class="media-heading heading">Лечение кариеса и каналов</h3>
+                                <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                    <div class="twentytwenty-container" style="height: 370px;">
+                                        <img src="/images/mainBeforeAfter/5/1.jpg" alt=""
+                                             class="twentytwenty-before"
+                                             style="clip: rect(0px, 277.5px, 370px, 0px);">
+                                        <img src="/images/mainBeforeAfter/5/2.jpg" alt=""
+                                             class="twentytwenty-after"
+                                             style="clip: rect(0px, 555px, 370px, 277.5px);">
+                                        <div class="twentytwenty-handle" style="left: 277.5px;">
+                                            <span class="twentytwenty-left-arrow"></span><span
+                                                    class="twentytwenty-right-arrow"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-        <!-- Section: Services -->
-        <?php /* ;?>
+            <!-- Section: Services -->
+            <?php /* ;?>
 
         <section style="margin-top: 70px;">
             <div class="container">
@@ -681,35 +748,36 @@ JS;
                 </div>
             </div>
         </section>
-<?php */ ;?>
-<!--        Вызов экстренной помощи-->
-        <section class="divider parallax layer-overlay overlay-theme-colored-8"
-                 data-bg-img="images/page_index/paralax_1.png">
-            <div class="container">
-                <div class="call-to-action">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <h2 class="text-white"><i class="pe-7s-call text-white"></i>
+<?php */; ?>
+            <!--        Вызов экстренной помощи-->
+            <section class="divider parallax layer-overlay overlay-theme-colored-8"
+                     data-bg-img="images/page_index/paralax_1.png">
+                <div class="container">
+                    <div class="call-to-action">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <h2 class="text-white"><i class="pe-7s-call text-white"></i>
                                     <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
                                        class="text-white">
                                         <?= Yii::$app->params['phone']; ?>
                                     </a>
 
-                            </h2>
-                            <h2 class="text-white">Экстренная зубная помощь.</h2>
-                            <p class="text-white">Свяжитесь с нами, если у вас есть срочная проблема.</p>
-                            <?= ButtonCallback::widget([
-                                'nameButton' => 'Срочный вопрос',
-                                'classList' => 'btn btn-default btn-theme-colored2 mt-20'
-                            ]); ?>
+                                </h2>
+                                <h2 class="text-white">Экстренная зубная помощь.</h2>
+                                <p class="text-white">Свяжитесь с нами, если у вас есть срочная
+                                    проблема.</p>
+                                <?= ButtonCallback::widget([
+                                    'nameButton' => 'Срочный вопрос',
+                                    'classList' => 'btn btn-default btn-theme-colored2 mt-20'
+                                ]); ?>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Divider: Funfact -->
-        <?php /* ;?>
+            <!-- Divider: Funfact -->
+            <?php /* ;?>
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
                  data-bg-img="http://placehold.it/1920x873" data-parallax-ratio="0.7">
             <div class="container">
@@ -751,82 +819,100 @@ JS;
                 </div>
             </div>
         </section>
- <?php */ ;?>
-        <!-- Section: Depertment -->
-        <section id="depertment" class="bg-silver-light">
-            <div class="container">
-                <div class="section-title text-center">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-uppercase mt-0" style="
+ <?php */; ?>
+            <!-- Section: Depertment -->
+            <section id="depertment" class="bg-silver-light">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2 class="text-uppercase mt-0" style="
     line-height: 1.4em;
 ">Современные методики, новейшая медицинская техника и широчайший спектр стоматологических услуг!
-                            </h2>
-                            <div class="title-icon">
-                                <img class="mb-10" src="images/title-icon.png" alt="">
+                                </h2>
+                                <div class="title-icon">
+                                    <img class="mb-10" src="images/title-icon.png" alt="">
+                                </div>
+                                <p>Бесплатная диагностика в удобное для вас время.</p>
                             </div>
-                            <p>Бесплатная диагностика в удобное для вас время.</p>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+                                <div class="p-20 bg-white">
+                                    <img src="images/blocks_services/2.jpg" alt="">
+                                    <h3 class="">Имплантация зубов</h3>
+                                    <p class="">Дентальная имплантология - визитная карточка нашей
+                                        клиники - является одним из самым надежных и эффективных
+                                        способов восполнения утраченных или поврежденных зубов.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+                                <div class="p-20 bg-white">
+                                    <img src="/images/blocks_services/4.jpg" alt="">
+                                    <h3 class="">Протезирование</h3>
+                                    <p class="">Как правило, пульпит является осложнением кариеса.
+                                        Если в зубе вовремя не удалить кариозные образования,
+                                        инфекция проникает в корень зуба, то есть в пульповую камеру
+                                        зуба, и вызывает воспаление.</p>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+                                <div class="p-20 bg-white">
+                                    <img src="images/blocks_services/6.jpg" alt="">
+                                    <h3 class="">Отбеливание зубов</h3>
+                                    <p class="">Это комплекс манипуляций направленных на удаление
+                                        твердых и мягких отложение на поверхности зубов и
+                                        поддесневой области, а также на укрепление зубной эмали и
+                                        подержание здоровья зубов и полости рта.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+                                <div class="p-20 bg-white">
+                                    <img src="images/blocks_services/1.jpg" alt="">
+                                    <h3 class=""><a href="#">Реставрация</a></h3>
+                                    <p class="">Полноценная художественная реставрация утраченных
+                                        тканей.</p>
+
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+                                <div class="p-20 bg-white">
+                                    <img src="/images/blocks_services/3.jpg" alt="">
+                                    <h3 class="">Лечение каналов</h3>
+                                    <p class="">Как правило, пульпит является осложнением кариеса.
+                                        Если в зубе вовремя не удалить кариозные образования,
+                                        инфекция проникает в корень зуба, то есть в пульповую камеру
+                                        зуба, и вызывает воспаление.</p>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
+                                <div class="p-20 bg-white">
+                                    <img src="/images/blocks_services/5.jpg" alt="">
+                                    <h3 class="">Композитные виниры</h3>
+                                    <p class="">Если цвет зубных пластин сильно изменен или сами
+                                        премоляры, резцы и клыки далеки от идеальной формы, помогут
+                                        виниры, тонкие пластины из фарфора/композитов, которые
+                                        скрывают видимые дефекты эмали.
+                                    </p>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                            <div class="p-20 bg-white">
-                                <img src="images/blocks_services/2.jpg" alt="">
-                                <h3 class="">Имплантация зубов</h3>
-                                <p class="">Дентальная имплантология - визитная карточка нашей клиники - является одним из самым надежных и эффективных способов восполнения утраченных или поврежденных зубов.</p>
-
-                            </div>
-                        </div><div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                            <div class="p-20 bg-white">
-                                <img src="/images/blocks_services/4.jpg" alt="">
-                                <h3 class="">Протезирование</h3>
-                                <p class="">Как правило, пульпит является осложнением кариеса. Если в зубе вовремя не удалить кариозные образования, инфекция проникает в корень зуба, то есть в пульповую камеру зуба, и вызывает воспаление.</p>
-
-                            </div>
-                        </div>
+            </section>
 
 
-
-                        <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                            <div class="p-20 bg-white">
-                                <img src="images/blocks_services/6.jpg" alt="">
-                                <h3 class="">Отбеливание зубов</h3>
-                                <p class="">Это комплекс манипуляций направленных на удаление твердых и мягких отложение на поверхности зубов и поддесневой области, а также на укрепление зубной эмали и подержание здоровья зубов и полости рта.</p>
-
-                            </div>
-                        </div><div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                            <div class="p-20 bg-white">
-                                <img src="images/blocks_services/1.jpg" alt="">
-                                <h3 class=""><a href="#">Реставрация</a></h3>
-                                <p class="">Полноценная художественная реставрация утраченных тканей.</p>
-
-                            </div>
-                        </div><div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                            <div class="p-20 bg-white">
-                                <img src="/images/blocks_services/3.jpg" alt="">
-                                <h3 class="">Лечение каналов</h3>
-                                <p class="">Как правило, пульпит является осложнением кариеса. Если в зубе вовремя не удалить кариозные образования, инфекция проникает в корень зуба, то есть в пульповую камеру зуба, и вызывает воспаление.</p>
-
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                            <div class="p-20 bg-white">
-                                <img src="/images/blocks_services/5.jpg" alt="">
-                                <h3 class="">Композитные виниры</h3>
-                                <p class="">Если цвет зубных пластин сильно изменен или сами премоляры, резцы и клыки далеки от идеальной формы, помогут виниры, тонкие пластины из фарфора/композитов, которые скрывают видимые дефекты эмали.
-                                </p>
-
-                            </div>
-                        </div></div>
-                </div>
-            </div>
-        </section>
-
-
- <?php /* ;?>
+            <?php /* ;?>
 
         <!-- start Doctors Section:-->
         <section id="doctors">
@@ -936,8 +1022,8 @@ JS;
                 </div>
             </div>
         </section>
- <?php */ ;?>
-        <?php /* ;?>
+ <?php */; ?>
+            <?php /* ;?>
 
         <!-- Section: Pricing -->
         <section id="pricing" class="bg-silver-light">
@@ -1011,271 +1097,296 @@ JS;
                 </div>
             </div>
         </section>
- <?php */ ;?>
-        <!--        Вызов экстренной помощи-->
-        <section class="divider parallax layer-overlay overlay-theme-colored-8"
-                 data-bg-img="images/page_index/paralax_1.png">
-            <div class="container">
-                <div class="call-to-action">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <h2 class="text-white"><i class="pe-7s-call text-white"></i>
-                                <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
-                                   class="text-white">
-                                    <?= Yii::$app->params['phone']; ?>
-                                </a>
+ <?php */; ?>
+            <!--        Вызов экстренной помощи-->
+            <section class="divider parallax layer-overlay overlay-theme-colored-8"
+                     data-bg-img="images/page_index/paralax_1.png">
+                <div class="container">
+                    <div class="call-to-action">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <h2 class="text-white"><i class="pe-7s-call text-white"></i>
+                                    <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
+                                       class="text-white">
+                                        <?= Yii::$app->params['phone']; ?>
+                                    </a>
 
-                            </h2>
-                            <h2 class="text-white">Запись на приём.</h2>
-                            <p class="text-white">Свяжитесь с нами, если у вас есть какие либо вопросы.</p>
-                            <?= ButtonCallback::widget([
-                                'nameButton' => 'Записаться',
-                                'classList' => 'btn btn-default btn-theme-colored2 mt-20'
-                            ]); ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--start gallary Section-->
-        <section class="bg-lighter">
-            <div class="container">
-                <div class="section-title text-center mt-0">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="mt-0 line-height-1">Мои <span class="text-theme-colored">работы</span>
-                            </h2>
-                            <p>На фото ниже представлены примеры работ стоматологии. Вы можете посмотреть фото зубов до и после лечения, возможно найти свой случай и посмотреть на результат.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- Portfolio Filter -->
-                            <div class="portfolio-filter text-center">
-                                <a href="#" class="active" data-filter="*">Все</a>
-                                <a href="#branding" class="" data-filter=".branding">Отбеливание</a>
-                                <a href="#design" class="" data-filter=".design">Виниры</a>
-                                <a href="#photography" class=""
-                                   data-filter=".photography">Протезирование</a>
-                                <a href="#photography" class=""
-                                   data-filter=".photography">Лечение каналов</a>
+                                </h2>
+                                <h2 class="text-white">Запись на приём.</h2>
+                                <p class="text-white">Свяжитесь с нами, если у вас есть какие либо
+                                    вопросы.</p>
+                                <?= ButtonCallback::widget([
+                                    'nameButton' => 'Записаться',
+                                    'classList' => 'btn btn-default btn-theme-colored2 mt-20'
+                                ]); ?>
                             </div>
-                            <!-- End Portfolio Filter -->
-
-                            <!-- Portfolio Gallery Grid -->
-                            <div class="gallery-isotope default-animation-effect grid-3 gutter-small clearfix"
-                                 data-lightbox="gallery">
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item design">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/1.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item branding photography">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/2.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item design">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/3.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item branding">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/4.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item design photography">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/5.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item photography">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/6.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item branding">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/7.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item photography">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/8.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item branding">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" src="http://placehold.it/500x339"
-                                             alt="project">
-                                        <div class="overlay-shade"></div>
-                                        <div class="text-holder">
-                                            <div class="title text-center">Sample Title</div>
-                                        </div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="images/gallery/full/9.jpg"
-                                                       data-lightbox-gallery="gallery"
-                                                       title="Your Title Here"><i
-                                                                class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-                            </div>
-                            <!-- End Portfolio Gallery Grid -->
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!--start testimonial Section-->
-        <?php /* ;?>
+            <!--start gallary Section-->
+            <section class="bg-lighter">
+                <div class="container">
+                    <div class="section-title text-center mt-0">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2 class="mt-0 line-height-1">Мои <span class="text-theme-colored">работы</span>
+                                </h2>
+                                <p>На фото ниже представлены примеры работ стоматологии. Вы можете
+                                    посмотреть фото зубов до и после лечения, возможно найти свой
+                                    случай и посмотреть на результат.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Portfolio Filter -->
+                                <div class="portfolio-filter text-center">
+                                    <a href="#" class="active" data-filter="*">Все</a>
+                                    <a href="#implants" class=""
+                                       data-filter=".implants">Протезирование на имплантах</a>
+                                    <a href="#branding" class=""
+                                       data-filter=".branding">Отбеливание</a>
+                                    <a href="#design" class="" data-filter=".design">Виниры</a>
+                                    <a href="#photography" class=""
+                                       data-filter=".photography">Лечение каналов</a>
+                                </div>
+                                <!-- End Portfolio Filter -->
+
+                                <!-- Portfolio Gallery Grid -->
+                                <div class="gallery-isotope default-animation-effect grid-3 gutter-small clearfix"
+                                     data-lightbox="gallery">
+                                    <!-- Portfolio Item Start -->
+                                    <?php
+                                    echo \app\widgets\RealizedObject\RealizedObject::widget([
+                                        'group' => 'otbel',
+                                    ]);
+
+                                    ?>
+
+                                    <div class="gallery-item implants">
+                                        <div class="thumb">
+                                            <div class="twentytwenty-container"
+                                                 style="height: 240px;">
+                                                <img src="/images/mainBeforeAfter/1/1.jpg" alt=""
+                                                     class="twentytwenty-before"
+                                                     style="clip: rect(0px, 180px, 240px, 0px);">
+                                                <img src="/images/mainBeforeAfter/1/2.jpg" alt=""
+                                                     class="twentytwenty-after"
+                                                     style="clip: rect(0px, 360px, 240px, 180px);">
+                                                <div class="twentytwenty-handle"
+                                                     style="left: 180px;"><span
+                                                            class="twentytwenty-left-arrow"></span><span
+                                                            class="twentytwenty-right-arrow"></span><span
+                                                            class="twentytwenty-left-arrow"></span><span
+                                                            class="twentytwenty-right-arrow"></span>
+                                                </div>
+                                                <div class="twentytwenty-handle"
+                                                     style="left: 180px;"><span
+                                                            class="twentytwenty-left-arrow"></span><span
+                                                            class="twentytwenty-right-arrow"></span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item branding implants">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/2.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item design">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/3.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item branding">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/4.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item design implants">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/5.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item implants">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/6.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item branding">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/7.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item implants">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/8.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                    <!-- Portfolio Item Start -->
+                                    <div class="gallery-item branding">
+                                        <div class="thumb">
+                                            <img class="img-fullwidth"
+                                                 src="http://placehold.it/500x339"
+                                                 alt="project">
+                                            <div class="overlay-shade"></div>
+                                            <div class="text-holder">
+                                                <div class="title text-center">Sample Title</div>
+                                            </div>
+                                            <div class="icons-holder">
+                                                <div class="icons-holder-inner">
+                                                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
+                                                        <a href="images/gallery/full/9.jpg"
+                                                           data-lightbox-gallery="gallery"
+                                                           title="Your Title Here"><i
+                                                                    class="fa fa-picture-o"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item End -->
+                                </div>
+                                <!-- End Portfolio Gallery Grid -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--start testimonial Section-->
+            <?php /* ;?>
 
         <section class="divider parallax layer-overlay overlay-theme-colored-8"
                  data-parallax-ratio="0.1" data-bg-img="http://placehold.it/1920x873">
@@ -1603,9 +1714,9 @@ JS;
                 </div>
             </div>
         </section>
-  <?php */ ;?>
+  <?php */; ?>
+        </div>
     </div>
-</div>
 
 <?php
 $script = <<< JS
