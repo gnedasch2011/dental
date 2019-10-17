@@ -404,7 +404,7 @@ JS;
                                             </small>
                                         </h3>
                                         <p class="text-white">
-                                            Более 25-ти лет стоматологической практики.
+                                            Более 20-ти лет стоматологической практики.
                                             Действительный участник Европейской ассоциации
                                             эндодонтистов
                                             и имплантологов
@@ -826,7 +826,7 @@ JS;
                     <div class="section-title text-center">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <h2 class="text-uppercase mt-0" style="
+                                <h2 class="text-uppercase mt-0" name="realized" style="
     line-height: 1.4em;
 ">Современные методики, новейшая медицинская техника и широчайший спектр стоматологических услуг!
                                 </h2>
@@ -1131,7 +1131,7 @@ JS;
                     <div class="section-title text-center mt-0">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <h2 class="mt-0 line-height-1">Мои <span class="text-theme-colored">работы</span>
+                                <h2 class="mt-0 line-height-1" >Мои <span class="text-theme-colored">работы</span>
                                 </h2>
                                 <p>На фото ниже представлены примеры работ стоматологии. Вы можете
                                     посмотреть фото зубов до и после лечения, возможно найти свой

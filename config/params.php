@@ -11,7 +11,7 @@ return [
     'inst' => 'https://instagram.com/kunitskiy_valeriy?
 igshid=1nl0hq76gglia',
     'addr1' => 'Мичуринский проспект, 6',
-    'addr2' => '6 Перуновский переулок 4-10',
+    'addr2' => 'Перуновский переулок 4-10',
     'services' => [
         'link' => 'Керамические виниры',
         'link2' => 'Композитные виниры',

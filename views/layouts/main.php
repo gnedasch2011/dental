@@ -104,8 +104,8 @@ Land1Asset::register($this);
                                         <h5 class="media-heading subtitle">
                                             <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
                                                class="">
-                                                <?= Yii::$app->params['phone']; ?>,<br>
-                                                <?= Yii::$app->params['phone2']; ?>
+                                                <?= Yii::$app->params['phone']; ?><br>
+
                                             </a>
                                         </h5>
                                     </div>
@@ -169,16 +169,16 @@ Land1Asset::register($this);
                                 <!--                            </li>-->
 
                                 <li class="active">
-                                    <a href="#home">Протезирование</a>
+                                    <a href="#realized">Протезирование</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#home">Отбеливание</a>
+                                    <a href="#realized">Отбеливание</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#home">Установка коронок</a>
+                                    <a href="#realized">Установка коронок</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#home">Композитные виниры</a>
+                                    <a href="#realized">Композитные виниры</a>
                                 </li>
                                 <!--                            <li><a href="#">Услуги</a>-->
                                 <!--                                <ul class="dropdown">-->
