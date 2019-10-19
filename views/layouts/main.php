@@ -18,7 +18,7 @@ Land1Asset::register($this);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php $this->registerCsrfMetaTags() ?>
-        <title><?= Html::encode($this->title) ?></title>
+        <title>Доктор Кунитскиий, протезирование, лечение кариеса, установка виниров</title>
         <?php $this->head() ?>
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
@@ -27,7 +27,7 @@ Land1Asset::register($this);
         <meta name="keywords" content="keyword1,keyword2,keyword3,keyword4,keyword5"/>
         <meta name="author" content="ThemeMascot"/>
         <!-- Page Title -->
-        <title>DentalPro | Dental Clinic, Dentist & Dental Care HTML5 Template</title>
+
 
         <!-- Favicon and Touch Icons -->
         <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
