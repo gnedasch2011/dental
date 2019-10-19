@@ -14,6 +14,9 @@ $(document).on('click', '.submitForm', function (e) {
                 $('.successTitle').text('Успешно отправлено');
                 $('.section-content_success').hide();
                 $('.section-content_success_block').show();
+                setTimeout(function(){
+                    $(".modal").modal("hide");
+                },1000)
             }
         },
         error: function(){
