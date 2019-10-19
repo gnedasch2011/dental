@@ -53,7 +53,7 @@ Land1Asset::register($this);
                             </div>
                         </div>
                         <div class="col-md-4 text-right">
-                            <ul class="styled-icons icon-dark icon-circled icon-sm">
+                            <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
                                 <li><a href="#"><i class="fa fa-skype"></i></a></li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
@@ -103,7 +103,7 @@ Land1Asset::register($this);
                                         <a href="#" class="title">Консультация</a>
                                         <h5 class="media-heading subtitle">
                                             <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
-                                               class="">
+                                               class="telFZ">
                                                 <?= Yii::$app->params['phone']; ?><br>
 
                                             </a>
@@ -276,7 +276,7 @@ Land1Asset::register($this);
                         </div>
                         <div class="col-md-6 text-right flip sm-text-center">
                             <div class="widget no-border m-0">
-                                <ul class="styled-icons icon-dark icon-circled icon-sm">
+                                <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
                                     <!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
                                     <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                                     <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
@@ -372,11 +372,7 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                 Спасибо, мы с вами свяжемся
             </div>
             <!--            <button title="Close (Esc)" type="button" class="mfp-close font-36">×</button>-->
-            <button type="button" class="mfp-close font-36" data-dismiss="modal"
-                    aria-label="Close"
-                    class="">
-                <span aria-hidden="true">×</span>
-            </button>
+
     </div>
     </section>
     </div>

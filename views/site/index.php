@@ -539,7 +539,7 @@ JS;
             <!-- Section: services -->
             <section id="about" style="margin-top: 70px;">
                 <div class="section-title text-center">
-                    <div class="row">
+
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="text-uppercase mt-0" style="
     line-height: 1.3em;
@@ -554,7 +554,6 @@ JS;
                                 повышают точность диагностики, позволяют выявить начальную стадию
                                 кариеса.</p>
                         </div>
-                    </div>
                 </div>
                 <div class="container">
 
@@ -824,8 +823,7 @@ JS;
             <section id="depertment" class="bg-silver-light">
                 <div class="container">
                     <div class="section-title text-center">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
+                            <div class="col-xs-12">
                                 <h2 class="text-uppercase mt-0" name="realized" style="
     line-height: 1.4em;
 ">Современные методики, новейшая медицинская техника и широчайший спектр стоматологических услуг!
@@ -835,7 +833,7 @@ JS;
                                 </div>
                                 <p>Бесплатная диагностика в удобное для вас время.</p>
                             </div>
-                        </div>
+
                     </div>
                     <div class="section-content">
                         <div class="row">

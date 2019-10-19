@@ -137,11 +137,12 @@ class SiteController extends Controller
         $form_model = new ContactForm();
         $send = false;
         if ($form_model->load(\Yii::$app->request->post())) {
-            $form_model->body = 'Заявка' . $form_model->name . "\n";
+            $form_model->body = 'Заявка: ' . $form_model->name . "\n";
             $form_model->body .= 'Номер' . $form_model->phone;
             $form_model->email = 'gnedasch2011@yandex.ru';
-            $form_model->subject = 'test';
-            $send = mail('gnedasch2011@yandex.ru', 'Заявка', $form_model->body);
+
+//            $send = mail('gnedasch2011@yandex.ru', 'Заявка', $form_model->body);
+            $send = $form_model->contact('gnedasch2011@yandex.ru');
         }
 
 
