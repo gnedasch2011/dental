@@ -141,11 +141,9 @@ class SiteController extends Controller
             $form_model->body .= 'Номер' . $form_model->phone;
             $form_model->email = 'gnedasch2011@yandex.ru';
 
-//            $send = mail('gnedasch2011@yandex.ru', 'Заявка', $form_model->body);
-            $send = $form_model->contact('gnedasch2011@yandex.ru');
+             $send = mail('gnedasch2011@yandex.ru', 'Заявка', $form_model->body);
+//            $send = $form_model->contact('gnedasch2011@yandex.ru');
         }
-
-
         return ($send == true) ? 'send' : 'noSend';
     }
 }

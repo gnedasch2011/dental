@@ -8565,3 +8565,7 @@ body.has-fixed-footer .main-content {
     font-size: 1.3em;
   }
 }
+
+.section-content_success_block{
+  display: none;
+}

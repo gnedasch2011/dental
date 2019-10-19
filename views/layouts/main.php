@@ -314,9 +314,9 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
          aria-labelledby="exampleModalLabel" aria-hidden="true">
         <section class="no-bg">
             <div class="container position-relative p-0 mt-90" style="max-width: 700px;">
-                <h3 class="bg-theme-colored p-15 mt-0 mb-0 text-white">Записаться на приём</h3>
-                <div class="section-content bg-white p-30 section-content_success">
-                    <div class="row">
+                <h3 class="bg-theme-colored p-15 mt-0 mb-0 text-white successTitle">Записаться на приём</h3>
+                <div class="section-content bg-white p-30">
+                    <div class="row section-content_success">
                         <div class="col-md-12">
                             <!-- Booking Form Starts -->
 <!--                            <p class="lead">Введите свои данные и мы вам перезвоним.</p>-->
@@ -373,11 +373,14 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                         <?php ActiveForm::end() ?>
 
                     </div>
+                    <div class="row section-content_success_block">
+                        <div class="">
+                            Спасибо за обращение, мы с вами свяжемся в ближайшее время.
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="section-content_success_block">
-                Спасибо, мы с вами свяжемся
-            </div>
+
             <!--            <button title="Close (Esc)" type="button" class="mfp-close font-36">×</button>-->
 
     </div>

@@ -10,9 +10,10 @@ $(document).on('click', '.submitForm', function (e) {
         type: 'POST',
         data: data,
         success: function(res){
-            if(res=="success"){
-                $('.content_success').html('')
-                $('.content_success_block').show()
+            if(res=="send"){
+                $('.successTitle').text('Успешно отправлено');
+                $('.section-content_success').hide();
+                $('.section-content_success_block').show();
             }
         },
         error: function(){
