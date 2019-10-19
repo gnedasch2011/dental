@@ -136,11 +136,13 @@ class SiteController extends Controller
     {
         $form_model = new ContactForm();
         if ($form_model->load(\Yii::$app->request->post())) {
-            echo '<pre>';print_r($form_model);die();
+            $form_model->body = 'Заявка от' . $form_model->name . '<br>';
+            $form_model->body .= 'Номер' . $form_model->phone;
+            $send = $form_model->contact( Yii::$app->params['adminEmail']);
         }
 
 
-        return 'success';
+        return ($send == true) ? 'send' : 'noSend';
     }
 }
 
