@@ -18,7 +18,7 @@ Land1Asset::register($this);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php $this->registerCsrfMetaTags() ?>
-        <title>Доктор Кунитскиий, протезирование, лечение кариеса, установка виниров</title>
+        <title>Доктор Куницкий, протезирование, лечение кариеса, установка виниров</title>
         <?php $this->head() ?>
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
