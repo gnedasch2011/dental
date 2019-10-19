@@ -484,7 +484,7 @@ JS;
                     <div class="section-content">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="thumb hidden-xs hidden-sm">
+                                <div class="thumb hidden-sm">
                                     <img class="img-fullwidth"
                                          src="/images/page_index/kunit_main_3.png" alt="project">
                                 </div>
@@ -538,7 +538,6 @@ JS;
                     </div>
                 </div>
             </section>
-<div class="number" style="float: right;">896521987974</div>
             <!-- Section: services -->
             <section id="about" style="margin-top: 70px;">
                 <div class="section-title text-center">

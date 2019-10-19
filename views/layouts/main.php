@@ -54,7 +54,7 @@ Land1Asset::register($this);
                         </div>
                         <div class="col-md-4 text-right">
                             <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+<!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                                 <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
@@ -148,33 +148,8 @@ Land1Asset::register($this);
                             </div>
 
                             <?php /* ;?>
-
-                        <ul class="list-inline nav-side-icon-list pull-right">
-                            <li>
-                                <a href="#fullscreen-search-form" id="fullscreen-search-btn"><i
-                                            class="search-icon fa fa-search"></i></a>
-                                <div id="fullscreen-search-form" class="hanging-top-search-form">
-                                    <button type="button" class="close">×</button>
-                                    <form>
-                                        <input type="search" value=""
-                                               placeholder="Search keywords(s)"/>
-                                        <button type="submit"><i
-                                                    class="search-icon fa fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </li>
-                            <li>
-                                <div id="side-panel-trigger" class="side-panel-trigger"><a href="#"><i
-                                                class="fa fa-bars font-24"></i></a></div>
-                            </li>
-                        </ul>
-                         <?php */; ?>
-
+                            <?php */ ;?>
                             <ul class="menuzord-menu">
-                                <!--                            <li class="active">-->
-                                <!--                                <a href="#home">О докторе</a>-->
-                                <!--                            </li>-->
-
                                 <li class="active">
                                     <a href="#realized">Протезирование</a>
                                 </li>
@@ -187,20 +162,6 @@ Land1Asset::register($this);
                                 <li class="active">
                                     <a href="#realized">Композитные виниры</a>
                                 </li>
-                                <!--                            <li><a href="#">Услуги</a>-->
-                                <!--                                <ul class="dropdown">-->
-                                <!--                                    --><?php //foreach (Yii::$app->params['services'] as $link=>$services): ?>
-                                <!--                                        <li>-->
-                                <!--                                            <a href="-->
-                                <? //= $link ;?><!--">--><? //= $services ;?><!--</a>-->
-                                <!--                                        </li>-->
-                                <!--                                    --><?php //endforeach; ?>
-                                <!--                                </ul>-->
-                                <!--                            </li>-->
-                                <!--                            <li class="active">-->
-                                <!--                                <a href="#home">Контакты</a>-->
-                                <!--                            </li>-->
-
                             </ul>
                         </nav>
                     </div>
