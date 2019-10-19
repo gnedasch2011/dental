@@ -8569,3 +8569,7 @@ body.has-fixed-footer .main-content {
 .section-content_success_block{
   display: none;
 }
+
+.imgObj{
+  width: 100%;
+}

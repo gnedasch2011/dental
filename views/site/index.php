@@ -501,8 +501,7 @@ JS;
                                     и материалами. Все керамические конструкции изготавливаются в
                                     нашей собственной зуботехнической лаборатории и проходят строгий
                                     контроль качества.</p>
-                                params
-                                <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
+                                                                <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
                                     Мы работаем только с официальными технологиями и материалами.
                                     Все керамические конструкции изготавливаются в нашей собственной
                                     зуботехнической лаборатории и проходят строгий контроль
@@ -525,9 +524,13 @@ JS;
                                 <?php for ($i = 1; $i < 11; $i++): ?>
                                     <div class="item">
                                         <a href="/images/certificates/large/<?= $i; ?>.jpg"
-                                           data-lightbox-gallery="certificates" title="Certificate"><img
-                                                    src="/images/certificates/small/<?= $i; ?>.jpg"
-                                                    alt=""></a>
+                                           data-lightbox-gallery="certificates"
+                                           class="imgObj"
+                                           title="Certificate">
+                                            <img src="/images/certificates/large/<?= $i; ?>.jpg"
+                                                    alt=""
+                                            width="100%"
+                                            ></a>
                                     </div>
                                 <?php endfor; ?>
                             </div>
