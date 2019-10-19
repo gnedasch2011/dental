@@ -535,7 +535,7 @@ JS;
                     </div>
                 </div>
             </section>
-
+<div class="number" style="float: right;">896521987974</div>
             <!-- Section: services -->
             <section id="about" style="margin-top: 70px;">
                 <div class="section-title text-center">
