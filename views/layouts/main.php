@@ -14,6 +14,24 @@ Land1Asset::register($this);
     <!DOCTYPE html>
     <html lang="<?= Yii::$app->language ?>">
     <head>
+        <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+
+                        new Date().getTime(), event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+
+            })(window, document, 'script', 'dataLayer', 'GTM-5NVC7HZ');</script>
+
         <meta charset="<?= Yii::$app->charset ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +58,6 @@ Land1Asset::register($this);
     <?php $this->beginBody() ?>
 
     <body class="has-side-panel side-panel-right fullwidth-page">
-
     <div id="wrapper">
         <header id="header" class="header">
             <div class="header-top bg-theme-colored sm-text-center">
@@ -54,7 +71,7 @@ Land1Asset::register($this);
                         </div>
                         <div class="col-md-4 text-right">
                             <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
-<!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+                                <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                                 <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
@@ -136,19 +153,20 @@ Land1Asset::register($this);
                         <nav id="menuzord" class="menuzord blue no-bg">
                             <div class="pull-right sm-pull-left mb-sm-15">
                                 </a>
-                                <a type="button" href="tel:+<?= Yii::$app->params['phoneAncor']; ?>" class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10">
+                                <a type="button" href="tel:+<?= Yii::$app->params['phoneAncor']; ?>"
+                                   class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10">
                                     <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
-                                Бесплатная консультация</a>
+                                    Бесплатная консультация</a>
                                 <?php /* ;?>
 
                                 <?= ButtonCallback::widget([
                                     'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10',
                                 ]); ?>
- <?php */ ;?>
+ <?php */; ?>
                             </div>
 
                             <?php /* ;?>
-                            <?php */ ;?>
+                            <?php */; ?>
                             <ul class="menuzord-menu">
                                 <li class="active">
                                     <a href="#realized">Протезирование</a>
@@ -195,7 +213,7 @@ Land1Asset::register($this);
                             <h5 class="widget-title line-bottom">Услуги</h5>
                             <ul class="list-border">
                                 <?php foreach (Yii::$app->params['services'] as $link => $text): ?>
-                                    <li><a href="<?= $link; ?>"><?= $text; ?></a></li>
+                                    <li><a href="#realized"><?= $text; ?></a></li>
                                 <?php endforeach; ?>
                             </ul>
                         </div>
@@ -215,7 +233,8 @@ Land1Asset::register($this);
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-phone text-theme-colored mr-5"></i> <a
                                             class="text-gray"
-                                            href="#"><?= Yii::$app->params['phone']; ?></a></li>
+                                            href="<?= Yii::$app->params['phoneAncor']; ?>"><?= Yii::$app->params['phone']; ?></a>
+                                </li>
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-envelope-o text-theme-colored mr-5"></i> <a
                                             class="text-gray"
@@ -261,8 +280,16 @@ Land1Asset::register($this);
             </div>
         </footer>
         <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NVC7HZ"
+
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+
+        <!-- End Google Tag Manager (noscript) -->
         <?php $this->endBody() ?>
-    </body>
+
+
     </html>
 <?php
 $script = <<< JS
@@ -275,12 +302,13 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
          aria-labelledby="exampleModalLabel" aria-hidden="true">
         <section class="no-bg">
             <div class="container position-relative p-0 mt-90" style="max-width: 700px;">
-                <h3 class="bg-theme-colored p-15 mt-0 mb-0 text-white successTitle">Записаться на приём</h3>
+                <h3 class="bg-theme-colored p-15 mt-0 mb-0 text-white successTitle">Записаться на
+                    приём</h3>
                 <div class="section-content bg-white p-30">
                     <div class="row section-content_success">
                         <div class="col-md-12">
                             <!-- Booking Form Starts -->
-<!--                            <p class="lead">Введите свои данные и мы вам перезвоним.</p>-->
+                            <!--                            <p class="lead">Введите свои данные и мы вам перезвоним.</p>-->
                             <!-- Appointment Form -->
 
                             <?php
@@ -327,7 +355,8 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                                 <?= Html::submitButton('Отправить', ['class' => 'btn btn-dark btn-theme-colored submitForm']) ?>
                             </div>
                         </div>
-                        <button type="button" class="mfp-close font-36" data-dismiss="modal" aria-label="Close"
+                        <button type="button" class="mfp-close font-36" data-dismiss="modal"
+                                aria-label="Close"
                                 class="">
                             <span aria-hidden="true">×</span>
                         </button>

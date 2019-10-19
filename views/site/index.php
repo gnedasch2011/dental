@@ -1,8 +1,9 @@
 <?php
 
 use app\widgets\ButtonCallback\ButtonCallback;
+$bannerName = '';
 
-; ?>
+?>
 
 
     <div id="wrapper">
@@ -54,6 +55,15 @@ use app\widgets\ButtonCallback\ButtonCallback;
                                          data-responsive_offset="on"
                                          style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 1.00);">
                                     </div>
+                                    <?php
+                                    $bannerTitle = 'Протезирование <span class="text-theme-colored">зубов</span>
+                                        <span class="text-theme-color-2">без боли</span> под
+                                        анестезией.';
+
+                                    $utmBannerName = '';
+
+                                    ;?>
+
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
                                          id="slide-1-layer-2"
@@ -77,9 +87,7 @@ use app\widgets\ButtonCallback\ButtonCallback;
                                          data-splitout="none"
                                          data-responsive_offset="on"
                                          style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                        Протезирование <span class="text-theme-colored">зубов</span>
-                                        <span class="text-theme-color-2">без боли</span> под
-                                        анестезией.
+                                      <?= $bannerTitle ;?>
                                     </div>
                                     <!-- LAYER NR. 3 -->
                                     <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -621,7 +629,7 @@ JS;
 
                             </div>
                             <div class="col-md-6">
-                                <h3 class="media-heading heading"><span class="text-theme-colored">Виниры, "голивудские виниры"</span>
+                                <h3 class="media-heading heading"><span class="text-theme-colored">Виниры, "голливудские виниры"</span>
                                 </h3>
                                 <div class="twentytwenty-wrapper twentytwenty-horizontal">
                                     <div class="twentytwenty-container" style="height: 370px;">
@@ -658,98 +666,6 @@ JS;
                     </div>
                 </div>
             </section>
-
-
-            <!-- Section: Services -->
-            <?php /* ;?>
-
-        <section style="margin-top: 70px;">
-            <div class="container">
-                <div class="section-title text-center">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-uppercase mt-0 line-height-1">Услуги</h2>
-                            <div class="title-icon">
-                                <img class="mb-10" src="images/title-icon.png" alt="">
-                            </div>
-                            <p>Современные методики, новейшая медицинская техника и широчайший спектр <br> стоматологических услуг!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="icon-box iconbox-theme-colored2 left media p-0">
-                                <a href="#"
-                                   class="icon bg-theme-colored icon-circled media-left pull-left"><i
-                                            class="flaticon-medical-teeth2 text-white"></i></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading heading">Имплантология</h3>
-                                    <p>Дентальная имплантология - визитная карточка нашей клиники - является одним из самым надежных и эффективных способов восполнения утраченных или поврежденных зубов.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="icon-box iconbox-theme-colored2 left media p-0">
-                                <a href="#"
-                                   class="icon bg-theme-colored icon-circled media-left pull-left"><i
-                                            class="fa fa-medkit text-white"></i></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading heading">Лечение каналов</h3>
-                                    <p>Как правило, пульпит является осложнением кариеса. Если в зубе вовремя не удалить кариозные образования, инфекция проникает в корень зуба, то есть в пульповую камеру зуба, и вызывает воспаление.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="icon-box iconbox-theme-colored2 left media p-0">
-                                <a href="#"
-                                   class="icon bg-theme-colored icon-circled media-left pull-left"><i
-                                            class="flaticon-medical-brush18 text-white"></i></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading heading">Профессиональная гигиена </h3>
-                                    <p>Это комплекс манипуляций направленных на удаление твердых и мягких отложение на поверхности зубов и поддесневой области, а также на укрепление зубной эмали и подержание здоровья зубов и полости рта.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="icon-box iconbox-theme-colored2 left media p-0">
-                                <a href="#"
-                                   class="icon bg-theme-colored icon-circled media-left pull-left"><i
-                                            class="flaticon-medical-medical51 text-white"></i></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading heading">Домашнее и офисное отбеливание</h3>
-                                    <p>Профессиональное офисное отбеливание проводится в кабинете стоматолога. На зубы наносится гель с высоким содержанием отбеливающих веществ, который активируется химически, то есть без использования лампы. Чаще всего для достижения желаемого эффекта нужен всего один визит.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="icon-box iconbox-theme-colored2 left media p-0">
-                                <a href="#"
-                                   class="icon bg-theme-colored icon-circled media-left pull-left"><i
-                                            class="flaticon-medical-dentist text-white"></i></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading heading">Виниры</h3>
-                                    <p>Если цвет зубных пластин сильно изменен или сами премоляры, резцы и клыки далеки от идеальной формы, помогут виниры, тонкие пластины из фарфора/композитов, которые скрывают видимые дефекты эмали. Цена установки виниров на зубы выше, чем на отбеливание — к этому способу прибегают, когда другие бессильны.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <div class="icon-box iconbox-theme-colored2 left media p-0">
-                                <a href="#"
-                                   class="icon bg-theme-colored icon-circled media-left pull-left"><i
-                                            class="flaticon-medical-hospital35 text-white"></i></a>
-                                <div class="media-body">
-                                    <h3 class="media-heading heading"> Лечение кариеса</h3>
-                                    <p>Кариес – разрушение твердых тканей зуба и образование – является одной из самых распространенных стоматологических проблем и может привести к потере зуба, поэтому важно вовремя обнаружить проблему и решить ее.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-<?php */; ?>
             <!--        Вызов экстренной помощи-->
             <section class="divider parallax layer-overlay overlay-theme-colored-8"
                      data-bg-img="images/page_index/paralax_1.png">
