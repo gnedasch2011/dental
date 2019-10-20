@@ -73,7 +73,7 @@ GoogleAsset::register($this);
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-3">
                             <a class=" pull-left flip sm-pull-center mb-15"
-                               href="/"><img src="images/page_index/logo.png"
+                               href="#"><img src="images/page_index/logo.png"
                                              alt=""></a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-9">
@@ -136,17 +136,15 @@ GoogleAsset::register($this);
                     <div class="container">
                         <nav id="menuzord" class="menuzord blue no-bg">
                             <div class="pull-right sm-pull-left mb-sm-15">
-                                </a>
                                 <a type="button" href="tel:+<?= Yii::$app->params['phoneAncor']; ?>"
-                                   class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10">
+                                   class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 visible-xs">
                                     <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
                                     Бесплатная консультация</a>
-                                <?php /* ;?>
-
                                 <?= ButtonCallback::widget([
-                                    'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10',
+                                    'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs',
+                                    'nameButton' => 'Бесплатная консультация',
                                 ]); ?>
- <?php */; ?>
+
                             </div>
 
                             <?php /* ;?>

@@ -14,42 +14,84 @@ $utmServ = $_GET['serv'] ?? 'protez';
             <section id="home" class="divider">
                 <div class="container-fluid p-0">
                     <?php
+
                     $utmServ = $_GET['serv'] ?? 'protez';
+
+
+                    //
+                    //
+                    //
+
+
                     $serv = [
+//                            ''=>
                         'protez' => [
                             'title' => 'Протезирование <span class="text-theme-colored">зубов</span>
                                         <span class="text-theme-color-2">без боли</span> под
                                         анестезией.',
-                            'img' => '/images/page_index/banner_proectirovanie_2.png',
-                            'classStyle'=>''
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
                         ],
-                        'otbel' => [
-                            'title' => '',
-                            'img' => '',
-                            'classStyle'=>'',
+
+                        'giginena' => [
+                            'title' => 'Профессиональная  <span class="text-theme-colored">гигиена</span> полости рта всего за 4000 руб.',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
                         ],
-                        'action_1' => [
-                            'title' => 'Весь октябрь профессиональная гигиена полости рта 4000руб вместо 7000руб',
-                            'img' => '/images/page_index/banner_proectirovanie_2.png',
-                            'classStyle'=>'font-size:30px!important;'
+
+                        'otbelivanie' => [
+                            'title' => 'Отбеливание  <span class="text-theme-colored">зубов</span>, результат заметный сразу.',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
                         ],
-                        'action_2' => [
-                            'title' => 'Розыгрыш ирригатора WaterPick',
-                            'img' => '',
-                            'classStyle'=>'',
+                        'koronki' => [
+                            'title' => 'Установка  <span class="text-theme-colored">коронок</span> на зубы, верни свою улыбку',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
                         ],
-                        'action_3' => [
-                            'title' => 'Профессиональная гигиена полости рта и консультация терпевта в подарок при оплате процедуры отбеливания',
-                            'img' => '',
-                            'classStyle'=>'',
+
+                        'koronki_keramika_circon' => [
+                            'title' => 'Установка <span class="text-theme-colored">циркониевой коронки</span> на зуб',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
                         ],
-                        'action_4' => [
-                            'title' => '10 керамических виниров оплата – и профессиональная гигиена в подарок',
-                            'img' => '',
-                            'classStyle'=>'',
+
+                        'koronki_keramika_metall' => [
+                            'title' => 'Установка <span class="text-theme-colored">металлокерамической коронки</span> на зуб',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
                         ],
+
+                        'koronka_na_implant' => [
+                            'title' => 'Установка <span class="text-theme-colored">коронки</span> на имплант, восстановление зубов',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
+                        'koronka_metalokeramika' => [
+                            'title' => 'Установка <span class="text-theme-colored">металлокерамической</span> коронки на импланте',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
+                        'koronka_cirkoniy' => [
+                            'title' => 'Установка <span class="text-theme-colored">циркониевой</span> коронки на импланте',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
+
+                          'restavracia' => [
+                            'title' => 'Композитная <span class="text-theme-colored">реставрация</span> зубов, верни свою улыбку ',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
+
+                        'protezirovanie' => [
+                            'title' => 'Композитная <span class="text-theme-colored">реставрация</span> зубов, верни свою улыбку ',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
+
                     ];
-                    
+
                     $currentServices = $serv[$utmServ];
 
                     ?>
@@ -117,7 +159,7 @@ $utmServ = $_GET['serv'] ?? 'protez';
                                          data-splitin="none"
                                          data-splitout="none"
                                          data-responsive_offset="on"
-                                         style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal; <?= $currentServices['classStyle'] ;?>">
+                                         style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal; <?= $currentServices['classStyle']; ?>">
                                         <?= $currentServices['title']; ?>
                                     </div>
                                     <!-- LAYER NR. 3 -->
@@ -168,10 +210,20 @@ $utmServ = $_GET['serv'] ?? 'protez';
                                          data-splitout="none"
                                          data-responsive_offset="on"
                                          style="z-index: 7; white-space: nowrap;">
-                                        <?= ButtonCallback::widget(); ?>
+                                        <a type="button"
+                                           href="tel:+<?= Yii::$app->params['phoneAncor']; ?>"
+                                           class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 visible-xs">
+                                            <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
+                                            Бесплатная консультация</a>
+                                        <?= ButtonCallback::widget([
+                                            'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs',
+                                            'nameButton' => 'Бесплатная консультация',
+                                        ]); ?>
+
                                     </div>
                                 </li>
                                 <!-- SLIDE 2 -->
+                                <?php /* ;?>
                                 <li data-index="rs-2" data-transition="slidingoverlayhorizontal"
                                     data-slotamount="default" data-easein="default"
                                     data-easeout="default" data-masterspeed="default"
@@ -309,6 +361,7 @@ $utmServ = $_GET['serv'] ?? 'protez';
 
                                     </div>
                                 </li>
+     <?php */; ?>
                             </ul>
                             <div class="tp-bannertimer tp-bottom"
                                  style="height: 5px; background-color: rgba(166, 216, 236, 1.00);"></div>
@@ -541,7 +594,10 @@ JS;
                                     нашей собственной зуботехнической лаборатории и проходят строгий
                                     контроль качества.</p>
                                 <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
-                                    Уже более 15 лет занимаюсь эстетическим протезированием-виниры, коронки на своих зубах и на имплантах. Использую только современные методики и материалы, так как для меня важно качество выполненной работы!
+                                    Уже более 15 лет занимаюсь эстетическим протезированием-виниры,
+                                    коронки на своих зубах и на имплантах. Использую только
+                                    современные методики и материалы, так как для меня важно
+                                    качество выполненной работы!
                                 </div>
 
                             </div>
@@ -588,7 +644,9 @@ JS;
                         <div class="title-icon">
                             <img class="mb-10" src="images/title-icon.png" alt="">
                         </div>
-                        <p>В своей практике я работаю с бинокулярами или микроскопом (это оптические приборы, которые повышают качество диагностики кариеса и других заболеваний зубов и полости рта в целом в несколько раз!).</p>
+                        <p>В своей практике я работаю с бинокулярами или микроскопом (это оптические
+                            приборы, которые повышают качество диагностики кариеса и других
+                            заболеваний зубов и полости рта в целом в несколько раз!).</p>
                     </div>
                 </div>
                 <div class="container">
@@ -785,7 +843,10 @@ JS;
                                 <div class="p-20 bg-white">
                                     <img src="images/blocks_services/2.jpg" alt="">
                                     <h3 class="">Имплантация зубов</h3>
-                                    <p class="">Дентальная имплантология - отрасль стоматологии, позволяющая восстанавливать утраченные зубы. Методика установки имплантов уже давно выведена на высокий уровень, риск отторжения сведён практически к нулю.</p>
+                                    <p class="">Дентальная имплантология - отрасль стоматологии,
+                                        позволяющая восстанавливать утраченные зубы. Методика
+                                        установки имплантов уже давно выведена на высокий уровень,
+                                        риск отторжения сведён практически к нулю.</p>
 
                                 </div>
                             </div>
@@ -793,7 +854,10 @@ JS;
                                 <div class="p-20 bg-white">
                                     <img src="/images/blocks_services/4.jpg" alt="">
                                     <h3 class="">Протезирование</h3>
-                                    <p class="">Протезирование - это основная моя специализация! Скололся зуб? Стоит старая пломбы? Хотите красивую улыбку? Вам ко мне! Все виды коронок, виниры - это все то, что позволит вам снова красиво улыбаться и жевать!</p>
+                                    <p class="">Протезирование - это основная моя специализация!
+                                        Скололся зуб? Стоит старая пломбы? Хотите красивую улыбку?
+                                        Вам ко мне! Все виды коронок, виниры - это все то, что
+                                        позволит вам снова красиво улыбаться и жевать!</p>
 
                                 </div>
                             </div>
@@ -803,7 +867,10 @@ JS;
                                 <div class="p-20 bg-white">
                                     <img src="images/blocks_services/6.jpg" alt="">
                                     <h3 class="">Отбеливание зубов</h3>
-                                    <p class="">Существуют два вида отбеливания: домашнее и офисное(кабинетное). Но в обоих процессах должен принимать участие ваш стоматолог, чтобы результат был качественным и надолго! Хотите подробнее? Звоните по номеру!</p>
+                                    <p class="">Существуют два вида отбеливания: домашнее и
+                                        офисное(кабинетное). Но в обоих процессах должен принимать
+                                        участие ваш стоматолог, чтобы результат был качественным и
+                                        надолго! Хотите подробнее? Звоните по номеру!</p>
 
                                 </div>
                             </div>
