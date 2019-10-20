@@ -829,7 +829,6 @@ JS;
                             </div>
                             <p>Бесплатная диагностика в удобное для вас время.</p>
                         </div>
-
                     </div>
                     <div class="section-content">
                         <div class="row">
@@ -1185,6 +1184,56 @@ JS;
                 </div>
             </section>
 
+            <section id="depertment" class="bg-silver-light">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2 class="text-uppercase mt-0" name="realized" style="
+    line-height: 1.4em;
+">Как к нам добраться
+                            </h2>
+                            <div class="title-icon">
+                                <img class="mb-10" src="images/title-icon.png" alt="">
+                            </div>
+                            <p  style="margin-bottom: 40px;">Бесплатная диагностика в удобное для вас время.</p>
+                        </div>
+
+
+                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"  style="line-height: 3em;
+    font-size: 1.4em;">
+                             <ul class="mt-5 left-style">
+                                 <li class="m-0 pl-10 pr-10"><i
+                                             class="fa fa-map-marker text-theme-colored mr-5"></i> <a
+                                             class="text-gray"
+                                             href="#"><?= Yii::$app->params['addr2']; ?>, ООО "Эка-Стом"</a></li>
+                                 <li class="m-0 pl-10 pr-10"><i
+                                             class="fa fa-phone text-theme-colored mr-5"></i> <a
+                                             class="text-gray"
+                                             href="<?= Yii::$app->params['phoneAncor']; ?>"><?= Yii::$app->params['phone']; ?></a>
+                                 </li>
+                                 <li class="m-0 pl-10 pr-10"><i
+                                             class="fa fa-envelope-o text-theme-colored mr-5"></i> <a
+                                             class="text-gray"
+                                             href="mailto:<?= Yii::$app->params['email']; ?>"><?= Yii::$app->params['email']; ?></a>
+                                 </li>
+                                 <li class="m-0 pl-10 pr-10"><i
+                                             class="fa fa-globe text-theme-colored mr-5"></i> <a
+                                             class="text-gray"
+                                             href="#"><?= Yii::$app->params['domain']; ?></a></li>
+                                 <li class="m-0 pl-10 pr-10"><i
+                                             class="fa fa-clock-o text-theme-colored mr-5"></i> <a
+                                             class="text-gray"
+                                             href="#"><?= Yii::$app->params['workHours']; ?></a></li>
+                             </ul>
+                         </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A426cda08387a2a34d3972cc8c75068fb1dd31d28c81326b74b5c0d17c5d619fb&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                         </div>
+
+                    </div>
+                </div>
+            </section>
             <!--start testimonial Section-->
             <?php /* ;?>
 

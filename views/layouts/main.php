@@ -210,8 +210,7 @@ GoogleAsset::register($this);
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-map-marker text-theme-colored mr-5"></i> <a
                                             class="text-gray"
-                                            href="#"><?= Yii::$app->params['addr1']; ?>
-                                        , <?= Yii::$app->params['addr2']; ?></a></li>
+                                            href="#"><?= Yii::$app->params['addr2']; ?></a></li>
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-phone text-theme-colored mr-5"></i> <a
                                             class="text-gray"
