@@ -1,7 +1,8 @@
 <?php
 
 use app\widgets\ButtonCallback\ButtonCallback;
-$bannerName = '';
+
+$utmServ = $_GET['serv'] ?? 'protez';
 
 ?>
 
@@ -12,7 +13,46 @@ $bannerName = '';
             <!-- Section: home -->
             <section id="home" class="divider">
                 <div class="container-fluid p-0">
+                    <?php
+                    $utmServ = $_GET['serv'] ?? 'protez';
+                    $serv = [
+                        'protez' => [
+                            'title' => 'Протезирование <span class="text-theme-colored">зубов</span>
+                                        <span class="text-theme-color-2">без боли</span> под
+                                        анестезией.',
+                            'img' => '/images/page_index/banner_proectirovanie_2.png',
+                            'classStyle'=>''
+                        ],
+                        'otbel' => [
+                            'title' => '',
+                            'img' => '',
+                            'classStyle'=>'',
+                        ],
+                        'action_1' => [
+                            'title' => 'Весь октябрь профессиональная гигиена полости рта 4000руб вместо 7000руб',
+                            'img' => '/images/page_index/banner_proectirovanie_2.png',
+                            'classStyle'=>'font-size:30px!important;'
+                        ],
+                        'action_2' => [
+                            'title' => 'Розыгрыш ирригатора WaterPick',
+                            'img' => '',
+                            'classStyle'=>'',
+                        ],
+                        'action_3' => [
+                            'title' => 'Профессиональная гигиена полости рта и консультация терпевта в подарок при оплате процедуры отбеливания',
+                            'img' => '',
+                            'classStyle'=>'',
+                        ],
+                        'action_4' => [
+                            'title' => '10 керамических виниров оплата – и профессиональная гигиена в подарок',
+                            'img' => '',
+                            'classStyle'=>'',
+                        ],
+                    ];
+                    
+                    $currentServices = $serv[$utmServ];
 
+                    ?>
                     <!-- START REVOLUTION SLIDER 5.0.7 -->
                     <div id="rev_slider_home_wrapper"
                          class="rev_slider_wrapper fullwidthbanner-container"
@@ -32,7 +72,7 @@ $bannerName = '';
                                     data-fsslotamount="7" data-saveperformance="off"
                                     data-title="Make an Impact">
                                     <!-- MAIN IMAGE -->
-                                    <img src="/images/page_index/banner_proectirovanie_2.png" alt=""
+                                    <img src="<?= $currentServices['img']; ?>" alt=""
                                          data-bgposition="center center" data-bgfit="cover"
                                          data-bgrepeat="no-repeat" data-bgparallax="10"
                                          class="rev-slidebg" data-no-retina>
@@ -55,15 +95,6 @@ $bannerName = '';
                                          data-responsive_offset="on"
                                          style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 1.00);">
                                     </div>
-                                    <?php
-                                    $bannerTitle = 'Протезирование <span class="text-theme-colored">зубов</span>
-                                        <span class="text-theme-color-2">без боли</span> под
-                                        анестезией.';
-
-                                    $utmBannerName = '';
-
-                                    ;?>
-
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
                                          id="slide-1-layer-2"
@@ -86,8 +117,8 @@ $bannerName = '';
                                          data-splitin="none"
                                          data-splitout="none"
                                          data-responsive_offset="on"
-                                         style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">
-                                      <?= $bannerTitle ;?>
+                                         style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal; <?= $currentServices['classStyle'] ;?>">
+                                        <?= $currentServices['title']; ?>
                                     </div>
                                     <!-- LAYER NR. 3 -->
                                     <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0"
@@ -509,7 +540,7 @@ JS;
                                     и материалами. Все керамические конструкции изготавливаются в
                                     нашей собственной зуботехнической лаборатории и проходят строгий
                                     контроль качества.</p>
-                                                                <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
+                                <div class="uk-section uk-section-muted uk-padding-small uk-margin-medium-top quote">
                                     Мы работаем только с официальными технологиями и материалами.
                                     Все керамические конструкции изготавливаются в нашей собственной
                                     зуботехнической лаборатории и проходят строгий контроль
@@ -536,8 +567,8 @@ JS;
                                            class="imgObj"
                                            title="Certificate">
                                             <img src="/images/certificates/large/<?= $i; ?>.jpg"
-                                                    alt=""
-                                            width="100%"
+                                                 alt=""
+                                                 width="100%"
                                             ></a>
                                     </div>
                                 <?php endfor; ?>
@@ -550,20 +581,20 @@ JS;
             <section id="about" style="margin-top: 70px;">
                 <div class="section-title text-center">
 
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="text-uppercase mt-0" style="
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="text-uppercase mt-0" style="
     line-height: 1.3em;
 ">
-                                Безболезненное лечение зубов в стоматологии по современной методике
-                                работы под микроскопом
-                            </h2>
-                            <div class="title-icon">
-                                <img class="mb-10" src="images/title-icon.png" alt="">
-                            </div>
-                            <p>Тридцатикратное увеличение рабочего места и дополнительное освещение
-                                повышают точность диагностики, позволяют выявить начальную стадию
-                                кариеса.</p>
+                            Безболезненное лечение зубов в стоматологии по современной методике
+                            работы под микроскопом
+                        </h2>
+                        <div class="title-icon">
+                            <img class="mb-10" src="images/title-icon.png" alt="">
                         </div>
+                        <p>Тридцатикратное увеличение рабочего места и дополнительное освещение
+                            повышают точность диагностики, позволяют выявить начальную стадию
+                            кариеса.</p>
+                    </div>
                 </div>
                 <div class="container">
 
@@ -741,16 +772,16 @@ JS;
             <section id="depertment" class="bg-silver-light">
                 <div class="container">
                     <div class="section-title text-center">
-                            <div class="col-xs-12">
-                                <h2 class="text-uppercase mt-0" name="realized" style="
+                        <div class="col-xs-12">
+                            <h2 class="text-uppercase mt-0" name="realized" style="
     line-height: 1.4em;
 ">Современные методики, новейшая медицинская техника и широчайший спектр стоматологических услуг!
-                                </h2>
-                                <div class="title-icon">
-                                    <img class="mb-10" src="images/title-icon.png" alt="">
-                                </div>
-                                <p>Бесплатная диагностика в удобное для вас время.</p>
+                            </h2>
+                            <div class="title-icon">
+                                <img class="mb-10" src="images/title-icon.png" alt="">
                             </div>
+                            <p>Бесплатная диагностика в удобное для вас время.</p>
+                        </div>
 
                     </div>
                     <div class="section-content">
@@ -1047,7 +1078,7 @@ JS;
                     <div class="section-title text-center mt-0">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <h2 class="mt-0 line-height-1" >Мои <span class="text-theme-colored">работы</span>
+                                <h2 class="mt-0 line-height-1">Мои <span class="text-theme-colored">работы</span>
                                 </h2>
                                 <p>На фото ниже представлены примеры работ стоматологии. Вы можете
                                     посмотреть фото зубов до и после лечения, возможно найти свой
@@ -1062,7 +1093,8 @@ JS;
                                 <div class="portfolio-filter text-center">
                                     <a href="#" class="active" data-filter="*">Все</a>
                                     <a href="#protezirovanie_implants" class=""
-                                       data-filter=".protezirovanie_implants">Протезирование на имплантах</a>
+                                       data-filter=".protezirovanie_implants">Протезирование на
+                                        имплантах</a>
                                     <a href="#otbel" class=""
                                        data-filter=".otbel">Отбеливание</a>
                                     <a href="#vinir" class="" data-filter=".vinir">Виниры</a>
