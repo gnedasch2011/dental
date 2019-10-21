@@ -844,7 +844,7 @@ JS;
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                                <div class="p-20 bg-white">
+                                <div class="p-20 bg-white" id="protezirovanie" >
                                     <img src="/images/blocks_services/4.jpg" alt="">
                                     <h3 class="">Протезирование</h3>
                                     <p class="">Протезирование - это основная моя специализация!
@@ -857,7 +857,7 @@ JS;
 
 
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                                <div class="p-20 bg-white">
+                                <div id="otbel" class="p-20 bg-white">
                                     <img src="images/blocks_services/6.jpg" alt="">
                                     <h3 class="">Отбеливание зубов</h3>
                                     <p class="">Существуют два вида отбеливания: домашнее и
@@ -889,9 +889,9 @@ JS;
                             </div>
 
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
-                                <div class="p-20 bg-white">
+                                <div id="vinire" class="p-20 bg-white">
                                     <img src="/images/blocks_services/5.jpg" alt="">
-                                    <h3 class="">Композитные виниры</h3>
+                                    <h3  class="">Композитные виниры</h3>
                                     <p class="">Если цвет зубных пластин сильно изменен или сами
                                         премоляры, резцы и клыки далеки от идеальной формы, помогут
                                         виниры, тонкие пластины из фарфора/композитов, которые

@@ -149,16 +149,16 @@ GoogleAsset::register($this);
                             <?php */; ?>
                             <ul class="menuzord-menu">
                                 <li class="active">
-                                    <a href="#realized">Протезирование</a>
+                                    <a href="#protezirovanie">Протезирование</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#realized">Отбеливание</a>
+                                    <a href="#otbel">Отбеливание</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#realized">Установка коронок</a>
+                                    <a href="#protezirovanie">Установка коронок</a>
                                 </li>
                                 <li class="active">
-                                    <a href="#realized">Композитные виниры</a>
+                                    <a href="#vinire">Композитные виниры</a>
                                 </li>
                             </ul>
                         </nav>
