@@ -515,7 +515,7 @@ JS;
                                                     <div class="value">8:00 - 20:30</div>
                                                 </li>
                                                 <li class="clearfix">
-                                                    <div class="value"><?= Yii::$app->params['addr1']; ?></div>
+<!--                                                    <div class="value">--><?//= Yii::$app->params['addr1']; ?><!--</div>-->
                                                     <div class="value"><?= Yii::$app->params['addr2']; ?></div>
                                                 </li>
                                             </ul>
@@ -581,7 +581,7 @@ JS;
                             <div class="col-md-6">
                                 <h4 class="text-uppercase text-theme-colored2 mt-sm-10">Добро
                                     пожаловать на приём</h4>
-                                <h2 class="mt-0">Ведет прием в клинике на Мичуринском проспекте.
+                                <h2 class="mt-0">Ведет прием в клинике на Новослободской.
                                 </h2>
                                 <p class="lead">
                                     Все виды эстетического протезирования: виниры, коронки, вкладки
@@ -1205,7 +1205,7 @@ JS;
                                  <li class="m-0 pl-10 pr-10"><i
                                              class="fa fa-map-marker text-theme-colored mr-5"></i> <a
                                              class="text-gray"
-                                             href="#"><?= Yii::$app->params['addr2']; ?>, ООО "Эка-Стом"</a></li>
+                                             href="#"><?= Yii::$app->params['addr2']; ?>, ООО "Ека-Стом"</a></li>
                                  <li class="m-0 pl-10 pr-10"><i
                                              class="fa fa-phone text-theme-colored mr-5"></i> <a
                                              class="text-gray"

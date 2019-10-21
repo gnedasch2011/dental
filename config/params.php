@@ -8,6 +8,7 @@ return [
     'phone' => '+7 (929) 952–99-73',
     'phone2' => '+7 (929) 952–99-73',
     'phoneAncor' => '+79299529973',
+    'phoneAncorWhatsapp' => '79299529973',
     'inst' => 'https://instagram.com/kunitskiy_valeriy?
 igshid=1nl0hq76gglia',
     'addr1' => 'Мичуринский проспект, 6',

@@ -56,11 +56,11 @@ GoogleAsset::register($this);
                         <div class="col-md-4 text-right">
                             <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
                                 <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                                <li><a target="_blank" href="https://www.facebook.com/kunitskiy.valeriy"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="https://api.whatsapp.com/send?phone=<?= Yii::$app->params['phoneAncorWhatsapp']; ?>"><i class="fa fa-whatsapp"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
                                 <li>
-                                    <a href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
+                                    <a target="_blank"  href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
                                                 class="fa fa-instagram"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
                             </ul>
@@ -120,8 +120,7 @@ GoogleAsset::register($this);
                                     <div class="media-body">
                                         <a href="#" class="title">Адрес</a>
                                         <h5 class="media-heading subtitle">
-                                            <?= Yii::$app->params['addr1']; ?>,<br>
-                                            <?= Yii::$app->params['addr2']; ?>
+                                         <?= Yii::$app->params['addr2']; ?>
                                         </h5>
                                     </div>
                                 </div>
@@ -180,7 +179,7 @@ GoogleAsset::register($this);
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-map-marker text-theme-colored mr-5"></i> <a
                                             class="text-gray"
-                                            href="#"><?= Yii::$app->params['addr1']; ?><br>
+<!--                                            href="#">--><?//= Yii::$app->params['addr1']; ?><!--<br>-->
                                         <?= Yii::$app->params['addr2']; ?></a></li>
                             </ul>
 
