@@ -177,8 +177,7 @@ GoogleAsset::register($this);
                             <ul class="list-inline mt-5">
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-map-marker text-theme-colored mr-5"></i>
-                                    <a class="text-gray"
-                                        <?= Yii::$app->params['addr2']; ?></a></li>
+                                    <a class="text-gray">Лицензия на осуществление медицинской деятельности №ЛО-77-01-003383</a></li>
                             </ul>
 
                         </div>
@@ -235,20 +234,16 @@ GoogleAsset::register($this);
                 <div class="container pt-10 pb-0">
                     <div class="row">
                         <div class="col-md-6 sm-text-center">
-                            <p class="font-13 text-black-777 m-0">Лицензия на осуществление
-                                медицинской
-                                деятельности №1</p>
                         </div>
                         <div class="col-md-6 text-right flip sm-text-center">
                             <div class="widget no-border m-0">
                                 <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
-                                    <!--                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-                                    <!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                                     <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+                                    <li><a target="_blank" href="https://www.facebook.com/kunitskiy.valeriy"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank"  href="https://api.whatsapp.com/send?phone=79299529973"><i class="fa fa-whatsapp"></i></a></li>
                                     <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
                                     <li>
-                                        <a href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
-                                                    class="fa fa-instagram"></i></a></li>
+                                        <a target="_blank" href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i class="fa fa-instagram"></i></a></li>
                                     <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
                                 </ul>
                             </div>
