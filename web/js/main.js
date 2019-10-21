@@ -30,3 +30,11 @@ $(document).on('click', '.phone_mask',  function() {
 
     $(".phone_mask").mask("+7 (999) 99-99-999");
 });
+
+$(document).on('click', '.menuzord-menu a',  function() {
+    setTimeout(function () {
+        $(".showhide").click()
+    }, 1000)
+
+});
+
