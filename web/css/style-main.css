@@ -8577,3 +8577,17 @@ body.has-fixed-footer .main-content {
 .left-style>li{
   text-align: left;
 }
+
+.whatsappBlock{
+  bottom: 15px;
+  right: 5px;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+
+  text-align: center;
+  text-decoration: none;
+
+  z-index: 99999;
+  /*background: url("");*/
+}

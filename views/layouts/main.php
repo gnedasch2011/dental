@@ -143,7 +143,6 @@ GoogleAsset::register($this);
                                     'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs',
                                     'nameButton' => 'Бесплатная консультация',
                                 ]); ?>
-
                             </div>
 
                             <?php /* ;?>
@@ -179,7 +178,6 @@ GoogleAsset::register($this);
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-map-marker text-theme-colored mr-5"></i>
                                     <a class="text-gray"
-<!--                                            href="#">--><?//= Yii::$app->params['addr1']; ?><!--<br>-->
                                         <?= Yii::$app->params['addr2']; ?></a></li>
                             </ul>
 
@@ -259,7 +257,11 @@ GoogleAsset::register($this);
                 </div>
             </div>
         </footer>
-        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<!--        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>-->
+        <a href="https://api.whatsapp.com/send?phone=79299529973" class="visible-xs">
+      <img src="images/page_index/wp.png" class="whatsappBlock"></a>
+
+
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NVC7HZ"
 
