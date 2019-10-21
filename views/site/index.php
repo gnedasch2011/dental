@@ -820,7 +820,7 @@ JS;
                 <div class="container">
                     <div class="section-title text-center">
                         <div class="col-xs-12">
-                            <h2 class="text-uppercase mt-0" name="realized" style="
+                            <h2 id="realized" class="text-uppercase mt-0" name="realized" style="
     line-height: 1.4em;
 ">Современные методики, новейшая медицинская техника и широчайший спектр стоматологических услуг!
                             </h2>
@@ -1187,7 +1187,7 @@ JS;
             <section id="depertment" class="bg-silver-light">
                 <div class="container">
                     <div class="section-title text-center">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  id="adress">
                             <h2 class="text-uppercase mt-0" name="realized" style="
     line-height: 1.4em;
 ">Как к нам добраться

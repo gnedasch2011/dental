@@ -85,7 +85,7 @@ GoogleAsset::register($this);
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="#" class="title">Email</a>
+                                        <a href="mailto:<?= Yii::$app->params['email']; ?>" class="title">Email</a>
                                         <h5 class="media-heading subtitle">
                                             <a href="mailto:<?= Yii::$app->params['email']; ?>"
                                                class="">
@@ -101,7 +101,7 @@ GoogleAsset::register($this);
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="#" class="title">Консультация</a>
+                                        <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>" class="title">Консультация</a>
                                         <h5 class="media-heading subtitle">
                                             <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
                                                class="telFZ">
@@ -118,7 +118,7 @@ GoogleAsset::register($this);
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="#" class="title">Адрес</a>
+                                        <a href="#adress" class="title">Адрес</a>
                                         <h5 class="media-heading subtitle">
                                          <?= Yii::$app->params['addr2']; ?>
                                         </h5>
@@ -177,8 +177,8 @@ GoogleAsset::register($this);
                             <img class="mt-10 mb-20" alt="" src="images/page_index/logo_footer.png">
                             <ul class="list-inline mt-5">
                                 <li class="m-0 pl-10 pr-10"><i
-                                            class="fa fa-map-marker text-theme-colored mr-5"></i> <a
-                                            class="text-gray"
+                                            class="fa fa-map-marker text-theme-colored mr-5"></i>
+                                    <a class="text-gray"
 <!--                                            href="#">--><?//= Yii::$app->params['addr1']; ?><!--<br>-->
                                         <?= Yii::$app->params['addr2']; ?></a></li>
                             </ul>
