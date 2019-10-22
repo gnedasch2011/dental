@@ -84,7 +84,7 @@ GoogleAsset::register($this);
                         <div class="col-xs-12 col-sm-12 col-md-9">
                             <div class="header-widget-contact-info-box sm-text-center">
                                 <div class="media element contact-info">
-                                    <ul class="styled-icons styled-icons_custom icon-dark icon-circled icon-sm">
+                                    <ul class="styled-icons styled-icons_custom icon-dark icon-circled icon-sm visible-xs">
                                         <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
                                         <li><a target="_blank"
                                                href="https://www.facebook.com/kunitskiy.valeriy"><i
