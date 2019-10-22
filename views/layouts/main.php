@@ -56,11 +56,16 @@ GoogleAsset::register($this);
                         <div class="col-md-4 text-right">
                             <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
                                 <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
-                                <li><a target="_blank" href="https://www.facebook.com/kunitskiy.valeriy"><i class="fa fa-facebook"></i></a></li>
-                                                                <li><a href="https://api.whatsapp.com/send?phone=<?= Yii::$app->params['phoneAncorWhatsapp']; ?>"><i class="fa fa-whatsapp"></i></a></li>
+                                <li><a target="_blank"
+                                       href="https://www.facebook.com/kunitskiy.valeriy"><i
+                                                class="fa fa-facebook"></i></a></li>
+                                <li>
+                                    <a href="https://api.whatsapp.com/send?phone=<?= Yii::$app->params['phoneAncorWhatsapp']; ?>"><i
+                                                class="fa fa-whatsapp"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
                                 <li>
-                                    <a target="_blank"  href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
+                                    <a target="_blank"
+                                       href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
                                                 class="fa fa-instagram"></i></a></li>
                                 <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
                             </ul>
@@ -79,13 +84,29 @@ GoogleAsset::register($this);
                         <div class="col-xs-12 col-sm-12 col-md-9">
                             <div class="header-widget-contact-info-box sm-text-center">
                                 <div class="media element contact-info">
+                                    <ul class="styled-icons styled-icons_custom icon-dark icon-circled icon-sm">
+                                        <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+                                        <li><a target="_blank"
+                                               href="https://www.facebook.com/kunitskiy.valeriy"><i
+                                                        class="fa fa-facebook"></i></a></li>
+                                        <li>
+                                            <a target="_blank" href="https://api.whatsapp.com/send?phone=79299529973"><i
+                                                        class="fa fa-whatsapp"></i></a></li>
+                                        <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+                                        <li>
+                                            <a target="_blank"
+                                               href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
+                                                        class="fa fa-instagram"></i></a></li>
+                                        <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+                                    </ul>
                                     <div class="media-left">
                                         <a href="#">
                                             <i class="fa fa-envelope text-theme-colored font-icon sm-display-block"></i>
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="mailto:<?= Yii::$app->params['email']; ?>" class="title">Email</a>
+                                        <a href="mailto:<?= Yii::$app->params['email']; ?>"
+                                           class="title">Email</a>
                                         <h5 class="media-heading subtitle">
                                             <a href="mailto:<?= Yii::$app->params['email']; ?>"
                                                class="">
@@ -101,7 +122,8 @@ GoogleAsset::register($this);
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>" class="title">Консультация</a>
+                                        <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
+                                           class="title">Консультация</a>
                                         <h5 class="media-heading subtitle">
                                             <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
                                                class="telFZ">
@@ -120,7 +142,7 @@ GoogleAsset::register($this);
                                     <div class="media-body">
                                         <a href="#adress" class="title">Адрес</a>
                                         <h5 class="media-heading subtitle">
-                                         <?= Yii::$app->params['addr2']; ?>
+                                            <?= Yii::$app->params['addr2']; ?>
                                         </h5>
                                     </div>
                                 </div>
@@ -177,7 +199,8 @@ GoogleAsset::register($this);
                             <ul class="list-inline mt-5">
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-map-marker text-theme-colored mr-5"></i>
-                                    <a class="text-gray">Лицензия на осуществление медицинской деятельности №ЛО-77-01-003383</a></li>
+                                    <a class="text-gray">Лицензия на осуществление медицинской
+                                        деятельности №ЛО-77-01-003383</a></li>
                             </ul>
 
                         </div>
@@ -228,11 +251,17 @@ GoogleAsset::register($this);
                             <div class="widget no-border m-0">
                                 <ul class="styled-icons icon-dark icon-circled icon-sm hidden-xs">
                                     <!--                                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
-                                    <li><a target="_blank" href="https://www.facebook.com/kunitskiy.valeriy"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a target="_blank"  href="https://api.whatsapp.com/send?phone=79299529973"><i class="fa fa-whatsapp"></i></a></li>
+                                    <li><a target="_blank"
+                                           href="https://www.facebook.com/kunitskiy.valeriy"><i
+                                                    class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank"
+                                           href="https://api.whatsapp.com/send?phone=79299529973"><i
+                                                    class="fa fa-whatsapp"></i></a></li>
                                     <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
                                     <li>
-                                        <a target="_blank" href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i class="fa fa-instagram"></i></a></li>
+                                        <a target="_blank"
+                                           href="https://instagram.com/kunitskiy_valeriy?igshid=1nl0hq76gglia"><i
+                                                    class="fa fa-instagram"></i></a></li>
                                     <!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
                                 </ul>
                             </div>
@@ -241,9 +270,9 @@ GoogleAsset::register($this);
                 </div>
             </div>
         </footer>
-<!--        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>-->
+        <!--        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>-->
         <a href="https://api.whatsapp.com/send?phone=79299529973" class="visible-xs">
-      <img src="images/page_index/wp.png" class="whatsappBlock"></a>
+            <img src="images/page_index/wp.png" class="whatsappBlock"></a>
 
 
         <noscript>

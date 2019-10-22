@@ -8591,3 +8591,11 @@ body.has-fixed-footer .main-content {
   z-index: 99999;
   /*background: url("");*/
 }
+
+.styled-icons_custom a{
+  font-size: 30px!important;
+  height: 50px!important;
+  line-height: 49px!important;
+  margin: 2px 7px 2px 0!important;
+  width: 50px!important;
+}
