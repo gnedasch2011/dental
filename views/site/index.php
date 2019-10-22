@@ -652,10 +652,10 @@ JS;
                                 <h3 class="media-heading heading">Отбеливание зубов</h3>
                                 <div class="twentytwenty-wrapper twentytwenty-horizontal">
                                     <div class="twentytwenty-container" style="height: 240px;">
-                                        <img src="/images/mainBeforeAfter/1/1.jpg" alt=""
+                                        <img src="/images/realized_obj/otbel/3/1.jpg" alt=""
                                              class="twentytwenty-before"
                                              style="clip: rect(0px, 180px, 240px, 0px);">
-                                        <img src="/images/mainBeforeAfter/1/2.jpg" alt=""
+                                        <img src="/images/realized_obj/otbel/3/2.jpg" alt=""
                                              class="twentytwenty-after"
                                              style="clip: rect(0px, 360px, 240px, 180px);">
                                         <div class="twentytwenty-handle" style="left: 180px;"><span
