@@ -171,7 +171,7 @@ GoogleAsset::register($this);
         <footer id="footer" class="footer bg-black-111">
             <div class="container pt-70 pb-40">
                 <div class="row border-bottom-black">
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-6 col-md-6">
                         <div class="widget dark">
                             <img class="mt-10 mb-20" alt="" src="images/page_index/logo_footer.png">
                             <ul class="list-inline mt-5">
@@ -186,18 +186,7 @@ GoogleAsset::register($this);
 
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="widget dark">
-                            <h5 class="widget-title line-bottom">Услуги</h5>
-                            <ul class="list-border">
-                                <?php foreach (Yii::$app->params['services'] as $link => $text): ?>
-                                    <li><a href="#realized"><?= $text; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-6 col-md-6">
 
                         <div class="widget dark">
                             <h5 class="widget-title line-bottom">Контакты</h5>

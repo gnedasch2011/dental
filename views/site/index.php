@@ -491,7 +491,7 @@ JS;
                                 <div class="sm-height-auto bg-theme-colored">
                                     <div class="p-30">
                                         <h3 class="text-uppercase text-white mt-0">Опытный врач<br>
-                                            <small class="text-gray-lighter">Профессианальные
+                                            <small class="text-gray-lighter">Профессиональные
                                                 решения
                                             </small>
                                         </h3>
@@ -858,7 +858,7 @@ JS;
 
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                                 <div id="otbel" class="p-20 bg-white">
-                                    <img src="images/blocks_services/6.jpg" alt="">
+                                    <img src="images/blocks_services/7.jpg" alt="">
                                     <h3 class="">Отбеливание зубов</h3>
                                     <p class="">Существуют два вида отбеливания: домашнее и
                                         офисное(кабинетное). Но в обоих процессах должен принимать
@@ -1107,7 +1107,7 @@ JS;
 
                                 </h2>
                                 <h2 class="text-white">Запись на приём.</h2>
-                                <p class="text-white">Свяжитесь с нами, если у вас есть какие либо
+                                <p class="text-white">Свяжитесь с нами, если у вас есть какие-либо
                                     вопросы.</p>
                                 <?= ButtonCallback::widget([
                                     'nameButton' => 'Записаться',
