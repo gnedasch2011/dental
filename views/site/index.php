@@ -15,7 +15,7 @@ $utmServ = $_GET['serv'] ?? 'protez';
                 <div class="container-fluid p-0">
                     <?php
 
-                    $utmServ = $_GET['serv'] ?? 'protez';
+                    $utmServ = $_GET['utm_serv'] ?? 'protez';
 
 
                     //
@@ -86,6 +86,12 @@ $utmServ = $_GET['serv'] ?? 'protez';
 
                         'protezirovanie' => [
                             'title' => 'Композитная <span class="text-theme-colored">реставрация</span> зубов, верни свою улыбку ',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
+
+                        'viniri_keramika' => [
+                            'title' => 'Установка <span class="text-theme-colored">керамических</span> виниров',
                             'img' => '/images/page_index/banner_otb.png',
                             'classStyle' => ''
                         ],

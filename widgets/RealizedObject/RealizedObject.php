@@ -22,9 +22,9 @@ class RealizedObject extends Widget
                 'images/realized_obj/karies/1/1.jpg' => 'images/realized_obj/karies/1/2.jpg'
             ],
             'otbel' => [
+                'images/realized_obj/otbel/3/1.jpg' => 'images/realized_obj/otbel/3/2.jpg',
                 'images/realized_obj/otbel/1/1.jpg' => 'images/realized_obj/otbel/1/2.jpg',
                 'images/realized_obj/otbel/2/1.jpg' => 'images/realized_obj/otbel/2/2.jpg',
-                'images/realized_obj/otbel/3/1.jpg' => 'images/realized_obj/otbel/3/2.jpg'
             ],
             'protezirovanie_implants' => [
                 'images/realized_obj/protezirovanie_implants/1/1.jpg' => 'images/realized_obj/protezirovanie_implants/1/2.jpg'
