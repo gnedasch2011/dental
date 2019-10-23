@@ -222,7 +222,7 @@ $utmServ = $_GET['serv'] ?? 'protez';
                                             <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
                                             Бесплатная консультация</a>
                                         <?= ButtonCallback::widget([
-                                            'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs',
+                                            'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs form_bunner_1',
                                             'nameButton' => 'Бесплатная консультация',
                                         ]); ?>
 
@@ -506,7 +506,7 @@ JS;
                                         </p>
                                         <?= ButtonCallback::widget([
                                             'nameButton' => 'Связаться',
-                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20 form_block_1'
                                         ]); ?>
                                     </div>
                                 </div>
@@ -528,7 +528,7 @@ JS;
                                         </div>
                                         <?= ButtonCallback::widget([
                                             'nameButton' => 'Запросить расписание',
-                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20 form_block_2'
                                         ]); ?>
                                     </div>
                                 </div>
@@ -542,7 +542,7 @@ JS;
                                         <p class="text-white"><?= implode(', ', Yii::$app->params['services']); ?></p>
                                         <?= ButtonCallback::widget([
                                             'nameButton' => 'Узнать подробней',
-                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20 form_block_3'
                                         ]); ?>
                                     </div>
                                 </div>
@@ -562,7 +562,7 @@ JS;
                                             телефона</p>
                                         <?= ButtonCallback::widget([
                                             'nameButton' => 'Связаться с нами',
-                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20'
+                                            'classList' => 'btn btn-border btn-circled btn-transparent btn-sm mt-20 form_block_4'
                                         ]); ?>
                                     </div>
                                 </div>
@@ -769,7 +769,7 @@ JS;
                                     проблема.</p>
                                 <?= ButtonCallback::widget([
                                     'nameButton' => 'Срочный вопрос',
-                                    'classList' => 'btn btn-default btn-theme-colored2 mt-20'
+                                    'classList' => 'btn btn-default btn-theme-colored2 mt-20 form_extra_queust'
                                 ]); ?>
                             </div>
                         </div>
@@ -1117,7 +1117,7 @@ JS;
                                     вопросы.</p>
                                 <?= ButtonCallback::widget([
                                     'nameButton' => 'Записаться',
-                                    'classList' => 'btn btn-default btn-theme-colored2 mt-20'
+                                    'classList' => 'btn btn-default btn-theme-colored2 mt-20 form_write_on'
                                 ]); ?>
                             </div>
                         </div>

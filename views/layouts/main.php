@@ -162,7 +162,7 @@ GoogleAsset::register($this);
                                     <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
                                     Бесплатная консультация</a>
                                 <?= ButtonCallback::widget([
-                                    'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs',
+                                    'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs form_top_1',
                                     'nameButton' => 'Бесплатная консультация',
                                 ]); ?>
                             </div>
