@@ -90,7 +90,8 @@ Land1Asset::register($this);
                                                href="https://www.facebook.com/kunitskiy.valeriy"><i
                                                         class="fa fa-facebook"></i></a></li>
                                         <li>
-                                            <a target="_blank" href="https://api.whatsapp.com/send?phone=79299529973"><i
+                                            <a target="_blank"
+                                               href="https://api.whatsapp.com/send?phone=79299529973"><i
                                                         class="fa fa-whatsapp"></i></a></li>
                                         <!--                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
                                         <li>
@@ -271,7 +272,8 @@ Land1Asset::register($this);
             </div>
         </footer>
         <!--        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>-->
-        <a href="https://api.whatsapp.com/send?phone=79299529973" class="visible-xs call_wp whatsapp_conversion">
+        <a href="https://api.whatsapp.com/send?phone=79299529973"
+           class="visible-xs call_wp whatsapp_conversion">
             <img src="images/page_index/wp.png" class="whatsappBlock whatsapp_conversion"></a>
 
 
@@ -335,6 +337,7 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                                 <div class="form-group mb-10">
                                     <?= $form->field($model, 'phone', ['errorOptions' => ['class' => 'v-msg']])
                                         ->textInput([
+                                            'inputmode' => "numeric",
                                             'placeholder' => '+7(999)999-99-99',
                                             'class' => 'form-control phone_mask',
                                             'autocomplete' => 'off'
