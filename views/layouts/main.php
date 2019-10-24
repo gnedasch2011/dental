@@ -162,7 +162,7 @@ GoogleAsset::register($this);
                                     <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
                                     Бесплатная консультация</a>
                                 <?= ButtonCallback::widget([
-                                    'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs form_top_1',
+                                    'classList' => 'btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 hidden-xs form_top_1 callBackButtonMobile',
                                     'nameButton' => 'Бесплатная консультация',
                                 ]); ?>
                             </div>
@@ -347,7 +347,7 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
 
                         <div class="form-group">
                             <div class="col-lg-offset-1 col-lg-11">
-                                <?= Html::submitButton('Отправить', ['class' => 'btn btn-dark btn-theme-colored submitForm submitFormButton']) ?>
+                                <?= Html::submitButton('Отправить', ['class' => 'btn btn-dark btn-theme-colored submitForm conversion_complite']) ?>
                             </div>
                         </div>
                         <button type="button" class="mfp-close font-36" data-dismiss="modal"
