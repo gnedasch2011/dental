@@ -10,7 +10,7 @@ use app\assets\GoogleAsset;
 use yii\web\View;
 
 Land1Asset::register($this);
-GoogleAsset::register($this);
+//GoogleAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
     <!DOCTYPE html>
@@ -374,8 +374,8 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
 
 <?php
 $script = <<< JS
-
+alert('df')
 
 JS;
 
-$this->registerJs($script, yii\web\View::POS_READY); ?>
+$this->registerJs($script, yii\web\View::POS_END); ?>
