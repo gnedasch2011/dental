@@ -337,7 +337,7 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
                                 <div class="form-group mb-10">
                                     <?= $form->field($model, 'phone', ['errorOptions' => ['class' => 'v-msg']])
                                         ->textInput([
-                                            'inputmode' => "numeric",
+                                            'inputmode' => "tel",
                                             'placeholder' => '+7(999)999-99-99',
                                             'class' => 'form-control phone_mask',
                                             'autocomplete' => 'off'
