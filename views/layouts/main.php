@@ -157,7 +157,7 @@ Land1Asset::register($this);
                     <div class="container">
                         <nav id="menuzord" class="menuzord blue no-bg">
                             <div class="pull-right sm-pull-left mb-sm-15">
-                                <a type="button" href="tel:+<?= Yii::$app->params['phoneAncor']; ?>"
+                                <a type="button" href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
                                    class="btn btn-colored btn-flat btn-theme-colored mt-15 mt-sm-10 pt-10 pb-10 visible-xs">
                                     <!--   class="btn btn-dark btn-theme-colored btn-xl">-->
                                     Бесплатная консультация</a>
