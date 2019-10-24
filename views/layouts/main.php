@@ -271,8 +271,8 @@ GoogleAsset::register($this);
             </div>
         </footer>
         <!--        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>-->
-        <a href="https://api.whatsapp.com/send?phone=79299529973" class="visible-xs">
-            <img src="images/page_index/wp.png" class="whatsappBlock"></a>
+        <a href="https://api.whatsapp.com/send?phone=79299529973" class="visible-xs call_wp whatsapp_conversion">
+            <img src="images/page_index/wp.png" class="whatsappBlock whatsapp_conversion"></a>
 
 
         <noscript>
@@ -347,7 +347,7 @@ $this->registerJs($script, yii\web\View::POS_READY); ?>
 
                         <div class="form-group">
                             <div class="col-lg-offset-1 col-lg-11">
-                                <?= Html::submitButton('Отправить', ['class' => 'btn btn-dark btn-theme-colored submitForm']) ?>
+                                <?= Html::submitButton('Отправить', ['class' => 'btn btn-dark btn-theme-colored submitForm submitFormButton']) ?>
                             </div>
                         </div>
                         <button type="button" class="mfp-close font-36" data-dismiss="modal"
