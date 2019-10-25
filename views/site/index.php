@@ -630,6 +630,8 @@ JS;
                     </div>
                 </div>
             </section>
+            <?php /* ;?>
+
             <!-- Section: services -->
             <section id="about" style="margin-top: 70px;">
                 <div class="section-title text-center">
@@ -750,6 +752,8 @@ JS;
                     </div>
                 </div>
             </section>
+       <?php */ ;?>
+
             <!--        Вызов экстренной помощи-->
             <section class="divider parallax layer-overlay overlay-theme-colored-8"
                      data-bg-img="images/page_index/paralax_1.png">
@@ -861,6 +865,7 @@ JS;
                                 </div>
                             </div>
 
+                        <?php /* ;?>
 
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                                 <div id="otbel" class="p-20 bg-white">
@@ -873,6 +878,7 @@ JS;
 
                                 </div>
                             </div>
+                                     <?php */ ;?>
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                                 <div class="p-20 bg-white">
                                     <img src="images/blocks_services/1.jpg" alt="">
@@ -893,6 +899,7 @@ JS;
 
                                 </div>
                             </div>
+                        <?php /* ;?>
 
                             <div class="col-xs-12 col-sm-6 col-md-4 mb-30">
                                 <div id="vinire" class="p-20 bg-white">
@@ -906,6 +913,7 @@ JS;
 
                                 </div>
                             </div>
+                               <?php */ ;?>
                         </div>
                     </div>
                 </div>
@@ -1124,6 +1132,7 @@ JS;
                     </div>
                 </div>
             </section>
+            <?php /* ;?>
 
             <!--start gallary Section-->
             <section class="bg-lighter">
@@ -1133,8 +1142,7 @@ JS;
                             <div class="col-md-8 col-md-offset-2">
                                 <h2 class="mt-0 line-height-1">Мои <span class="text-theme-colored">работы</span>
                                 </h2>
-                                <p>На фото ниже представлены примеры работ стоматологии. Вы можете
-                                    посмотреть фото зубов до и после лечения, возможно найти свой
+                                <p>На фото ниже представлены примеры работ стоматологии. Вы можете посмотреть фото зубов, возможно найти свой
                                     случай и посмотреть на результат.</p>
                             </div>
                         </div>
@@ -1189,7 +1197,7 @@ JS;
                     </div>
                 </div>
             </section>
-
+     <?php */ ;?>
             <section id="depertment" class="bg-silver-light">
                 <div class="container">
                     <div class="section-title text-center">
