@@ -95,6 +95,11 @@ $utmServ = $_GET['serv'] ?? 'protez';
                             'img' => '/images/page_index/banner_otb.png',
                             'classStyle' => ''
                         ],
+                        'viniri' => [
+                            'title' => 'Установка <span class="text-theme-colored">керамических</span> виниров',
+                            'img' => '/images/page_index/banner_otb.png',
+                            'classStyle' => ''
+                        ],
 
                     ];
 
