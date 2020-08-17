@@ -587,7 +587,7 @@ JS;
                             <div class="col-md-6">
                                 <h4 class="text-uppercase text-theme-colored2 mt-sm-10">Добро
                                     пожаловать на приём</h4>
-                                <h2 class="mt-0">Ведет прием в клинике на Новослободской.
+                                <h2 class="mt-0">Ведет прием в клинике на Мичуринском.
                                 </h2>
                                 <p class="lead">
                                     Все виды эстетического протезирования: виниры, коронки, вкладки
@@ -1211,7 +1211,7 @@ JS;
                                  <li class="m-0 pl-10 pr-10"><i
                                              class="fa fa-map-marker text-theme-colored mr-5"></i> <a
                                              class="text-gray"
-                                             href="#"><?= Yii::$app->params['addr2']; ?>, ООО "Ека-Стом"</a></li>
+                                             href="#"><?= Yii::$app->params['addr2']; ?></a></li>
                                  <li class="m-0 pl-10 pr-10"><i
                                              class="fa fa-phone text-theme-colored mr-5"></i> <a
                                              class="text-gray"
@@ -1236,7 +1236,6 @@ JS;
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A426cda08387a2a34d3972cc8c75068fb1dd31d28c81326b74b5c0d17c5d619fb&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
                          </div>
-
                     </div>
                 </div>
             </section>

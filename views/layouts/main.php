@@ -25,8 +25,8 @@ Land1Asset::register($this);
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="MediPress - Health & Medical HTML Template"/>
-        <meta name="keywords" content="keyword1,keyword2,keyword3,keyword4,keyword5"/>
+        <meta name="description" content="Доктор Куницкий, протезирование, лечение кариеса, виниры"/>
+        <meta name="keywords" content="Доктор Куницкий, протезирование, лечение кариеса, виниры"/>
         <meta name="author" content="ThemeMascot"/>
         <!-- Page Title -->
 
@@ -129,7 +129,10 @@ Land1Asset::register($this);
                                             <a href="tel:<?= Yii::$app->params['phoneAncor']; ?>"
                                                class="telFZ">
                                                 <?= Yii::$app->params['phone']; ?><br>
-
+                                            </a>
+                                            <a href="tel:<?= Yii::$app->params['phoneAncor2']; ?>"
+                                               class="telFZ">
+                                                <?= Yii::$app->params['phone2']; ?>
                                             </a>
                                         </h5>
                                     </div>
@@ -201,7 +204,7 @@ Land1Asset::register($this);
                                 <li class="m-0 pl-10 pr-10"><i
                                             class="fa fa-map-marker text-theme-colored mr-5"></i>
                                     <a class="text-gray">Лицензия на осуществление медицинской
-                                        деятельности №ЛО-77-01-003383</a></li>
+                                        деятельности </a></li>
                             </ul>
 
                         </div>
